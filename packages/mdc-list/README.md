@@ -34,7 +34,7 @@ MDC Lists are designed to be accessible and RTL aware.
 
 ## Installation
 ```
-npm install @material/list
+npm install @lime-material/list
 ```
 
 ## Usage

@@ -22,7 +22,7 @@ Tab is a selectable element with an active state
 
 ## Installation
 ```
-npm install --save @material/tab
+npm install --save @lime-material/tab
 ```
 
 ## Usage

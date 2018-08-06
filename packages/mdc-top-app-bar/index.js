@@ -16,8 +16,8 @@
  */
 
 import MDCTopAppBarAdapter from './adapter';
-import MDCComponent from '@material/base/component';
-import {MDCRipple} from '@material/ripple/index';
+import MDCComponent from '@lime-material/base/component';
+import {MDCRipple} from '@lime-material/ripple/index';
 import {cssClasses, strings} from './constants';
 import MDCTopAppBarBaseFoundation from './foundation';
 import MDCFixedTopAppBarFoundation from './fixed/foundation';

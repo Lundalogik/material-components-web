@@ -18,8 +18,8 @@
 import {cssClasses, strings, numbers} from './constants';
 import MDCSliderAdapter from './adapter';
 
-import {getCorrectEventName, getCorrectPropertyName} from '@material/animation/index';
-import MDCFoundation from '@material/base/foundation';
+import {getCorrectEventName, getCorrectPropertyName} from '@lime-material/animation/index';
+import MDCFoundation from '@lime-material/base/foundation';
 
 /** @enum {string} */
 const KEY_IDS = {
@@ -292,7 +292,7 @@ class MDCSliderFoundation extends MDCFoundation {
 
     // Note: upHandler is [de]registered on ALL potential pointer-related release event types, since some browsers
     // do not always fire these consistently in pairs.
-    // (See https://github.com/material-components/material-components-web/issues/1192)
+    // (See https://github.com/Lundalogik/material-components-web/issues/1192)
     const upHandler = () => {
       this.handleUp_();
       this.adapter_.deregisterBodyInteractionHandler(MOVE_EVENT_MAP[evt.type], moveHandler);

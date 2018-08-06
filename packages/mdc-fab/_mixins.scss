@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-@import "@material/animation/functions";
-@import "@material/elevation/mixins";
-@import "@material/elevation/variables";
-@import "@material/ripple/mixins";
-@import "@material/ripple/variables";
-@import "@material/theme/functions";
-@import "@material/theme/mixins";
+@import "@lime-material/animation/functions";
+@import "@lime-material/elevation/mixins";
+@import "@lime-material/elevation/variables";
+@import "@lime-material/ripple/mixins";
+@import "@lime-material/ripple/variables";
+@import "@lime-material/theme/functions";
+@import "@lime-material/theme/mixins";
 
 @mixin mdc-fab-accessible($container-color) {
   $fill-tone: mdc-theme-tone($container-color);

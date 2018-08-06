@@ -31,7 +31,7 @@ Switches toggle the state of a single settings option on or off, and are mobile 
 ## Installation
 
 ```
-npm install @material/switch
+npm install @lime-material/switch
 ```
 
 ## Basic Usage

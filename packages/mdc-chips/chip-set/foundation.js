@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-import MDCFoundation from '@material/base/foundation';
+import MDCFoundation from '@lime-material/base/foundation';
 import MDCChipSetAdapter from './adapter';
 import MDCChipFoundation from '../chip/foundation';
 import {strings, cssClasses} from './constants';

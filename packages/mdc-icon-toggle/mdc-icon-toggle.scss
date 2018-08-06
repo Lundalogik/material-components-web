@@ -16,10 +16,10 @@
 
 // postcss-bem-linter: define icon-toggle
 
-@import "@material/animation/functions";
-@import "@material/ripple/common";
-@import "@material/ripple/mixins";
-@import "@material/theme/mixins";
+@import "@lime-material/animation/functions";
+@import "@lime-material/ripple/common";
+@import "@lime-material/ripple/mixins";
+@import "@lime-material/theme/mixins";
 @import "./mixins";
 
 .mdc-icon-toggle {

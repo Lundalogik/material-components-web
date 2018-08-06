@@ -15,8 +15,8 @@
  * limitations under the License.
  */
 
-import MDCComponent from '@material/base/component';
-import {MDCRipple, MDCRippleFoundation} from '@material/ripple/index';
+import MDCComponent from '@lime-material/base/component';
+import {MDCRipple, MDCRippleFoundation} from '@lime-material/ripple/index';
 
 import MDCChipAdapter from './adapter';
 import MDCChipFoundation from './foundation';

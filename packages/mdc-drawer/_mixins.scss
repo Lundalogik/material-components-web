@@ -14,11 +14,11 @@
 // limitations under the License.
 //
 
-@import "@material/animation/functions";
-@import "@material/animation/variables";
-@import "@material/theme/mixins";
-@import "@material/theme/variables";
-@import "@material/typography/mixins";
+@import "@lime-material/animation/functions";
+@import "@lime-material/animation/variables";
+@import "@lime-material/theme/mixins";
+@import "@lime-material/theme/variables";
+@import "@lime-material/typography/mixins";
 
 @mixin mdc-drawer-toolbar-spacer_() {
   .mdc-drawer__toolbar-spacer {

@@ -22,7 +22,7 @@
  *
  * Defines the shape of the adapter expected by the foundation. Implement this
  * adapter to integrate the Chip into your framework. See
- * https://github.com/material-components/material-components-web/blob/master/docs/authoring-components.md
+ * https://github.com/Lundalogik/material-components-web/blob/master/docs/authoring-components.md
  * for more information.
  *
  * @record

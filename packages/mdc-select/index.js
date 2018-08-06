@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-import {MDCComponent} from '@material/base/index';
-import {MDCFloatingLabel} from '@material/floating-label/index';
-import {MDCLineRipple} from '@material/line-ripple/index';
-import {MDCRipple, MDCRippleFoundation} from '@material/ripple/index';
+import {MDCComponent} from '@lime-material/base/index';
+import {MDCFloatingLabel} from '@lime-material/floating-label/index';
+import {MDCLineRipple} from '@lime-material/line-ripple/index';
+import {MDCRipple, MDCRippleFoundation} from '@lime-material/ripple/index';
 
 import MDCSelectFoundation from './foundation';
 import {cssClasses, strings} from './constants';

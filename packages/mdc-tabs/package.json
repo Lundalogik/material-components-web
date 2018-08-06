@@ -1,11 +1,11 @@
 {
-  "name": "@material/tabs",
+  "name": "@lime-material/tabs",
   "version": "0.36.0",
   "description": "The Material Components for the web tabs component",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "keywords": [
     "material components",
@@ -16,11 +16,11 @@
     "access": "public"
   },
   "dependencies": {
-    "@material/animation": "^0.34.0",
-    "@material/base": "^0.35.0",
-    "@material/ripple": "^0.36.0",
-    "@material/rtl": "^0.36.0",
-    "@material/theme": "^0.35.0",
-    "@material/typography": "^0.35.0"
+    "@lime-material/animation": "^0.34.0",
+    "@lime-material/base": "^0.35.0",
+    "@lime-material/ripple": "^0.36.0",
+    "@lime-material/rtl": "^0.36.0",
+    "@lime-material/theme": "^0.35.0",
+    "@lime-material/typography": "^0.35.0"
   }
 }

@@ -24,7 +24,7 @@ across screen sizes.
 ## Installation
 
 ```
-npm install @material/grid-list
+npm install @lime-material/grid-list
 ```
 
 
@@ -87,7 +87,7 @@ overwrite the default value for your grid list:
 
   ```scss
   $mdc-grid-list-tile-width: 30.0rem;
-  @import "@material/grid-list/mdc-grid-list";
+  @import "@lime-material/grid-list/mdc-grid-list";
   ```
 
 3. Add own style to tile

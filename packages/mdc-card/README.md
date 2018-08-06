@@ -34,7 +34,7 @@ developers as a set of CSS classes.
 ## Installation
 
 ```
-npm install @material/card
+npm install @lime-material/card
 ```
 
 ## Usage
@@ -166,7 +166,7 @@ elements:
 
 ### Styles
 ```css
-@import "@material/card/mdc-card";
+@import "@lime-material/card/mdc-card";
 ```
 
 ### CSS Classes

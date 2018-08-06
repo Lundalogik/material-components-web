@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-import MDCComponent from '@material/base/component';
+import MDCComponent from '@lime-material/base/component';
 
 import MDCChipSetAdapter from './adapter';
 import MDCChipSetFoundation from './foundation';
