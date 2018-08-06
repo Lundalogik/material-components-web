@@ -76,13 +76,13 @@
 }
 
 .mdc-chip__icon--trailing {
-  margin: 0 -4px 0 4px;
+  margin: 0 -.4rem 0 .4rem;
 }
 
 .mdc-chip__checkmark,
 .mdc-chip__icon--leading {
   height: $mdc-chip-leading-icon-size;
-  margin: -4px 4px -4px -4px;
+  margin: -.4rem .4rem -.4rem -.4rem;
 }
 
 .mdc-chip__checkmark-path {
@@ -92,7 +92,7 @@
       $mdc-chip-checkmark-animation-delay,
       $mdc-chip-checkmark-animation-duration
     );
-  stroke-width: 2px;
+  stroke-width: .2rem;
   stroke-dashoffset: $mdc-checkbox-mark-path-length_;
   stroke-dasharray: $mdc-checkbox-mark-path-length_;
 }

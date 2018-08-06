@@ -29,8 +29,8 @@
   align-items: center;
   justify-content: flex-start;
   box-sizing: border-box;
-  padding-right: 24px;
-  padding-left: 24px;
+  padding-right: 2.4rem;
+  padding-left: 2.4rem;
   transform: translate(-50%, 100%);
   transition: mdc-animation-exit-permanent(transform, .25s);
   background-color: $mdc-snackbar-background-color;
@@ -44,17 +44,17 @@
   }
 
   @media (min-width: $mdc-snackbar-tablet-breakpoint) {
-    min-width: 288px;
-    max-width: 568px;
-    border-radius: 2px;
+    min-width: 28.8rem;
+    max-width: 56.8rem;
+    border-radius: .2rem;
   }
 }
 
 .mdc-snackbar--align-start {
   @media (min-width: $mdc-snackbar-tablet-breakpoint) {
-    @include mdc-rtl-reflexive-position(left, 24px);
+    @include mdc-rtl-reflexive-position(left, 2.4rem);
 
-    bottom: 24px;
+    bottom: 2.4rem;
     transform: translate(0, 200%);
   }
 
@@ -84,7 +84,7 @@
 }
 
 .mdc-snackbar__action-wrapper {
-  @include mdc-rtl-reflexive-property(padding, 24px, 0);
+  @include mdc-rtl-reflexive-property(padding, 2.4rem, 0);
 }
 
 .mdc-snackbar--action-on-bottom {
@@ -97,13 +97,13 @@
 
   display: flex;
   align-items: center;
-  height: 48px;
+  height: 4.8rem;
   transition: mdc-animation-exit-permanent(opacity, .3s);
   opacity: 0;
   color: $mdc-snackbar-foreground-color;
 
   @media (min-width: $mdc-snackbar-tablet-breakpoint) {
-    @include mdc-rtl-reflexive-property(padding, 0, 24px);
+    @include mdc-rtl-reflexive-property(padding, 0, 2.4rem);
   }
 }
 
@@ -116,12 +116,12 @@
 
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: -12px;
-  margin-bottom: 8px;
+  margin-top: -1.2rem;
+  margin-bottom: .8rem;
 }
 
 .mdc-snackbar--multiline .mdc-snackbar__text {
-  height: 80px;
+  height: 8.0rem;
 }
 
 .mdc-snackbar__action-button {

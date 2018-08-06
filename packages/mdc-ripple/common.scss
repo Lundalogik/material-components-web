@@ -27,7 +27,7 @@
   // This is included in _mixins.scss rather than mdc-ripple.scss so that it will be
   // present for other components which rely on ripple as well as mdc-ripple itself.
   .mdc-ripple-surface--test-edge-var-bug {
-    --mdc-ripple-surface-test-edge-var: 1px solid #000;
+    --mdc-ripple-surface-test-edge-var: .1rem solid #000;
 
     visibility: hidden;
 

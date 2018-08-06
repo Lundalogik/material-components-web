@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-$mdc-switch-track-width: 34px;
-$mdc-switch-track-height: 14px;
-$mdc-switch-knob-diameter: 20px;
-$mdc-switch-focus-ring-diameter: 48px;
+$mdc-switch-track-width: 3.4rem;
+$mdc-switch-track-height: 1.4rem;
+$mdc-switch-knob-diameter: 2.0rem;
+$mdc-switch-focus-ring-diameter: 4.8rem;
 $mdc-switch-knob-active-margin: $mdc-switch-track-width - $mdc-switch-knob-diameter;
 
 $mdc-switch-unchecked-track-color: #000;
@@ -27,4 +27,4 @@ $mdc-switch-disabled-knob-color: #bdbdbd;
 
 $mdc-switch-baseline-theme-color: secondary;
 
-$mdc-switch-knob-vertical-offset_: -3px;
+$mdc-switch-knob-vertical-offset_: -.3rem;

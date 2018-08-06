@@ -71,16 +71,16 @@
 
 @mixin mdc-switch-native-control_ {
   position: absolute;
-  top: -14px;
-  left: -14px;
+  top: -1.4rem;
+  left: -1.4rem;
   width: $mdc-switch-focus-ring-diameter;
   height: $mdc-switch-focus-ring-diameter;
 }
 
 @mixin mdc-switch-tap-target_ {
   position: absolute;
-  top: -24px;
-  left: -24px;
+  top: -2.4rem;
+  left: -2.4rem;
   width: $mdc-switch-focus-ring-diameter;
   height: $mdc-switch-focus-ring-diameter;
 }

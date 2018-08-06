@@ -76,8 +76,8 @@
       mdc-switch-transition(opacity),
       mdc-switch-transition(background-color),
       mdc-switch-transition(border-color);
-    border: 1px solid;
-    border-radius: 7px;
+    border: .1rem solid;
+    border-radius: .7rem;
     opacity: .38;
     content: "";
   }
@@ -155,7 +155,7 @@
   }
 
   .mdc-switch__knob {
-    border-width: 1px;  // In high contrast mode, only show outline of the knob.
+    border-width: .1rem;  // In high contrast mode, only show outline of the knob.
     border-color: $mdc-switch-disabled-knob-color;
     background-color: $mdc-switch-disabled-knob-color;
   }

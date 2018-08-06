@@ -128,7 +128,7 @@ Example: Overriding the button `font-size` and `text-transform` properties.
 
 ```scss
 $mdc-typography-styles-button: (
-  font-size: 16px,
+  font-size: 1.6rem,
   text-transform: none,
 );
 

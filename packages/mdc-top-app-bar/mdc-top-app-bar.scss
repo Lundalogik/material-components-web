@@ -124,7 +124,7 @@
   width: $mdc-top-app-bar-short-collapsed-width * 2;
 
   .mdc-top-app-bar__section--align-end {
-    @include mdc-rtl-reflexive-box(padding, right, 12px);
+    @include mdc-rtl-reflexive-box(padding, right, 1.2rem);
   }
 }
 

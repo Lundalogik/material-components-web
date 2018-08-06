@@ -77,8 +77,8 @@ If you'd like to maintain a consistent width and height across cards, you'll nee
 
 ```css
 .my-card {
-  height: 350px;
-  width: 350px;
+  height: 35.0rem;
+  width: 35.0rem;
 }
 ```
 

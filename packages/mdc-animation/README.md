@@ -69,7 +69,7 @@ The following functions create transitions given `$name` and the `$duration`. Yo
 
 @keyframes fade-in {
   from {
-    transform: translateY(-80px);
+    transform: translateY(-8.0rem);
     opacity: 0;
   }
 

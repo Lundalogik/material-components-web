@@ -145,7 +145,7 @@ List:
 ```scss
 .my-image-list {
   @include mdc-image-list-standard-columns(5);
-  max-width: 960px;
+  max-width: 96.0rem;
 }
 ```
 
@@ -162,7 +162,7 @@ needs to be changed are styles:
   @include mdc-image-list-standard-columns(5);
 }
 
-@media (max-width: 599px) {
+@media (max-width: 59.9rem) {
   .my-image-list {
     @include mdc-image-list-standard-columns(3);
   }

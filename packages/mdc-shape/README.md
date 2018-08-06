@@ -64,7 +64,7 @@ unelevated component.
 @import "@material/shape/mixins";
 
 .my-shape-container {
-  @include mdc-shape-angled-corner(#fff, 10px);
+  @include mdc-shape-angled-corner(#fff, 1.0rem);
 }
 ```
 
@@ -78,8 +78,8 @@ Outlined angled corners involve the same markup and styles as above, with the ad
 @import "@material/shape/mixins";
 
 .my-shape-container {
-  @include mdc-shape-angled-corner(#fff, 10px);
-  @include mdc-shape-angled-corner-outline(2px, blue);
+  @include mdc-shape-angled-corner(#fff, 1.0rem);
+  @include mdc-shape-angled-corner-outline(.2rem, blue);
 }
 ```
 

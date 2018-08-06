@@ -25,7 +25,7 @@
 
 .mdc-card {
   @include mdc-card-fill-color(surface);
-  @include mdc-card-corner-radius(2px);
+  @include mdc-card-corner-radius(.2rem);
   @include mdc-elevation(2);
   @include mdc-card-container-layout_;
 }
@@ -111,8 +111,8 @@
 .mdc-card__actions {
   @include mdc-card-actions-layout_;
 
-  min-height: 52px;
-  padding: 8px;
+  min-height: 5.2rem;
+  padding: .8rem;
 }
 
 .mdc-card__actions--full-bleed {
@@ -132,7 +132,7 @@
 }
 
 .mdc-card__action-buttons + .mdc-card__action-icons {
-  @include mdc-rtl-reflexive-box(margin, left, 16px);
+  @include mdc-rtl-reflexive-box(margin, left, 1.6rem);
 }
 
 //
@@ -156,9 +156,9 @@
 //
 
 .mdc-card__action--button {
-  @include mdc-rtl-reflexive-box(margin, right, 8px);
+  @include mdc-rtl-reflexive-box(margin, right, .8rem);
 
-  padding: 0 8px;
+  padding: 0 .8rem;
 
   &:last-child {
     @include mdc-rtl-reflexive-box(margin, right, 0);
@@ -171,7 +171,7 @@
   height: auto;
   max-height: none;
   margin: 0;
-  padding: 8px 16px;
+  padding: .8rem 1.6rem;
   text-align: left;
 
   @include mdc-rtl {
@@ -185,10 +185,10 @@
 
 .mdc-card__action--icon {
   // Icon toggles are taller than buttons, so we need to adjust their margins to prevent the action row from expanding.
-  margin: -6px 0;
+  margin: -.6rem 0;
 
   // Same padding as mdc-icon-button.
-  padding: 12px;
+  padding: 1.2rem;
 }
 
 .mdc-card__action--icon:not(:disabled) {

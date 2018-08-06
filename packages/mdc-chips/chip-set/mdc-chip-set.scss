@@ -30,7 +30,7 @@
 }
 
 .mdc-chip-set {
-  @include mdc-chip-set-spacing(8px);
+  @include mdc-chip-set-spacing(.8rem);
 
   display: flex;
   flex-wrap: wrap;

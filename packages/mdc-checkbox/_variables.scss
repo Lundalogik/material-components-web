@@ -22,13 +22,13 @@ $mdc-checkbox-border-color: rgba(mdc-theme-prop-value(on-surface), .54);
 $mdc-checkbox-disabled-color: rgba(mdc-theme-prop-value(on-surface), .26);
 $mdc-checkbox-baseline-theme-color: secondary;
 
-$mdc-checkbox-touch-area: 40px;
-$mdc-checkbox-size: 18px;
+$mdc-checkbox-touch-area: 4.0rem;
+$mdc-checkbox-size: 1.8rem;
 $mdc-checkbox-ui-pct: percentage($mdc-checkbox-size / $mdc-checkbox-touch-area);
 $mdc-checkbox-mark-stroke-size: 2/15 * $mdc-checkbox-size;
-$mdc-checkbox-border-width: 2px;
+$mdc-checkbox-border-width: .2rem;
 $mdc-checkbox-transition-duration: 90ms;
-$mdc-checkbox-item-spacing: 4px;
+$mdc-checkbox-item-spacing: .4rem;
 $mdc-checkbox-ripple-opacity: .14;
 $mdc-checkbox-focus-indicator-opacity: .26;
 

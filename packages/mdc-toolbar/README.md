@@ -299,7 +299,7 @@ test the performance to make sure that it is adequate.
   background-size: cover;
   background-position: center;
 }
-@media (max-width: 599px) {
+@media (max-width: 59.9rem) {
   background-image: url("../images/4-3-compressed.jpg");
   background-position: 0 0;
 }

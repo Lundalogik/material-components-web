@@ -63,8 +63,8 @@ $mdc-fab-icon-enter-duration_: 180ms;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  width: 56px;
-  height: 56px;
+  width: 5.6rem;
+  height: 5.6rem;
   padding: 0;
   transition:
     box-shadow $mdc-elevation-transition-duration $mdc-elevation-transition-timing-function,
@@ -118,8 +118,8 @@ $mdc-fab-icon-enter-duration_: 180ms;
 }
 
 @mixin mdc-fab--mini_ {
-  width: 40px;
-  height: 40px;
+  width: 4.0rem;
+  height: 4.0rem;
 }
 
 @mixin mdc-fab__icon_ {

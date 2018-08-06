@@ -130,14 +130,14 @@ Developers must position MDC FAB as needed within their application's design.
 <style>
 .app-fab--absolute {
   position: fixed;
-  bottom: 1rem;
-  right: 1rem;
+  bottom: 1.6*1rem;
+  right: 1.6*1rem;
 }
 
-@media(min-width: 1024px) {
+@media(min-width: 102.4rem) {
    .app-fab--absolute {
-    bottom: 1.5rem;
-    right: 1.5rem;
+    bottom: 1.6*1.5rem;
+    right: 1.6*1.5rem;
   }
 }
 </style>

@@ -30,13 +30,13 @@
     @include mdc-typography(subtitle1);
 
     position: absolute;
-    bottom: 8px;
+    bottom: .8rem;
     left: 0;
     transform-origin: left top;
     transition:
       transform $mdc-floating-label-transition-duration $mdc-animation-standard-curve-timing-function,
       color $mdc-floating-label-transition-duration $mdc-animation-standard-curve-timing-function;
-    line-height: 1.15rem;
+    line-height: 1.6*1.15rem;
     cursor: text;
 
     @include mdc-rtl {
