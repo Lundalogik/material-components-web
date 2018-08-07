@@ -124,6 +124,12 @@
   }
 }
 
+@mixin mdc-text-field-caret-color($color) {
+  .mdc-text-field__input {
+    @include mdc-theme-prop(caret-color, $color);
+  }
+}
+
 // Private mixins
 
 // Baseline
@@ -153,6 +159,7 @@
   @include mdc-text-field-line-ripple-color($mdc-text-field-error);
   @include mdc-text-field-label-color($mdc-text-field-error);
   @include mdc-text-field-helper-text-validation-color($mdc-text-field-error);
+  @include mdc-text-field-caret-color($mdc-text-field-error);
 
   &.mdc-text-field--with-trailing-icon {
     @include mdc-text-field-icon-color($mdc-text-field-error);
@@ -261,7 +268,7 @@
   .mdc-text-field__input {
     display: flex;
     padding: 12px;
-    border: none;
+    border: none !important;  // FF adds unwanted border in HC mode on windows.
     background-color: transparent;
     z-index: 1;
   }
@@ -319,10 +326,7 @@
   // Text Field Box intentionally omits press ripple, so each state needs to be specified individually
   @include mdc-states-base-color($mdc-text-field-ink-color);
   @include mdc-states-hover-opacity(mdc-states-opacity($mdc-text-field-ink-color, hover));
-  @include mdc-states-focus-opacity(
-    mdc-states-opacity($mdc-text-field-ink-color, focus),
-    $has-nested-focusable-element: true
-  );
+  @include mdc-states-focus-opacity(mdc-states-opacity($mdc-text-field-ink-color, focus));
   @include mdc-ripple-radius-bounded;
   @include mdc-text-field-box-corner-radius($mdc-text-field-border-radius);
   @include mdc-text-field-box-fill-color($mdc-text-field-box-background);

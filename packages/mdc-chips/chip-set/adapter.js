@@ -36,24 +36,17 @@ class MDCChipSetAdapter {
   hasClass(className) {}
 
   /**
-   * Registers an event handler on the root element for a given event.
-   * @param {string} evtType
-   * @param {function(!Event): undefined} handler
+   * Removes the chip with the given id from the chip set.
+   * @param {string} chipId
    */
-  registerInteractionHandler(evtType, handler) {}
+  removeChip(chipId) {}
 
   /**
-   * Deregisters an event handler on the root element for a given event.
-   * @param {string} evtType
-   * @param {function(!Event): undefined} handler
+   * Sets the selected state of the chip with the given id.
+   * @param {string} chipId
+   * @param {boolean} selected
    */
-  deregisterInteractionHandler(evtType, handler) {}
-
-  /**
-   * Removes the chip object from the chip set.
-   * @param {!Object} chip
-   */
-  removeChip(chip) {}
+  setSelected(chipId, selected) {}
 }
 
 export default MDCChipSetAdapter;

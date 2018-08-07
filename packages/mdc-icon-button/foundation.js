@@ -36,14 +36,9 @@ class MDCIconButtonToggleFoundation extends MDCFoundation {
     return {
       addClass: (/* className: string */) => {},
       removeClass: (/* className: string */) => {},
-      registerInteractionHandler: (/* type: string, handler: EventListener */) => {},
-      deregisterInteractionHandler: (/* type: string, handler: EventListener */) => {},
       setText: (/* text: string */) => {},
-      getTabIndex: () => /* number */ 0,
-      setTabIndex: (/* tabIndex: number */) => {},
       getAttr: (/* name: string */) => /* string */ '',
       setAttr: (/* name: string, value: string */) => {},
-      removeAttr: (/* name: string */) => {},
       notifyChange: (/* evtData: IconButtonToggleEvent */) => {},
     };
   }
@@ -51,33 +46,23 @@ class MDCIconButtonToggleFoundation extends MDCFoundation {
   constructor(adapter) {
     super(Object.assign(MDCIconButtonToggleFoundation.defaultAdapter, adapter));
 
+    const {ARIA_PRESSED} = MDCIconButtonToggleFoundation.strings;
+
     /** @private {boolean} */
-    this.on_ = false;
+    this.on_ = this.adapter_.getAttr(ARIA_PRESSED) === 'true';
 
     /** @private {boolean} */
     this.disabled_ = false;
-
-    /** @private {number} */
-    this.savedTabIndex_ = -1;
 
     /** @private {?IconButtonToggleState} */
     this.toggleOnData_ = null;
 
     /** @private {?IconButtonToggleState} */
     this.toggleOffData_ = null;
-
-    this.clickHandler_ = /** @private {!EventListener} */ (
-      () => this.toggleFromEvt_());
   }
 
   init() {
     this.refreshToggleData();
-    this.savedTabIndex_ = this.adapter_.getTabIndex();
-    this.adapter_.registerInteractionHandler('click', this.clickHandler_);
-  }
-
-  destroy() {
-    this.adapter_.deregisterInteractionHandler('click', this.clickHandler_);
   }
 
   refreshToggleData() {
@@ -93,8 +78,7 @@ class MDCIconButtonToggleFoundation extends MDCFoundation {
     };
   }
 
-  /** @private */
-  toggleFromEvt_() {
+  handleClick() {
     this.toggle();
     const {on_: isOn} = this;
     this.adapter_.notifyChange(/** @type {!IconButtonToggleEvent} */ ({isOn}));
