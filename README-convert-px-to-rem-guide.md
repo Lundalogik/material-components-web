@@ -1,3 +1,7 @@
+# Guide for converting and publishing project
+
+## Converting
+
 On `master`, run:
 
 ```bash
@@ -57,4 +61,32 @@ https://github.com/Lundalogik/material-components-web
 
 # Replace
 "name": "lime-material-components-web"
+```
+
+Commit all changes in a suitably named commit (for example `feat: convert from px to rem`), and push the branch to `origin`:
+
+```bash
+$ git add -A
+$ git commit -m "feat: convert from px to rem"
+$ git push -u origin releases/<TAG>
+```
+
+## Publishing
+
+  1. Install npm-dependencies, just in case:
+
+```bash
+$ npm i
+```
+
+  2. Check which packages have been updated since the last released version:
+
+```bash
+$ git diff <TAG FOR LAST VERSION>..<TAG FOR THIS VERSION> --name-only -- **/package.json
+```
+
+  3. Publish the updated packages to our internal registry:
+
+```bash
+$ npm publish --registry=http://npm.lundalogik.com:4873
 ```
