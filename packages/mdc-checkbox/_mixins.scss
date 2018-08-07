@@ -14,8 +14,8 @@
 // limitations under the License.
 //
 
-@import "@material/animation/functions";
-@import "@material/rtl/mixins";
+@import "@lime-material/animation/functions";
+@import "@lime-material/rtl/mixins";
 @import "./functions";
 @import "./keyframes";
 @import "./variables";
@@ -258,7 +258,7 @@
     mdc-checkbox-transition-exit(border-color);
   // border-color is overridden by the mdc-checkbox-unmarked-stroke-color() mixin
   border: $mdc-checkbox-border-width solid currentColor;
-  border-radius: 2px;
+  border-radius: .2rem;
   background-color: transparent;
   pointer-events: none;
   will-change: background-color, border-color;

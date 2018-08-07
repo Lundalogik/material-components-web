@@ -15,8 +15,8 @@
 //
 
 @import "../functions";
-@import "@material/theme/mixins";
-@import "@material/typography/mixins";
+@import "@lime-material/theme/mixins";
+@import "@lime-material/typography/mixins";
 
 // postcss-bem-linter: define text-field-helper-text
 
@@ -30,7 +30,7 @@
 
   // stylelint-disable plugin/selector-bem-pattern
   .mdc-text-field + & {
-    margin-bottom: 8px;
+    margin-bottom: .8rem;
   }
 
   // stylelint-enable plugin/selector-bem-pattern

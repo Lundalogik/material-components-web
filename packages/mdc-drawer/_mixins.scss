@@ -14,11 +14,11 @@
 // limitations under the License.
 //
 
-@import "@material/animation/functions";
-@import "@material/animation/variables";
-@import "@material/theme/mixins";
-@import "@material/theme/variables";
-@import "@material/typography/mixins";
+@import "@lime-material/animation/functions";
+@import "@lime-material/animation/variables";
+@import "@lime-material/theme/mixins";
+@import "@lime-material/theme/variables";
+@import "@lime-material/typography/mixins";
 
 @mixin mdc-drawer-toolbar-spacer_() {
   .mdc-drawer__toolbar-spacer {
@@ -28,13 +28,13 @@
     flex-shrink: 0;
     align-items: center;
     box-sizing: border-box;
-    height: 56px;
-    padding: 16px;
-    border-bottom: 1px solid rgba(0, 0, 0, .12);
+    height: 5.6rem;
+    padding: 1.6rem;
+    border-bottom: .1rem solid rgba(0, 0, 0, .12);
 
     // TODO(sgomes): replace with global breakpoints when we have them
-    @media (min-width: 600px) {
-      height: 64px;
+    @media (min-width: 60.0rem) {
+      height: 6.4rem;
     }
   }
 }
@@ -62,7 +62,7 @@
     left: 0;
     align-items: flex-end;
     box-sizing: border-box;
-    padding: 16px;
+    padding: 1.6rem;
   }
   // stylelint-enable selector-max-type
 }

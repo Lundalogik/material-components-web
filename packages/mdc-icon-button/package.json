@@ -1,5 +1,5 @@
 {
-  "name": "@material/icon-button",
+  "name": "@lime-material/icon-button",
   "description": "The Material Components for the web icon button component",
   "version": "0.38.0",
   "license": "Apache 2.0",
@@ -12,12 +12,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/base": "^0.35.0",
-    "@material/ripple": "^0.38.0",
-    "@material/theme": "^0.38.0"
+    "@lime-material/base": "^0.35.0",
+    "@lime-material/ripple": "^0.38.0",
+    "@lime-material/theme": "^0.38.0"
   },
   "publishConfig": {
     "access": "public"

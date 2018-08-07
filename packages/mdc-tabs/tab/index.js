@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import MDCComponent from '@material/base/component';
-import {MDCRipple} from '@material/ripple/index';
+import MDCComponent from '@lime-material/base/component';
+import {MDCRipple} from '@lime-material/ripple/index';
 
 import {cssClasses} from './constants';
 import MDCTabFoundation from './foundation';

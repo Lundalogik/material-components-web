@@ -15,7 +15,7 @@
  */
 
 
-import MDCFoundation from '@material/base/foundation';
+import MDCFoundation from '@lime-material/base/foundation';
 
 import {cssClasses, strings} from './constants';
 

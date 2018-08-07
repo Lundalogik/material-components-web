@@ -1,5 +1,5 @@
 {
-  "name": "@material/ripple",
+  "name": "@lime-material/ripple",
   "description": "The Material Components for the web Ink Ripple effect for web element interactions",
   "version": "0.38.0",
   "license": "Apache-2.0",
@@ -11,11 +11,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/animation": "^0.34.0",
-    "@material/base": "^0.35.0",
-    "@material/theme": "^0.38.0"
+    "@lime-material/animation": "^0.34.0",
+    "@lime-material/base": "^0.35.0",
+    "@lime-material/theme": "^0.38.0"
   }
 }

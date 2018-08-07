@@ -14,17 +14,17 @@
 // limitations under the License.
 //
 
-@import "@material/rtl/mixins";
+@import "@lime-material/rtl/mixins";
 
 @mixin mdc-slideable-drawer {
   height: 100%;
   transform: translateX(-107%);
-  transform: translateX(calc(-100% - 20px));
+  transform: translateX(calc(-100% - 2.0rem));
   will-change: transform;
 
   @include mdc-rtl {
     transform: translateX(107%);
-    transform: translateX(calc(100% + 20px));
+    transform: translateX(calc(100% + 2.0rem));
   }
 }
 

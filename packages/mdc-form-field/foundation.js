@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-import MDCFoundation from '@material/base/foundation';
+import MDCFoundation from '@lime-material/base/foundation';
 import MDCFormFieldAdapter from './adapter';
 import {cssClasses, strings} from './constants';
 

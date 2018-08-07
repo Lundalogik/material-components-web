@@ -24,7 +24,7 @@ across screen sizes.
 ## Installation
 
 ```
-npm install @material/grid-list
+npm install @lime-material/grid-list
 ```
 
 
@@ -57,7 +57,7 @@ Basic Grid list has the following structure:
 
 The above markup will give you a Grid list of tiles that:
 
-- Have 4px padding in between themselves
+- Have .4rem padding in between themselves
 - Have a 1x1 aspect ratio
 - Have a one-line footer caption with no icon
 
@@ -70,14 +70,14 @@ distort those assets. We provide a solution of that case in
 
 ### Setting the tile width
 
-The tile width is set to 200px by default. There are three ways that you can
+The tile width is set to 20.0rem by default. There are three ways that you can
 overwrite the default value for your grid list:
 
 1. Using CSS variables
 
   ```css
   .mdc-grid-tile {
-    --mdc-grid-list-tile-width: 300px;
+    --mdc-grid-list-tile-width: 30.0rem;
   }
   ```
 
@@ -86,8 +86,8 @@ overwrite the default value for your grid list:
   You can overwrite the scss variable by
 
   ```scss
-  $mdc-grid-list-tile-width: 300px;
-  @import "@material/grid-list/mdc-grid-list";
+  $mdc-grid-list-tile-width: 30.0rem;
+  @import "@lime-material/grid-list/mdc-grid-list";
   ```
 
 3. Add own style to tile
@@ -95,7 +95,7 @@ overwrite the default value for your grid list:
   ```html
   <style>
     .my-grid-list .mdc-grid-tile {
-      width : 300px;
+      width : 30.0rem;
     }
   </style>
   <div class="mdc-grid-list my-grid-list">
@@ -108,7 +108,7 @@ overwrite the default value for your grid list:
 
 ### Change tile padding
 
-Grid list tiles can have 1px padding instead of 4px by adding
+Grid list tiles can have .1rem padding instead of .4rem by adding
 `mdc-grid-list--tile-gutter-1` modifier.
 
 ```html
