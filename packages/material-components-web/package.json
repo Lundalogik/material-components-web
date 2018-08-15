@@ -1,7 +1,7 @@
 {
   "name": "lime-material-components-web",
   "description": "Modular and customizable Material Design UI components for the web",
-  "version": "0.38.0",
+  "version": "0.38.0-lime.1",
   "license": "Apache-2.0",
   "keywords": [
     "material components",
@@ -20,7 +20,7 @@
     "@lime-material/card": "^0.38.0",
     "@lime-material/checkbox": "^0.38.0",
     "@lime-material/chips": "^0.38.0",
-    "@lime-material/dialog": "^0.38.0",
+    "@lime-material/dialog": "^0.38.0-lime.1",
     "@lime-material/drawer": "^0.38.0",
     "@lime-material/elevation": "^0.38.0",
     "@lime-material/fab": "^0.38.0",
