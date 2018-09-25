@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import MDCFoundation from '@material/base/foundation';
-import {getCorrectPropertyName} from '@material/animation/index';
+import MDCFoundation from '@lime-material/base/foundation';
+import {getCorrectPropertyName} from '@lime-material/animation/index';
 
 import {cssClasses, strings} from './constants';
 

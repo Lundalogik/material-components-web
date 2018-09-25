@@ -15,7 +15,7 @@
   * limitations under the License.
 */
 
-import MDCFoundation from '@material/base/foundation';
+import MDCFoundation from '@lime-material/base/foundation';
 import {cssClasses, strings} from './constants';
 /* eslint-disable no-unused-vars */
 import {MDCTabScrollerAnimation, MDCTabScrollerHorizontalEdges, MDCTabScrollerAdapter} from './adapter';
@@ -312,7 +312,7 @@ class MDCTabScrollerFoundation extends MDCFoundation {
     this.isAnimating_ = false;
     const currentScrollPosition = this.getAnimatingScrollPosition_();
     this.adapter_.removeClass(MDCTabScrollerFoundation.cssClasses.ANIMATING);
-    this.adapter_.setScrollContentStyleProperty('transform', 'translateX(0px)');
+    this.adapter_.setScrollContentStyleProperty('transform', 'translateX(.0rem)');
     this.adapter_.setScrollAreaScrollLeft(currentScrollPosition);
   }
 

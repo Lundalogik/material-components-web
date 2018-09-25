@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-import MDCComponent from '@material/base/component';
+import MDCComponent from '@lime-material/base/component';
 import MDCIconToggleFoundation from './foundation';
-import {MDCRipple, MDCRippleFoundation} from '@material/ripple/index';
+import {MDCRipple, MDCRippleFoundation} from '@lime-material/ripple/index';
 
 /**
  * @extends {MDCComponent<!MDCIconToggleFoundation>}

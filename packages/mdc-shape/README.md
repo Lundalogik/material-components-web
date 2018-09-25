@@ -33,7 +33,7 @@ applying angled corners to unelevated surfaces.
 ## Installation
 
 ```
-npm install @material/shape
+npm install @lime-material/shape
 ```
 
 ## Basic Usage
@@ -61,11 +61,11 @@ unelevated component.
 ### Styles
 
 ```scss
-@import "@material/shape/mdc-shape"; // The base shape styles need to be imported once in the page or application
-@import "@material/shape/mixins";
+@import "@lime-material/shape/mdc-shape"; // The base shape styles need to be imported once in the page or application
+@import "@lime-material/shape/mixins";
 
 .my-shape-container {
-  @include mdc-shape-angled-corner(#fff, 10px);
+  @include mdc-shape-angled-corner(#fff, 1.0rem);
 }
 ```
 
@@ -78,8 +78,8 @@ outline:
 
 ```scss
 .my-shape-container {
-  @include mdc-shape-angled-corner(#fff, 10px);
-  @include mdc-shape-angled-corner-outline(2px, blue);
+  @include mdc-shape-angled-corner(#fff, 1.0rem);
+  @include mdc-shape-angled-corner-outline(.2rem, blue);
 }
 ```
 

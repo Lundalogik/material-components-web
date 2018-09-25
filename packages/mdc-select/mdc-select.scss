@@ -17,14 +17,14 @@
 @import "./keyframes";
 @import "./mixins";
 @import "./variables";
-@import "@material/animation/variables";
-@import "@material/line-ripple/mdc-line-ripple";
-@import "@material/notched-outline/mdc-notched-outline";
-@import "@material/floating-label/mdc-floating-label";
-@import "@material/typography/mixins";
-@import "@material/ripple/common";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
+@import "@lime-material/animation/variables";
+@import "@lime-material/line-ripple/mdc-line-ripple";
+@import "@lime-material/notched-outline/mdc-notched-outline";
+@import "@lime-material/floating-label/mdc-floating-label";
+@import "@lime-material/typography/mixins";
+@import "@lime-material/ripple/common";
+@import "@lime-material/ripple/mixins";
+@import "@lime-material/rtl/mixins";
 
 // postcss-bem-linter: define select
 .mdc-select {
@@ -44,12 +44,12 @@
   display: inline-flex;
   position: relative;
   box-sizing: border-box;
-  height: 52px;
+  height: 5.2rem;
   background-repeat: no-repeat;
-  background-position: right 8px bottom 12px;
+  background-position: right .8rem bottom 1.2rem;
 
   @include mdc-rtl {
-    background-position: left 8px bottom 12px;
+    background-position: left .8rem bottom 1.2rem;
   }
 
   &__native-control {
@@ -62,14 +62,14 @@
 
     // counteracts the extra text padding that Firefox adds by default
     @-moz-document url-prefix("") {
-      text-indent: -2px;
+      text-indent: -.2rem;
     }
 
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 4px;
+    padding-top: 2.0rem;
+    padding-bottom: .4rem;
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: .1rem solid;
     border-radius: 0;
     outline: none;
     background-color: transparent;
@@ -100,28 +100,28 @@
   @include mdc-states-hover-opacity(mdc-states-opacity($mdc-select-ink-color, hover));
   @include mdc-states-focus-opacity(mdc-states-opacity($mdc-select-ink-color, focus));
 
-  height: 56px;
-  border-radius: 4px 4px 0 0;
-  background-position: right 10px center;
+  height: 5.6rem;
+  border-radius: .4rem .4rem 0 0;
+  background-position: right 1.0rem center;
   overflow: hidden;
 
   @include mdc-rtl {
-    background-position: left 10px center;
+    background-position: left 1.0rem center;
   }
 
   .mdc-select__native-control {
     @include mdc-rtl-reflexive-property(padding, $mdc-select-label-padding, $mdc-select-arrow-padding);
 
-    height: 56px;
-    border-radius: 4px 4px 0 0;
+    height: 5.6rem;
+    border-radius: .4rem .4rem 0 0;
   }
 
   // stylelint-disable plugin/selector-bem-pattern
   .mdc-floating-label {
-    @include mdc-rtl-reflexive-position(left, 16px);
+    @include mdc-rtl-reflexive-position(left, 1.6rem);
 
-    bottom: 12px;
-    line-height: 1.75rem;
+    bottom: 1.2rem;
+    line-height: 1.6*1.75rem;
 
     &--float-above {
       transform: translateY(-40%) scale(.75, .75);
@@ -138,20 +138,20 @@
   @include mdc-floating-label-shake-animation(text-field-outlined);
   @include mdc-select-outline-corner-radius($mdc-select-border-radius);
 
-  height: 56px;
+  height: 5.6rem;
   border: none;
-  background-position: right 10px center;
+  background-position: right 1.0rem center;
 
   @include mdc-rtl {
-    background-position: left 10px center;
+    background-position: left 1.0rem center;
   }
 
   .mdc-select__native-control {
     @include mdc-rtl-reflexive-property(padding, $mdc-select-label-padding, $mdc-select-arrow-padding);
 
     display: flex;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
     border: none;
     background-color: transparent;
     z-index: 1;
@@ -159,10 +159,10 @@
 
   // stylelint-disable-next-line plugin/selector-bem-pattern
   .mdc-floating-label {
-    @include mdc-rtl-reflexive-position(left, 16px);
+    @include mdc-rtl-reflexive-position(left, 1.6rem);
 
     position: absolute;
-    bottom: 20px;
+    bottom: 2.0rem;
   }
 }
 
