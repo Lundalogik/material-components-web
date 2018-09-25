@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-import MDCComponent from '@material/base/component';
+import MDCComponent from '@lime-material/base/component';
 import {MDCMenuFoundation} from './foundation';
 import {strings, cssClasses} from './constants';
-import {MDCMenuSurface, Corner} from '@material/menu-surface/index';
-import {MDCMenuSurfaceFoundation, AnchorMargin} from '@material/menu-surface/foundation';
-import {MDCList} from '@material/list/index';
+import {MDCMenuSurface, Corner} from '@lime-material/menu-surface/index';
+import {MDCMenuSurfaceFoundation, AnchorMargin} from '@lime-material/menu-surface/foundation';
+import {MDCList} from '@lime-material/list/index';
 
 /**
  * @extends MDCComponent<!MDCMenuFoundation>

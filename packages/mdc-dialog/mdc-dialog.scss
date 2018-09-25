@@ -14,12 +14,12 @@
 // limitations under the License.
 //
 
-@import "@material/animation/functions";
-@import "@material/elevation/mixins";
-@import "@material/theme/mixins";
-@import "@material/rtl/mixins";
-@import "@material/typography/mixins";
-@import "@material/typography/variables";
+@import "@lime-material/animation/functions";
+@import "@lime-material/elevation/mixins";
+@import "@lime-material/theme/mixins";
+@import "@lime-material/rtl/mixins";
+@import "@lime-material/typography/mixins";
+@import "@lime-material/typography/variables";
 
 // postcss-bem-linter: define dialog
 
@@ -56,11 +56,11 @@
 
   display: inline-flex;
   flex-direction: column;
-  width: calc(100% - 30px);
-  min-width: 640px;
-  max-width: 865px;
-  transform: translateY(150px) scale(.8);
-  border-radius: 2px;
+  width: calc(100% - 3.0rem);
+  min-width: 64.0rem;
+  max-width: 86.5rem;
+  transform: translateY(15.0rem) scale(.8);
+  border-radius: .2rem;
   opacity: 0;
 
   @include mdc-rtl(".mdc-dialog") {
@@ -71,7 +71,7 @@
 .mdc-dialog__header {
   display: flex;
   align-items: center;
-  padding: 24px 24px 0;
+  padding: 2.4rem 2.4rem 0;
 
   @include mdc-rtl(".mdc-dialog") {
     text-align: right;
@@ -93,14 +93,14 @@
   @include mdc-theme-prop(color, text-secondary-on-light);
   @include mdc-typography(body1);
 
-  margin-top: 20px;
-  padding: 0 24px 24px;
+  margin-top: 2.0rem;
+  padding: 0 2.4rem 2.4rem;
 }
 
 .mdc-dialog__body--scrollable {
-  max-height: 195px;
-  border-top: 1px solid rgba(0, 0, 0, .1);
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  max-height: 19.5rem;
+  border-top: .1rem solid rgba(0, 0, 0, .1);
+  border-bottom: .1rem solid rgba(0, 0, 0, .1);
   overflow-x: auto;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
@@ -111,11 +111,11 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
-  padding: 8px;
+  padding: .8rem;
 }
 
 .mdc-dialog__footer__button {
-  @include mdc-rtl-reflexive-box(margin, right, 8px);
+  @include mdc-rtl-reflexive-box(margin, right, .8rem);
 
   &:last-child {
     @include mdc-rtl-reflexive-box(margin, right, 0);
@@ -127,17 +127,17 @@
 }
 
 // TODO: Replace with breakpoint variable
-@media (max-width: 640px) {
+@media (max-width: 64.0rem) {
   .mdc-dialog {
-    min-width: 280px;
+    min-width: 28.0rem;
   }
 
   .mdc-dialog__surface {
-    min-width: 280px;
+    min-width: 28.0rem;
   }
 
   .mdc-dialog__body {
-    line-height: 24px;
+    line-height: 2.4rem;
   }
 }
 

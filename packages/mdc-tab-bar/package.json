@@ -1,5 +1,5 @@
 {
-  "name": "@material/tab-bar",
+  "name": "@lime-material/tab-bar",
   "description": "The Material Components for the web tab bar component",
   "version": "0.39.0-0",
   "license": "Apache-2.0",
@@ -12,13 +12,13 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/base": "^0.35.0",
-    "@material/elevation": "^0.38.0",
-    "@material/tab": "^0.39.0-0",
-    "@material/tab-scroller": "^0.39.0-0"
+    "@lime-material/base": "^0.35.0",
+    "@lime-material/elevation": "^0.38.0",
+    "@lime-material/tab": "^0.39.0-0",
+    "@lime-material/tab-scroller": "^0.39.0-0"
   },
   "publishConfig": {
     "access": "public"

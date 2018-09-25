@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-@import "@material/theme/mixins";
+@import "@lime-material/theme/mixins";
 
 @mixin mdc-menu-surface-ink-color($color) {
   @include mdc-theme-prop(color, $color);

@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-@import "@material/rtl/mixins";
-@import "@material/list/mixins";
-@import "@material/ripple/common";
-@import "@material/ripple/mixins";
+@import "@lime-material/rtl/mixins";
+@import "@lime-material/list/mixins";
+@import "@lime-material/ripple/common";
+@import "@lime-material/ripple/mixins";
 @import "./variables";
 @import "./mixins";
 
@@ -30,11 +30,11 @@
   max-width: $mdc-menu-max-width;
 
   .mdc-list-divider {
-    margin: 8px 0;
+    margin: .8rem 0;
   }
 
   .mdc-list-item {
-    padding: 0 24px;
+    padding: 0 2.4rem;
     cursor: pointer;
     user-select: none;
   }
@@ -50,12 +50,12 @@
   fill: currentColor;
 
   .mdc-list-item {
-    @include mdc-rtl-reflexive-box(padding, left, 56px);
+    @include mdc-rtl-reflexive-box(padding, left, 5.6rem);
   }
 }
 
 .mdc-menu__selection-group-icon {
-  @include mdc-rtl-reflexive-position(left, 16px);
+  @include mdc-rtl-reflexive-position(left, 1.6rem);
 
   display: none;
   position: absolute;

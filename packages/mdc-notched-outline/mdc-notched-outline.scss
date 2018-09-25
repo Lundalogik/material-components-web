@@ -14,9 +14,9 @@
 // limitations under the License.
 //
 
-@import "@material/animation/variables";
-@import "@material/base/mixins";
-@import "@material/rtl/mixins";
+@import "@lime-material/animation/variables";
+@import "@lime-material/base/mixins";
+@import "@lime-material/rtl/mixins";
 @import "./mixins";
 @import "./variables";
 
@@ -26,8 +26,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: calc(100% - 1px);
-    height: calc(100% - 2px);
+    width: calc(100% - .1rem);
+    height: calc(100% - .2rem);
     transition: opacity $mdc-notched-outline-transition-duration $mdc-animation-standard-curve-timing-function;
     opacity: 0;
     text-align: left;
@@ -50,17 +50,17 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: calc(100% - 4px);
-    height: calc(100% - 4px);
+    width: calc(100% - .4rem);
+    height: calc(100% - .4rem);
     transition:
       opacity $mdc-notched-outline-transition-duration $mdc-animation-standard-curve-timing-function,
       border-color $mdc-notched-outline-transition-duration $mdc-animation-standard-curve-timing-function;
-    border: 1px solid;
+    border: .1rem solid;
     opacity: 1;
   }
 
   .mdc-notched-outline__path {
-    stroke-width: 1px;
+    stroke-width: .1rem;
     transition:
       stroke $mdc-notched-outline-transition-duration $mdc-animation-standard-curve-timing-function,
       stroke-width $mdc-notched-outline-transition-duration $mdc-animation-standard-curve-timing-function;

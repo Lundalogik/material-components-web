@@ -14,11 +14,11 @@
 // limitations under the License.
 //
 
-@import "@material/ripple/common";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
-@import "@material/typography/mixins";
-@import "@material/tab-indicator/mixins";
+@import "@lime-material/ripple/common";
+@import "@lime-material/ripple/mixins";
+@import "@lime-material/rtl/mixins";
+@import "@lime-material/typography/mixins";
+@import "@lime-material/tab-indicator/mixins";
 @import "./mixins";
 @import "./variables";
 
@@ -33,7 +33,7 @@
   justify-content: center;
   box-sizing: border-box;
   height: $mdc-tab-height;
-  padding: 0 24px;
+  padding: 0 2.4rem;
   border: none;
   outline: none;
   background: none;
@@ -106,11 +106,11 @@
 }
 
 .mdc-tab--stacked .mdc-tab__icon {
-  padding-top: 12px;
+  padding-top: 1.2rem;
 }
 
 .mdc-tab--stacked .mdc-tab__text-label {
-  padding-bottom: 16px;
+  padding-bottom: 1.6rem;
 }
 
 .mdc-tab--active {
@@ -125,5 +125,5 @@
 }
 
 .mdc-tab:not(.mdc-tab--stacked) .mdc-tab__icon + .mdc-tab__text-label {
-  @include mdc-rtl-reflexive-box(padding, left, 8px);
+  @include mdc-rtl-reflexive-box(padding, left, .8rem);
 }

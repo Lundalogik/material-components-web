@@ -15,7 +15,7 @@
   * limitations under the License.
 */
 
-import MDCComponent from '@material/base/component';
+import MDCComponent from '@lime-material/base/component';
 
 import {MDCTabScrollerAdapter} from './adapter';
 import MDCTabScrollerFoundation from './foundation';

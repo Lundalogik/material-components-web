@@ -14,17 +14,17 @@
 // limitations under the License.
 //
 
-@import "@material/rtl/mixins";
+@import "@lime-material/rtl/mixins";
 @import "../variables";
 @import "../mixins";
 
-$mdc-permanent-drawer-width: 240px;
+$mdc-permanent-drawer-width: 24.0rem;
 
 .mdc-drawer--permanent {
   @include mdc-drawer-base_;
   @include mdc-drawer-ink-color($mdc-permanent-drawer-ink-color);
   @include mdc-drawer-fill-color($mdc-permanent-drawer-fill-color);
-  @include mdc-rtl-reflexive-box(border, right, 1px solid #e4e4e4);
+  @include mdc-rtl-reflexive-box(border, right, .1rem solid #e4e4e4);
   @include mdc-rtl-reflexive-position(left, 0);
 
   display: inline-flex;

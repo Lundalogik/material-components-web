@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import {MDCComponent} from '@material/base/index';
+import {MDCComponent} from '@lime-material/base/index';
 
 import MDCGridListFoundation from './foundation';
 

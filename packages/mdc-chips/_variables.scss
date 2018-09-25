@@ -14,21 +14,21 @@
 // limitations under the License.
 //
 
-@import "@material/theme/variables";
+@import "@lime-material/theme/variables";
 
-$mdc-chip-border-radius-default: 16px;
+$mdc-chip-border-radius-default: 1.6rem;
 $mdc-chip-fill-color-default: mix(mdc-theme-prop-value(on-surface), mdc-theme-prop-value(surface), 12%);
 $mdc-chip-ink-color-default: rgba(mdc-theme-prop-value(on-surface), .87);
-$mdc-chip-horizontal-padding: 12px;
-$mdc-chip-vertical-padding: 7px;
-$mdc-chip-height-default: 32px;
+$mdc-chip-horizontal-padding: 1.2rem;
+$mdc-chip-vertical-padding: .7rem;
+$mdc-chip-height-default: 3.2rem;
 
 $mdc-chip-icon-color: mdc-theme-prop-value(on-surface);
 $mdc-chip-icon-opacity: .54;
 $mdc-chip-trailing-icon-hover-opacity: .62;
 $mdc-chip-trailing-icon-focus-opacity: .87;
-$mdc-chip-leading-icon-size: 20px;
-$mdc-chip-trailing-icon-size: 18px;
+$mdc-chip-leading-icon-size: 2.0rem;
+$mdc-chip-trailing-icon-size: 1.8rem;
 $mdc-chip-leading-icon-delay: -50ms; // Speed up delay to bridge gap between leading icon and checkmark transition.
 $mdc-chip-checkmark-with-leading-icon-delay: 80ms;
 

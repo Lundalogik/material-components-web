@@ -15,14 +15,14 @@
   * limitations under the License.
 */
 
-@import "@material/animation/variables";
+@import "@lime-material/animation/variables";
 @import "./mixins";
 
 .mdc-tab-indicator {
   @include mdc-tab-indicator-underline-color(primary);
-  @include mdc-tab-indicator-underline-height(2px);
+  @include mdc-tab-indicator-underline-height(.2rem);
   @include mdc-tab-indicator-icon-color(secondary);
-  @include mdc-tab-indicator-icon-height(34px);
+  @include mdc-tab-indicator-icon-height(3.4rem);
 
   display: flex;
   position: absolute;

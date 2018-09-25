@@ -15,14 +15,14 @@
   * limitations under the License.
 */
 
-import MDCFoundation from '@material/base/foundation';
+import MDCFoundation from '@lime-material/base/foundation';
 
 import {strings, numbers} from './constants';
 import MDCTabBarAdapter from './adapter';
 
 /* eslint-disable no-unused-vars */
-import MDCTabFoundation from '@material/tab/foundation';
-import {MDCTabDimensions} from '@material/tab/adapter';
+import MDCTabFoundation from '@lime-material/tab/foundation';
+import {MDCTabDimensions} from '@lime-material/tab/adapter';
 /* eslint-enable no-unused-vars */
 
 /**
