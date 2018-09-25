@@ -47,7 +47,7 @@ let AnchorMargin;
 let AutoLayoutMeasurements;
 /* eslint-enable no-unused-vars */
 
-import MDCFoundation from '@material/base/foundation';
+import MDCFoundation from '@lime-material/base/foundation';
 import {MDCMenuSurfaceAdapter} from './adapter';
 import {cssClasses, strings, numbers, Corner, CornerBit} from './constants';
 

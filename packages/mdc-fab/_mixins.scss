@@ -18,14 +18,14 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-@import "@material/animation/functions";
-@import "@material/elevation/mixins";
-@import "@material/elevation/variables";
-@import "@material/ripple/mixins";
-@import "@material/ripple/variables";
-@import "@material/theme/functions";
-@import "@material/theme/mixins";
-@import "@material/rtl/mixins";
+@import "@lime-material/animation/functions";
+@import "@lime-material/elevation/mixins";
+@import "@lime-material/elevation/variables";
+@import "@lime-material/ripple/mixins";
+@import "@lime-material/ripple/variables";
+@import "@lime-material/theme/functions";
+@import "@lime-material/theme/mixins";
+@import "@lime-material/rtl/mixins";
 @import "./variables";
 
 @mixin mdc-fab-accessible($container-color) {
@@ -88,7 +88,7 @@
 
 $mdc-fab-icon-enter-delay_: 90ms;
 $mdc-fab-icon-enter-duration_: 180ms;
-$mdc-fab-extended-height_: 48px;
+$mdc-fab-extended-height_: 4.8rem;
 
 @mixin mdc-fab-base_ {
   @include mdc-ripple-surface;
@@ -100,8 +100,8 @@ $mdc-fab-extended-height_: 48px;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  width: 56px;
-  height: 56px;
+  width: 5.6rem;
+  height: 5.6rem;
   padding: 0;
   transition:
     box-shadow $mdc-elevation-transition-duration $mdc-elevation-transition-timing-function,
@@ -155,8 +155,8 @@ $mdc-fab-extended-height_: 48px;
 }
 
 @mixin mdc-fab--mini_ {
-  width: 40px;
-  height: 40px;
+  width: 4.0rem;
+  height: 4.0rem;
 }
 
 @mixin mdc-fab--extended_ {
