@@ -20,9 +20,9 @@
 // THE SOFTWARE.
 //
 
-@import "@material/theme/mixins";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
+@import "@lime-material/theme/mixins";
+@import "@lime-material/ripple/mixins";
+@import "@lime-material/rtl/mixins";
 @import "./variables";
 
 @mixin mdc-switch-toggled-on-color($color) {

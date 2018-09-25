@@ -1,5 +1,5 @@
 {
-  "name": "@material/chips",
+  "name": "@lime-material/chips",
   "description": "The Material Components for the Web chips component",
   "version": "0.39.3",
   "license": "MIT",
@@ -10,16 +10,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@material/animation": "^0.39.0",
-    "@material/base": "^0.39.0",
-    "@material/checkbox": "^0.39.3",
-    "@material/ripple": "^0.39.3",
-    "@material/typography": "^0.39.0"
+    "@lime-material/animation": "^0.39.0",
+    "@lime-material/base": "^0.39.0",
+    "@lime-material/checkbox": "^0.39.3",
+    "@lime-material/ripple": "^0.39.3",
+    "@lime-material/typography": "^0.39.0"
   }
 }

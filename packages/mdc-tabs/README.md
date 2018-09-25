@@ -38,7 +38,7 @@ The MDC Tabs component contains components which are used to create spec-aligned
 ## Installation
 
 ```
-npm install @material/tabs
+npm install @lime-material/tabs
 ```
 
 ## Tabs usage
@@ -266,14 +266,14 @@ any tab elements that are children of the `mdc-tab-bar` root element.
 ##### ES2015
 
 ```javascript
-import {MDCTab, MDCTabFoundation} from '@material/tabs';
-import {MDCTabBar, MDCTabBarFoundation} from '@material/tabs';
+import {MDCTab, MDCTabFoundation} from '@lime-material/tabs';
+import {MDCTabBar, MDCTabBarFoundation} from '@lime-material/tabs';
 ```
 
 ##### CommonJS
 
 ```javascript
-const mdcTabs = require('@material/tabs');
+const mdcTabs = require('@lime-material/tabs');
 const MDCTab = mdcTabs.MDCTab;
 const MDCTabFoundation = mdcTabs.MDCTabFoundation;
 
@@ -284,7 +284,7 @@ const MDCTabBarFoundation = mdcTabs.MDCTabBarFoundation;
 ##### AMD
 
 ```javascript
-require(['path/to/@material/tabs'], mdcTabs => {
+require(['path/to/@lime-material/tabs'], mdcTabs => {
   const MDCTab = mdcTabs.MDCTab;
   const MDCTabFoundation = mdcTabs.MDCTabFoundation;
 
@@ -329,7 +329,7 @@ of `MDCTabBar`, e.g.:
 ```
 
 ```javascript
-import {MDCTabBar, MDCTabBarFoundation} from '@material/tabs';
+import {MDCTabBar, MDCTabBarFoundation} from '@lime-material/tabs';
 
 const tabBar = new MDCTabBar(document.querySelector('#my-mdc-tab-bar'));
 ```
@@ -348,15 +348,15 @@ The anatomy of `mdc-tab-bar-scroller` includes an instance of `mdc-tab-bar`, RTL
 ##### ES2015
 
 ```javascript
-import {MDCTab, MDCTabFoundation} from '@material/tabs';
-import {MDCTabBar, MDCTabBarFoundation} from '@material/tabs';
-import {MDCTabBarScroller, MDCTabBarFoundationScroller} from '@material/tabs';
+import {MDCTab, MDCTabFoundation} from '@lime-material/tabs';
+import {MDCTabBar, MDCTabBarFoundation} from '@lime-material/tabs';
+import {MDCTabBarScroller, MDCTabBarFoundationScroller} from '@lime-material/tabs';
 ```
 
 ##### CommonJS
 
 ```javascript
-const mdcTabs = require('@material/tabs');
+const mdcTabs = require('@lime-material/tabs');
 const MDCTab = mdcTabs.MDCTab;
 const MDCTabFoundation = mdcTabs.MDCTabFoundation;
 
@@ -370,7 +370,7 @@ const MDCTabBarScrollerFoundation = mdcTabs.MDCTabBarScrollerFoundation;
 ##### AMD
 
 ```javascript
-require(['path/to/@material/tabs'], mdcTabs => {
+require(['path/to/@lime-material/tabs'], mdcTabs => {
   const MDCTab = mdcTabs.MDCTab;
   const MDCTabFoundation = mdcTabs.MDCTabFoundation;
 
@@ -441,7 +441,7 @@ of `MDCTabBarScroller`, e.g.:
 ```
 
 ```javascript
-import {MDCTabBarScroller, MDCTabBarScrollerFoundation} from '@material/tabs';
+import {MDCTabBarScroller, MDCTabBarScrollerFoundation} from '@lime-material/tabs';
 
 const tabBarScroller = new MDCTabBarScroller(document.querySelector('#my-mdc-tab-bar-scroller'));
 ```
@@ -449,7 +449,7 @@ const tabBarScroller = new MDCTabBarScroller(document.querySelector('#my-mdc-tab
 Tab Bar Scrollers can also instantiate any `mdc-tab-bar` from a DOM element on the fly using a built in factory function:
 
 ```js
-import {MDCTabBarScroller, MDCTabBarScrollerFoundation} from '@material/tabs';
+import {MDCTabBarScroller, MDCTabBarScrollerFoundation} from '@lime-material/tabs';
 
 const tabBarEl = document.querySelector('#my-mdc-tab-bar');
 const scrollerEl = document.querySelector('#my-mdc-tab-bar-scroller');

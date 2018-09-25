@@ -34,7 +34,7 @@ themselves when opening.
 ## Installation
 
 ```
-npm install @material/menu-surface
+npm install @lime-material/menu-surface
 ```
 
 ## Usage
@@ -50,13 +50,13 @@ npm install @material/menu-surface
 ### Styles
 
 ```css
-@import "@material/menu-surface/mdc-menu-surface";
+@import "@lime-material/menu-surface/mdc-menu-surface";
 ```
 
 ### JavaScript Instantiation
 
 ```js
-import {MDCMenuSurface} from '@material/menu-surface';
+import {MDCMenuSurface} from '@lime-material/menu-surface';
 
 const menuSurface = new MDCMenuSurface(document.querySelector('.mdc-menu-surface'));
 ```

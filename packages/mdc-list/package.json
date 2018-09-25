@@ -1,5 +1,5 @@
 {
-  "name": "@material/list",
+  "name": "@lime-material/list",
   "description": "The Material Components for the web list component",
   "version": "0.39.3",
   "license": "MIT",
@@ -10,13 +10,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/base": "^0.39.0",
-    "@material/ripple": "^0.39.3",
-    "@material/rtl": "^0.39.1",
-    "@material/theme": "^0.39.1",
-    "@material/typography": "^0.39.0"
+    "@lime-material/base": "^0.39.0",
+    "@lime-material/ripple": "^0.39.3",
+    "@lime-material/rtl": "^0.39.1",
+    "@lime-material/theme": "^0.39.1",
+    "@lime-material/typography": "^0.39.0"
   }
 }
