@@ -98,7 +98,7 @@
 
 @keyframes buffering {
   to {
-    transform: translateX(-10px);
+    transform: translateX(-1.0rem);
   }
 }
 
@@ -145,6 +145,6 @@
 
 @keyframes buffering-reverse {
   to {
-    transform: translateX(10px);
+    transform: translateX(1.0rem);
   }
 }

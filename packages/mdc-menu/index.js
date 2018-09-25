@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-import MDCComponent from '@material/base/component';
+import MDCComponent from '@lime-material/base/component';
 import {getTransformPropertyName} from './util';
 import {MDCMenuFoundation, AnchorMargin} from './foundation';
 import {Corner, CornerBit} from './constants';
