@@ -20,8 +20,8 @@
 // THE SOFTWARE.
 //
 
-@import "@material/theme/mixins";
-@import "@material/shape/mixins";
+@import "@lime-material/theme/mixins";
+@import "@lime-material/shape/mixins";
 
 @mixin mdc-menu-surface-ink-color($color) {
   @include mdc-theme-prop(color, $color);

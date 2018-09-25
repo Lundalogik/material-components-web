@@ -41,7 +41,7 @@ MDC Typography is a foundational module that applies these styles to MDC Web com
 ## Installation
 
 ```
-npm install @material/typography
+npm install @lime-material/typography
 ```
 
 ## Basic Usage
@@ -62,7 +62,7 @@ We recommend you load Roboto from Google Fonts:
 ### Styles
 
 ```css
-@import "@material/typography/mdc-typography";
+@import "@lime-material/typography/mdc-typography";
 ```
 
 ## Style Customization
@@ -130,11 +130,11 @@ Example: Overriding the button `font-size` and `text-transform` properties.
 
 ```scss
 $mdc-typography-styles-button: (
-  font-size: 16px,
+  font-size: 1.6rem,
   text-transform: none,
 );
 
-@import "@material/button/mdc-button";
+@import "@lime-material/button/mdc-button";
 ```
 
 Example: Overriding the global `font-family` property. 
@@ -152,7 +152,7 @@ $mdc-typography-styles-headline1: (
 );
 $mdc-typography-styles-headline2: (
   font-family: unquote("Arial, Helvetica, sans-serif"),
-  font-size: 3.25rem
+  font-size: 1.6*3.25rem
 );
 
 ...

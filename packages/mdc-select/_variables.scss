@@ -20,11 +20,11 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/variables";
+@import "@lime-material/animation/variables";
 
-$mdc-select-arrow-padding: 26px;
-$mdc-select-label-padding: 16px;
-$mdc-select-height: 56px;
+$mdc-select-arrow-padding: 2.6rem;
+$mdc-select-label-padding: 1.6rem;
+$mdc-select-height: 5.6rem;
 
 $mdc-select-ink-color: rgba(mdc-theme-prop-value(on-surface), .87);
 $mdc-select-dropdown-color: mdc-theme-prop-value(on-surface);
