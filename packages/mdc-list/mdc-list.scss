@@ -18,12 +18,12 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-@import "@material/ripple/common";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
-@import "@material/theme/functions";
-@import "@material/typography/mixins";
-@import "@material/typography/variables";
+@import "@lime-material/ripple/common";
+@import "@lime-material/ripple/mixins";
+@import "@lime-material/rtl/mixins";
+@import "@lime-material/theme/functions";
+@import "@lime-material/typography/mixins";
+@import "@lime-material/typography/variables";
 @import "./mixins";
 @import "./variables";
 
@@ -34,9 +34,9 @@
   @include mdc-list-item-primary-text-ink-color(text-primary-on-background);
 
   margin: 0;
-  padding: 8px 0;
+  padding: .8rem 0;
 
-  // According to the mocks and stickersheet, the line-height is adjusted to 24px for text content,
+  // According to the mocks and stickersheet, the line-height is adjusted to 2.4rem for text content,
   // same as for body1.
 
   /* @alternate */
@@ -52,9 +52,9 @@
 }
 
 .mdc-list--dense {
-  padding-top: 4px;
-  padding-bottom: 4px;
-  font-size: .812rem;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+  font-size: 1.6*.812rem;
 }
 
 // postcss-bem-linter: end
@@ -66,7 +66,7 @@
   position: relative;
   align-items: center;
   justify-content: flex-start;
-  height: 48px;
+  height: 4.8rem;
   padding: 0 $mdc-list-side-padding;
   overflow: hidden;
 
@@ -88,7 +88,7 @@
 }
 
 .mdc-list-item__graphic {
-  @include mdc-list-graphic-size_(24px);
+  @include mdc-list-graphic-size_(2.4rem);
 
   display: inline-flex;
   flex-shrink: 0;
@@ -107,9 +107,9 @@
   align-self: flex-start;
 }
 
-$mdc-list-item-primary-text-baseline-height_: 32px;
-$mdc-list-item-secondary-text-baseline-height_: 20px;
-$mdc-list-dense-item-primary-text-baseline-height_: 24px;
+$mdc-list-item-primary-text-baseline-height_: 3.2rem;
+$mdc-list-item-secondary-text-baseline-height_: 2.0rem;
+$mdc-list-dense-item-primary-text-baseline-height_: 2.4rem;
 
 .mdc-list-item__primary-text {
   @include mdc-typography-overflow-ellipsis;
@@ -144,37 +144,37 @@ $mdc-list-dense-item-primary-text-baseline-height_: 24px;
 
 // stylelint-disable plugin/selector-bem-pattern
 .mdc-list--dense .mdc-list-item {
-  height: 40px;
+  height: 4.0rem;
 }
 
 .mdc-list--dense .mdc-list-item__graphic {
-  @include mdc-list-graphic-size_(20px);
+  @include mdc-list-graphic-size_(2.0rem);
 }
 
 .mdc-list--avatar-list .mdc-list-item {
-  height: 56px;
+  height: 5.6rem;
 }
 
 .mdc-list--avatar-list .mdc-list-item__graphic {
-  @include mdc-list-graphic-size_(40px);
+  @include mdc-list-graphic-size_(4.0rem);
 
   border-radius: 50%;
 }
 
 .mdc-list--two-line .mdc-list-item {
-  height: 72px;
+  height: 7.2rem;
 }
 
 .mdc-list--two-line.mdc-list--dense .mdc-list-item {
-  height: 60px;
+  height: 6.0rem;
 }
 
 .mdc-list--avatar-list.mdc-list--dense .mdc-list-item {
-  height: 60px;
+  height: 6.0rem;
 }
 
 .mdc-list--avatar-list.mdc-list--dense .mdc-list-item__graphic {
-  @include mdc-list-graphic-size_(36px);
+  @include mdc-list-graphic-size_(3.6rem);
 }
 
 // List items should support states by default, but it should be possible to opt out.
@@ -202,7 +202,7 @@ a.mdc-list-item {
   height: 0;
   margin: 0;
   border: none;
-  border-bottom-width: 1px;
+  border-bottom-width: .1rem;
   border-bottom-style: solid;
 }
 
@@ -243,7 +243,7 @@ a.mdc-list-item {
 }
 
 .mdc-list-group__subheader {
-  $mdc-list-subheader-virtual-height: 3rem;
+  $mdc-list-subheader-virtual-height: 1.6*3rem;
   $mdc-list-subheader-leading: map-get(map-get($mdc-typography-styles, body1), line-height);
   $mdc-list-subheader-margin:
     ($mdc-list-subheader-virtual-height - $mdc-list-subheader-leading) / 2;

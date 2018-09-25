@@ -21,9 +21,9 @@
  * THE SOFTWARE.
  */
 
-import MDCComponent from '@material/base/component';
+import MDCComponent from '@lime-material/base/component';
 import MDCIconButtonToggleFoundation from './foundation';
-import {MDCRipple} from '@material/ripple/index';
+import {MDCRipple} from '@lime-material/ripple/index';
 
 /**
  * @extends {MDCComponent<!MDCIconButtonToggleFoundation>}

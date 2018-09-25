@@ -33,7 +33,7 @@ or other control.
 ## Installation
 
 ```
-npm install @material/menu
+npm install @lime-material/menu
 ```
 
 ## Basic Usage
@@ -56,15 +56,15 @@ npm install @material/menu
 ### Styles
 
 ```scss
-@import "@material/menu/mdc-list";
-@import "@material/menu/mdc-menu-surface";
-@import "@material/menu/mdc-menu";
+@import "@lime-material/menu/mdc-list";
+@import "@lime-material/menu/mdc-menu-surface";
+@import "@lime-material/menu/mdc-menu";
 ```
 
 ### JavaScript Instantiation
 
 ```js
-import {MDCMenu} from '@material/menu';
+import {MDCMenu} from '@lime-material/menu';
 
 const menu = new MDCMenu(document.querySelector('.mdc-menu'));
 menu.show();
@@ -179,7 +179,7 @@ CSS Class | Description
 
 Mixin | Description
 --- | ---
-`mdc-menu-width($width)` | Used to set the `width` of the menu. When used without units (e.g. `4` or `5`) it computes the `width` by multiplying by the base width (`56px`). When used with units (e.g. `240px`, `15%`, or `calc(200px + 10px)` it sets the `width` to the exact value provided.
+`mdc-menu-width($width)` | Used to set the `width` of the menu. When used without units (e.g. `4` or `5`) it computes the `width` by multiplying by the base width (`5.6rem`). When used with units (e.g. `24.0rem`, `15%`, or `calc(20.0rem + 1.0rem)` it sets the `width` to the exact value provided.
 
 ## `MDCMenu` Properties and Methods
 

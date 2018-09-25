@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/index';
+import {MDCFoundation} from '@lime-material/base/index';
 /* eslint-disable no-unused-vars */
 import MDCSelectAdapter from './adapter';
 /* eslint-enable no-unused-vars */

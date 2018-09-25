@@ -1,5 +1,5 @@
 {
-  "name": "@material/floating-label",
+  "name": "@lime-material/floating-label",
   "description": "The Material Components for the web floating-label component",
   "version": "0.39.0",
   "license": "MIT",
@@ -12,15 +12,15 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/material-components/material-components-web.git"
+    "url": "git+https://github.com/Lundalogik/material-components-web.git"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@material/base": "^0.39.0",
-    "@material/rtl": "^0.39.0",
-    "@material/theme": "^0.39.0",
-    "@material/typography": "^0.39.0"
+    "@lime-material/base": "^0.39.0",
+    "@lime-material/rtl": "^0.39.0",
+    "@lime-material/theme": "^0.39.0",
+    "@lime-material/typography": "^0.39.0"
   }
 }

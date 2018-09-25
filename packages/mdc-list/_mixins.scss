@@ -18,8 +18,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-@import "@material/rtl/mixins";
-@import "@material/theme/mixins";
+@import "@lime-material/rtl/mixins";
+@import "@lime-material/theme/mixins";
 @import "./variables";
 
 //
@@ -77,10 +77,10 @@
 //
 
 // Sets the width and height of the graphic element, as well as calculates the margins for
-// the graphic element such that the text is always offset by 72px, which is defined within
+// the graphic element such that the text is always offset by 7.2rem, which is defined within
 // the spec.
 @mixin mdc-list-graphic-size_($size) {
-  $text-offset: 72px;
+  $text-offset: 7.2rem;
   $side-padding: $mdc-list-side-padding;
   $margin-value: $text-offset - $side-padding - $size;
 

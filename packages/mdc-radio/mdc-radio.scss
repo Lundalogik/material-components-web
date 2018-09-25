@@ -20,10 +20,10 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/functions";
-@import "@material/ripple/common";
-@import "@material/ripple/mixins";
-@import "@material/ripple/variables";
+@import "@lime-material/animation/functions";
+@import "@lime-material/ripple/common";
+@import "@lime-material/ripple/mixins";
+@import "@lime-material/ripple/variables";
 @import "./functions";
 @import "./mixins";
 @import "./variables";
@@ -82,7 +82,7 @@
     width: 100%;
     height: 100%;
     transition: mdc-radio-exit(border-color);
-    border-width: 2px;
+    border-width: .2rem;
     border-style: solid;
     border-radius: 50%;
   }
@@ -96,7 +96,7 @@
     height: 100%;
     transform: scale(0, 0);
     transition: mdc-radio-exit(transform), mdc-radio-exit(border-color);
-    border-width: 10px;
+    border-width: 1.0rem;
     border-style: solid;
     border-radius: 50%;
   }

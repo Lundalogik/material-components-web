@@ -20,12 +20,12 @@
 // THE SOFTWARE.
 //
 
-@import "@material/elevation/mixins";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
-@import "@material/theme/functions";
-@import "@material/theme/mixins";
-@import "@material/typography/mixins";
+@import "@lime-material/elevation/mixins";
+@import "@lime-material/ripple/mixins";
+@import "@lime-material/rtl/mixins";
+@import "@lime-material/theme/functions";
+@import "@lime-material/theme/mixins";
+@import "@lime-material/typography/mixins";
 @import "./variables";
 
 @mixin mdc-button-filled-accessible($container-fill-color) {
@@ -97,7 +97,7 @@
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  min-width: 64px;
+  min-width: 6.4rem;
   height: $mdc-button-height;
   border: none;
   outline: none;
@@ -133,12 +133,12 @@
 }
 
 @mixin mdc-button__icon_ {
-  @include mdc-rtl-reflexive-box(margin, right, 8px);
+  @include mdc-rtl-reflexive-box(margin, right, .8rem);
 
   display: inline-block;
-  width: 18px;
-  height: 18px;
-  font-size: 18px;
+  width: 1.8rem;
+  height: 1.8rem;
+  font-size: 1.8rem;
   vertical-align: top;
 }
 
@@ -147,7 +147,7 @@
 }
 
 @mixin mdc-button__icon-contained_ {
-  @include mdc-rtl-reflexive-property(margin, -4px, 8px);
+  @include mdc-rtl-reflexive-property(margin, -.4rem, .8rem);
 }
 
 @mixin mdc-button--outlined_() {
@@ -188,5 +188,5 @@
 
 @mixin mdc-button--dense_() {
   height: $mdc-dense-button-height;
-  font-size: .8125rem; // 13sp
+  font-size: 1.6*.8125rem; // 13sp
 }

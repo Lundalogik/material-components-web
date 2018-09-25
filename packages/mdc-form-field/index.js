@@ -21,10 +21,10 @@
  * THE SOFTWARE.
  */
 
-import MDCComponent from '@material/base/component';
+import MDCComponent from '@lime-material/base/component';
 import MDCFormFieldFoundation from './foundation';
 /* eslint-disable no-unused-vars */
-import {MDCSelectionControl} from '@material/selection-control/index';
+import {MDCSelectionControl} from '@lime-material/selection-control/index';
 /* eslint-enable no-unused-vars */
 
 /**
