@@ -26,8 +26,8 @@ import bel from 'bel';
 
 import {supportsCssVariables} from '../../../packages/mdc-ripple/util';
 import {createMockRaf} from '../helpers/raf';
-import {MDCRadio, MDCRadioFoundation} from '../../../packages/mdc-radio';
-import {MDCRipple} from '../../../packages/mdc-ripple';
+import {MDCRadio, MDCRadioFoundation} from '../../../packages/mdc-radio/index';
+import {MDCRipple} from '../../../packages/mdc-ripple/index';
 
 const {NATIVE_CONTROL_SELECTOR} = MDCRadioFoundation.strings;
 
@@ -107,9 +107,32 @@ test('get ripple returns a MDCRipple instance', () => {
   assert.isOk(component.ripple instanceof MDCRipple);
 });
 
-test('#adapter.getNativeControl() returns the native radio element', () => {
+test('adapter#addClass adds a class to the root element', () => {
   const {root, component} = setupTest();
-  assert.equal(
-    component.getDefaultFoundation().adapter_.getNativeControl(), root.querySelector(NATIVE_CONTROL_SELECTOR)
-  );
+  component.getDefaultFoundation().adapter_.addClass('foo');
+  assert.isTrue(root.classList.contains('foo'));
+});
+
+test('adapter#removeClass removes a class from the root element', () => {
+  const {root, component} = setupTest();
+  root.classList.add('foo');
+  component.getDefaultFoundation().adapter_.removeClass('foo');
+  assert.isFalse(root.classList.contains('foo'));
+});
+
+test('#adapter.setNativeControlDisabled sets the native control element\'s disabled property to true', () => {
+  const {root, component} = setupTest();
+  const radio = root.querySelector(NATIVE_CONTROL_SELECTOR);
+
+  component.getDefaultFoundation().adapter_.setNativeControlDisabled(true);
+  assert.isTrue(radio.disabled);
+});
+
+test('#adapter.setNativeControlDisabled sets the native control element\'s disabled property to false', () => {
+  const {root, component} = setupTest();
+  const radio = root.querySelector(NATIVE_CONTROL_SELECTOR);
+  radio.disabled = true;
+
+  component.getDefaultFoundation().adapter_.setNativeControlDisabled(false);
+  assert.isFalse(radio.disabled);
 });
