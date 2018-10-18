@@ -21,12 +21,12 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/index';
-import {MDCRipple} from '@material/ripple/index';
+import {MDCComponent} from '@lime-material/base/index';
+import {MDCRipple} from '@lime-material/ripple/index';
 
 import MDCDialogFoundation from './foundation';
 import * as util from './util';
-import {closest, matches} from '@material/dom/ponyfill';
+import {closest, matches} from '@lime-material/dom/ponyfill';
 
 import createFocusTrap from 'focus-trap';
 

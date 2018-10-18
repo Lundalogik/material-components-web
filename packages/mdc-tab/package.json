@@ -1,5 +1,5 @@
 {
-  "name": "@material/tab",
+  "name": "@lime-material/tab",
   "description": "The Material Components for the web tab component",
   "version": "0.40.1",
   "license": "MIT",
@@ -11,15 +11,15 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/base": "^0.40.1",
-    "@material/ripple": "^0.40.1",
-    "@material/rtl": "^0.40.1",
-    "@material/tab-indicator": "^0.40.1",
-    "@material/theme": "^0.40.1",
-    "@material/typography": "^0.40.1"
+    "@lime-material/base": "^0.40.1",
+    "@lime-material/ripple": "^0.40.1",
+    "@lime-material/rtl": "^0.40.1",
+    "@lime-material/tab-indicator": "^0.40.1",
+    "@lime-material/theme": "^0.40.1",
+    "@lime-material/typography": "^0.40.1"
   },
   "publishConfig": {
     "access": "public"

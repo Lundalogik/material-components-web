@@ -20,12 +20,12 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/functions";
-@import "@material/elevation/mixins";
-@import "@material/theme/mixins";
-@import "@material/rtl/mixins";
-@import "@material/typography/mixins";
-@import "@material/typography/variables";
+@import "@lime-material/animation/functions";
+@import "@lime-material/elevation/mixins";
+@import "@lime-material/theme/mixins";
+@import "@lime-material/rtl/mixins";
+@import "@lime-material/typography/mixins";
+@import "@lime-material/typography/variables";
 @import "./mixins";
 @import "./variables";
 
@@ -91,7 +91,7 @@
 }
 
 .mdc-dialog__title {
-  @include mdc-typography-baseline-top(40px);
+  @include mdc-typography-baseline-top(4.0rem);
   @include mdc-typography(headline6);
 
   display: block;
@@ -99,8 +99,8 @@
   flex-shrink: 0;
   box-sizing: border-box;
   margin: 0;
-  padding: 0 24px $mdc-dialog-title-bottom-padding;
-  border-bottom: 1px solid transparent;
+  padding: 0 2.4rem $mdc-dialog-title-bottom-padding;
+  border-bottom: .1rem solid transparent;
 
   @include mdc-rtl(".mdc-dialog") {
     text-align: right;
@@ -111,7 +111,7 @@
 .mdc-dialog--scrollable .mdc-dialog__title {
   // Adjust bottom padding to make title height align to spec when divider is present.
   // (Titles for alert dialogs w/o dividers align based on text baseline instead. All spec values are divisible by 4.)
-  padding-bottom: $mdc-dialog-title-bottom-padding + 6px;
+  padding-bottom: $mdc-dialog-title-bottom-padding + .6rem;
 }
 
 .mdc-dialog__content {
@@ -120,7 +120,7 @@
   flex-grow: 1;
   box-sizing: border-box;
   margin: 0;
-  padding: 20px 24px; // Note: the top padding is only 20px for dialogs without titles; see below for override
+  padding: 2.0rem 2.4rem; // Note: the top padding is only 2.0rem for dialogs without titles; see below for override
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 
@@ -146,14 +146,14 @@
 .mdc-dialog--scrollable .mdc-dialog__content {
   // Reduce and equalize vertical paddings when scrollable dividers are present
   // (Note: this is intentionally after title + content to take precedence)
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
 }
 
 // stylelint-disable-next-line plugin/selector-bem-pattern
 .mdc-dialog__content .mdc-list:first-child:last-child {
   // Override default .mdc-list padding for content consisting exclusively of a MDC List
-  padding: 6px 0 0; // Top padding balances with title height
+  padding: .6rem 0 0; // Top padding balances with title height
 }
 
 // stylelint-disable-next-line plugin/selector-bem-pattern, selector-max-specificity
@@ -170,10 +170,10 @@
   align-items: center;
   justify-content: flex-end;
   box-sizing: border-box;
-  min-height: 52px;
+  min-height: 5.2rem;
   margin: 0;
-  padding: 8px;
-  border-top: 1px solid transparent;
+  padding: .8rem;
+  border-top: .1rem solid transparent;
 
   .mdc-dialog--stacked & {
     flex-direction: column;
@@ -182,7 +182,7 @@
 }
 
 .mdc-dialog__button {
-  @include mdc-rtl-reflexive-box(margin, left, 8px);
+  @include mdc-rtl-reflexive-box(margin, left, .8rem);
 
   &:first-child {
     @include mdc-rtl-reflexive-box(margin, left, 0);
@@ -196,7 +196,7 @@
   }
 
   .mdc-dialog--stacked &:not(:first-child) {
-    margin-top: 12px;
+    margin-top: 1.2rem;
   }
 }
 

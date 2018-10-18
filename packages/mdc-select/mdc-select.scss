@@ -23,14 +23,14 @@
 @import "./keyframes";
 @import "./mixins";
 @import "./variables";
-@import "@material/animation/variables";
-@import "@material/line-ripple/mdc-line-ripple";
-@import "@material/notched-outline/mdc-notched-outline";
-@import "@material/floating-label/mdc-floating-label";
-@import "@material/typography/mixins";
-@import "@material/ripple/common";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
+@import "@lime-material/animation/variables";
+@import "@lime-material/line-ripple/mdc-line-ripple";
+@import "@lime-material/notched-outline/mdc-notched-outline";
+@import "@lime-material/floating-label/mdc-floating-label";
+@import "@lime-material/typography/mixins";
+@import "@lime-material/ripple/common";
+@import "@lime-material/ripple/mixins";
+@import "@lime-material/rtl/mixins";
 
 // postcss-bem-linter: define select
 .mdc-select {
@@ -61,12 +61,12 @@
   box-sizing: border-box;
   height: $mdc-select-height;
   background-repeat: no-repeat;
-  background-position: right 10px center;
+  background-position: right 1.0rem center;
   overflow: hidden;
   will-change: opacity, transform, color;
 
   @include mdc-rtl {
-    background-position: left 10px center;
+    background-position: left 1.0rem center;
   }
 
   &__native-control {
@@ -84,7 +84,7 @@
 
     // counteracts the extra text padding that Firefox adds by default
     @-moz-document url-prefix("") {
-      text-indent: -2px;
+      text-indent: -.2rem;
     }
 
     // stylelint-disable-next-line selector-max-type, plugin/selector-bem-pattern
@@ -95,11 +95,11 @@
     }
 
     width: 100%;
-    height: 56px;
-    padding-top: 20px;
-    padding-bottom: 4px;
+    height: 5.6rem;
+    padding-top: 2.0rem;
+    padding-bottom: .4rem;
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: .1rem solid;
     outline: none;
     background-color: transparent;
     color: inherit; // Override default user agent stylesheet
@@ -134,8 +134,8 @@
     @include mdc-rtl-reflexive-property(padding, $mdc-select-label-padding, $mdc-select-arrow-padding);
 
     display: flex;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
     border: none;
     background-color: transparent;
     z-index: 1;
@@ -143,8 +143,8 @@
 
   // stylelint-disable-next-line plugin/selector-bem-pattern
   .mdc-floating-label {
-    bottom: 20px;
-    line-height: 1.15rem;
+    bottom: 2.0rem;
+    line-height: 1.6*1.15rem;
     pointer-events: auto;
   }
 }
