@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/index';
+import MDCFoundation from '@material/base/foundation';
 import MDCDialogAdapter from './adapter';
 import {cssClasses, numbers, strings} from './constants';
 
@@ -102,10 +102,6 @@ class MDCDialogFoundation extends MDCFoundation {
       this.close(strings.DESTROY_ACTION);
     }
 
-    if (this.animationFrame_) {
-      cancelAnimationFrame(this.animationFrame_);
-    }
-
     if (this.animationTimer_) {
       clearTimeout(this.animationTimer_);
       this.handleAnimationTimerEnd_();
@@ -148,13 +144,16 @@ class MDCDialogFoundation extends MDCFoundation {
 
     this.isOpen_ = false;
     this.adapter_.notifyClosing(action);
-    this.adapter_.releaseFocus();
     this.adapter_.addClass(cssClasses.CLOSING);
     this.adapter_.removeClass(cssClasses.OPEN);
     this.adapter_.removeBodyClass(cssClasses.SCROLL_LOCK);
 
+    cancelAnimationFrame(this.animationFrame_);
+    this.animationFrame_ = 0;
+
     clearTimeout(this.animationTimer_);
     this.animationTimer_ = setTimeout(() => {
+      this.adapter_.releaseFocus();
       this.handleAnimationTimerEnd_();
       this.adapter_.notifyClosed(action);
     }, numbers.DIALOG_ANIMATION_CLOSE_TIME_MS);
