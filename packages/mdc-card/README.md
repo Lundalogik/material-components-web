@@ -34,7 +34,7 @@ developers as a set of CSS classes.
 ## Installation
 
 ```
-npm install @material/card
+npm install @lime-material/card
 ```
 
 ## Usage
@@ -77,8 +77,8 @@ If you'd like to maintain a consistent width and height across cards, you'll nee
 
 ```css
 .my-card {
-  height: 350px;
-  width: 350px;
+  height: 35.0rem;
+  width: 35.0rem;
 }
 ```
 
@@ -177,7 +177,7 @@ elements:
 
 ### Styles
 ```css
-@import "@material/card/mdc-card";
+@import "@lime-material/card/mdc-card";
 ```
 
 ### CSS Classes

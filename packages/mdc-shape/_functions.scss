@@ -27,8 +27,8 @@
 //
 // Examples:
 //
-// 1. mdc-shape-flip-radius((0, 4px, 4px, 0)) => 4px 0 0 4px
-// 2. mdc-shape-flip-radius((0, 8px)) => 8px 0
+// 1. mdc-shape-flip-radius((0, .4rem, .4rem, 0)) => .4rem 0 0 .4rem
+// 2. mdc-shape-flip-radius((0, .8rem)) => .8rem 0
 //
 @function mdc-shape-flip-radius($radius) {
   @if type-of($radius) == "list" {
@@ -54,7 +54,7 @@
 //
 // Examples:
 //
-// mdc-shape-resolve-percentage-radius(36px, 50%) => `18px` (i.e., 36px / 2)
+// mdc-shape-resolve-percentage-radius(3.6rem, 50%) => `1.8rem` (i.e., 3.6rem / 2)
 //
 @function mdc-shape-resolve-percentage-radius($component-height, $radius) {
   @if type-of($radius) == "list" {
@@ -104,7 +104,7 @@
 //
 // Examples:
 //
-// mdc-shape-prop-value(small) => 4px
+// mdc-shape-prop-value(small) => .4rem
 //
 @function mdc-shape-prop-value($radius) {
   @if type-of($radius) == "list" {
@@ -130,9 +130,9 @@
 //
 // Example:
 //
-// 1. mdc-shape-mask-radius(2px 3px, 1 1 0 0) => 2px 3px 0 0
-// 2. mdc-shape-mask-radius(8px, 0 0 1 1) => 0 0 8px 8px
-// 3. mdc-shape-mask-radius(4px 4px 4px 4px, 0 1 1 0) => 0 4px 4px 0
+// 1. mdc-shape-mask-radius(.2rem .3rem, 1 1 0 0) => .2rem .3rem 0 0
+// 2. mdc-shape-mask-radius(.8rem, 0 0 1 1) => 0 0 .8rem .8rem
+// 3. mdc-shape-mask-radius(.4rem .4rem .4rem .4rem, 0 1 1 0) => 0 .4rem .4rem 0
 //
 @function mdc-shape-mask-radius($radius, $masked-corners) {
   @if type-of($radius) == "list" {

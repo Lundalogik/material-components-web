@@ -25,7 +25,7 @@ The MDC Navigation Drawer is used to organize access to destinations and other f
 ## Installation
 
 ```
-npm install @material/drawer
+npm install @lime-material/drawer
 ```
 
 ### HTML Structure
@@ -66,8 +66,8 @@ However, you can also use SVG, [Font Awesome](https://fontawesome.com/), or any 
 ### Styles
 
 ```scss
-@import "@material/drawer/mdc-drawer";
-@import "@material/list/mdc-list";
+@import "@lime-material/drawer/mdc-drawer";
+@import "@lime-material/list/mdc-list";
 ```
 
 ### JavaScript Instantiation
@@ -75,7 +75,7 @@ However, you can also use SVG, [Font Awesome](https://fontawesome.com/), or any 
 For permanently visible drawer, the list must be instantiated for appropriate keyboard interaction:
 
 ```js
-import {MDCList} from "@material/list";
+import {MDCList} from "@lime-material/list";
 const list = MDCList.attachTo(document.querySelector('.mdc-list'));
 list.wrapFocus = true;
 ```
@@ -83,7 +83,7 @@ list.wrapFocus = true;
 Other variants use the `MDCDrawer` component, which will instantiate `MDCList` automatically:
 
 ```js
-import {MDCDrawer} from "@material/drawer";
+import {MDCDrawer} from "@lime-material/drawer";
 const drawer = MDCDrawer.attachTo(document.querySelector('.mdc-drawer'));
 ```
 
@@ -316,7 +316,7 @@ body {
 The JavaScript to toggle the drawer when the navigation button is clicked looks like this:
 
 ```js
-import {MDCTopAppBar} from "@material/top-app-bar";
+import {MDCTopAppBar} from "@lime-material/top-app-bar";
 const topAppBar = MDCTopAppBar.attachTo(document.getElementById('app-bar'));
 topAppBar.setScrollTarget(document.getElementById('main-content'));
 topAppBar.listen('MDCTopAppBar:nav', () => {

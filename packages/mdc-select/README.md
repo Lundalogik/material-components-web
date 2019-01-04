@@ -32,7 +32,7 @@ element, or a MDC Menu. It is fully accessible, and fully RTL-aware.
 ## Installation
 
 ```
-npm install @material/select
+npm install @lime-material/select
 ```
 
 ## Basic Usage
@@ -67,13 +67,13 @@ MDC Select with a MDC Menu, see the [Variants](#variants) section below.
 For the native select, you can simply include the `mdc-select` Sass file.
 
 ```scss
-@import "@material/select/mdc-select";
+@import "@lime-material/select/mdc-select";
 ```
 
 ### JavaScript Instantiation
 
 ```js
-import {MDCSelect} from '@material/select';
+import {MDCSelect} from '@lime-material/select';
 
 const select = new MDCSelect(document.querySelector('.mdc-select'));
 
@@ -127,13 +127,13 @@ If you are using the enhanced select within an HTML form, you can include a hidd
 When using the enhanced select, you will also need to load the Menu and List components' styles.
 
 ```scss
-@import "@material/list/mdc-list";
-@import "@material/menu-surface/mdc-menu-surface";
-@import "@material/menu/mdc-menu";
-@import "@material/select/mdc-select";
+@import "@lime-material/list/mdc-list";
+@import "@lime-material/menu-surface/mdc-menu-surface";
+@import "@lime-material/menu/mdc-menu";
+@import "@lime-material/select/mdc-select";
 
 .demo-width-class {
-  width: 400px;
+  width: 40.0rem;
 }
 ```
 

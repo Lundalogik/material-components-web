@@ -29,7 +29,7 @@ Text fields allow users to input, edit, and select text.
 ## Installation
 
 ```
-npm install @material/textfield
+npm install @lime-material/textfield
 ```
 
 ## Basic Usage
@@ -50,13 +50,13 @@ npm install @material/textfield
 ### Styles
 
 ```scss
-@import "@material/textfield/mdc-text-field";
+@import "@lime-material/textfield/mdc-text-field";
 ```
 
 ### JavaScript Instantiation
 
 ```js
-import {MDCTextField} from '@material/textfield';
+import {MDCTextField} from '@lime-material/textfield';
 
 const textField = new MDCTextField(document.querySelector('.mdc-text-field'));
 ```
