@@ -20,13 +20,13 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/functions";
-@import "@material/animation/variables";
-@import "@material/rtl/mixins";
-@import "@material/typography/mixins";
-@import "@material/typography/variables";
-@import "@material/theme/variables";
-@import "@material/theme/mixins";
+@import "@lime-material/animation/functions";
+@import "@lime-material/animation/variables";
+@import "@lime-material/rtl/mixins";
+@import "@lime-material/typography/mixins";
+@import "@lime-material/typography/variables";
+@import "@lime-material/theme/variables";
+@import "@lime-material/theme/mixins";
 @import "./variables";
 @import "./mixins";
 
@@ -42,7 +42,7 @@
   @include mdc-drawer-item-activated-icon-ink-color($mdc-drawer-item-activated-ink-color);
   @include mdc-drawer-item-activated-text-ink-color($mdc-drawer-item-activated-ink-color);
   @include mdc-drawer-shape-radius(large);
-  @include mdc-drawer-item-shape-radius(4px);
+  @include mdc-drawer-item-shape-radius(.4rem);
   @include mdc-drawer-z-index($mdc-drawer-z-index);
   @include mdc-drawer-width($mdc-drawer-width);
 
@@ -53,13 +53,13 @@
   height: 100%;
   transition-property: transform;
   transition-timing-function: $mdc-animation-standard-curve-timing-function;
-  border-right-width: 1px;
+  border-right-width: .1rem;
   border-right-style: solid;
   overflow: hidden;
 
   @include mdc-rtl {
     border-right-width: 0;
-    border-left-width: 1px;
+    border-left-width: .1rem;
     border-right-style: none;
     border-left-style: solid;
   }
@@ -68,15 +68,15 @@
   .mdc-list-item {
     @include mdc-typography(subtitle2);
 
-    height: calc(48px - 2 * #{$mdc-drawer-list-item-spacing});
+    height: calc(4.8rem - 2 * #{$mdc-drawer-list-item-spacing});
     // To accomodate margin conflict.
-    margin: ($mdc-drawer-list-item-spacing * 2) 8px;
+    margin: ($mdc-drawer-list-item-spacing * 2) .8rem;
     padding: 0 $mdc-drawer-surface-padding / 2;
   }
 
   // postcss-bem-linter: ignore
   .mdc-list-item:nth-child(1) {
-    margin-top: 2px;
+    margin-top: .2rem;
   }
 
   // postcss-bem-linter: ignore
@@ -87,7 +87,7 @@
   // postcss-bem-linter: ignore
   .mdc-list-group__subheader {
     @include mdc-typography(body2);
-    @include mdc-typography-baseline-top(24px);
+    @include mdc-typography-baseline-top(2.4rem);
 
     margin: 0;
     padding: 0 $mdc-drawer-surface-padding;
@@ -95,7 +95,7 @@
 
   // postcss-bem-linter: ignore
   .mdc-list-divider {
-    margin: 3px 0 4px 0;
+    margin: .3rem 0 .4rem 0;
   }
 
   // Prevents list item children from being included in the click target.
@@ -136,19 +136,19 @@
 .mdc-drawer__header {
   flex-shrink: 0;
   box-sizing: border-box;
-  min-height: 64px; // same as $mdc-top-app-bar-row-height
-  padding: 0 $mdc-drawer-surface-padding 4px;
+  min-height: 6.4rem; // same as $mdc-top-app-bar-row-height
+  padding: 0 $mdc-drawer-surface-padding .4rem;
 }
 
 .mdc-drawer__title {
   @include mdc-typography(headline6);
-  @include mdc-typography-baseline-top(36px);
-  @include mdc-typography-baseline-bottom(20px);
+  @include mdc-typography-baseline-top(3.6rem);
+  @include mdc-typography-baseline-bottom(2.0rem);
 }
 
 .mdc-drawer__subtitle {
   @include mdc-typography(body2);
-  @include mdc-typography-baseline-top(20px);
+  @include mdc-typography-baseline-top(2.0rem);
 
   margin-bottom: 0;
 }

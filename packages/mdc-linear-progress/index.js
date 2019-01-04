@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/index';
+import {MDCComponent} from '@lime-material/base/index';
 import MDCLinearProgressFoundation from './foundation';
 
 export {MDCLinearProgressFoundation};

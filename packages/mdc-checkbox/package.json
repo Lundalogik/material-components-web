@@ -1,5 +1,5 @@
 {
-  "name": "@material/checkbox",
+  "name": "@lime-material/checkbox",
   "description": "The Material Components for the web checkbox component",
   "version": "0.41.0",
   "license": "MIT",
@@ -11,14 +11,14 @@
   "main": "dist/mdc.checkbox.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/animation": "^0.41.0",
-    "@material/base": "^0.41.0",
-    "@material/ripple": "^0.41.0",
-    "@material/rtl": "^0.40.1",
-    "@material/selection-control": "^0.41.0",
-    "@material/theme": "^0.41.0"
+    "@lime-material/animation": "^0.41.0",
+    "@lime-material/base": "^0.41.0",
+    "@lime-material/ripple": "^0.41.0",
+    "@lime-material/rtl": "^0.40.1",
+    "@lime-material/selection-control": "^0.41.0",
+    "@lime-material/theme": "^0.41.0"
   }
 }
