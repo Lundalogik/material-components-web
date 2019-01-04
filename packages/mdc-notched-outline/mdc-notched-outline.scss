@@ -20,9 +20,9 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/variables";
-@import "@material/base/mixins";
-@import "@material/rtl/mixins";
+@import "@lime-material/animation/variables";
+@import "@lime-material/base/mixins";
+@import "@lime-material/rtl/mixins";
 @import "./mixins";
 @import "./variables";
 
@@ -50,19 +50,19 @@
     &__trailing {
       box-sizing: border-box;
       height: 100%;
-      border-top: 1px solid;
-      border-bottom: 1px solid;
+      border-top: .1rem solid;
+      border-bottom: .1rem solid;
       pointer-events: none;
     }
 
     &__leading {
-      @include mdc-rtl-reflexive-property(border, 1px solid, none);
+      @include mdc-rtl-reflexive-property(border, .1rem solid, none);
 
       width: $mdc-notched-outline-leading-width;
     }
 
     &__trailing {
-      @include mdc-rtl-reflexive-property(border, none, 1px solid);
+      @include mdc-rtl-reflexive-property(border, none, .1rem solid);
 
       flex-grow: 1;
     }
@@ -74,14 +74,14 @@
     .mdc-floating-label {
       display: inline-block;
       position: relative;
-      top: 17px;
+      top: 1.7rem;
       bottom: auto;
     }
   }
 
   .mdc-notched-outline--notched {
     .mdc-notched-outline__notch {
-      @include mdc-rtl-reflexive-box(padding, right, 8px);
+      @include mdc-rtl-reflexive-box(padding, right, .8rem);
 
       border-top: none;
     }
