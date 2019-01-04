@@ -20,12 +20,12 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/variables";
-@import "@material/theme/variables";
+@import "@lime-material/animation/variables";
+@import "@lime-material/theme/variables";
 
-$mdc-select-arrow-padding: 26px;
-$mdc-select-label-padding: 16px;
-$mdc-select-height: 56px;
+$mdc-select-arrow-padding: 2.6rem;
+$mdc-select-label-padding: 1.6rem;
+$mdc-select-height: 5.6rem;
 
 $mdc-select-ink-color: rgba(mdc-theme-prop-value(on-surface), .87);
 $mdc-select-dropdown-color: mdc-theme-prop-value(on-surface);
@@ -53,10 +53,10 @@ $mdc-select-outlined-disabled-border: rgba(mdc-theme-prop-value(on-surface), .16
 $mdc-select-outlined-hover-border: rgba(mdc-theme-prop-value(on-surface), .87);
 
 $mdc-select-label-position-y: 40%;
-$mdc-select-outline-label-offset: 16px;
+$mdc-select-outline-label-offset: 1.6rem;
 $mdc-select-outlined-label-position-y: 130%;
 $mdc-select-outlined-dense-label-position-y: 110%;
-$mdc-select-outlined-with-leading-icon-label-position-x: 32px;
+$mdc-select-outlined-with-leading-icon-label-position-x: 3.2rem;
 
 $mdc-select-dropdown-transition-duration: 150ms;
 

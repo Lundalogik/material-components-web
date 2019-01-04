@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import MDCComponent from '@material/base/component';
+import MDCComponent from '@lime-material/base/component';
 import * as util from './util';
 import {MDCMenuSurfaceFoundation, AnchorMargin} from './foundation';
 import {MDCMenuSurfaceAdapter} from './adapter';

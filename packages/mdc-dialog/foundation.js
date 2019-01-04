@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/index';
+import {MDCFoundation} from '@lime-material/base/index';
 import MDCDialogAdapter from './adapter';
 import {cssClasses, numbers, strings} from './constants';
 
