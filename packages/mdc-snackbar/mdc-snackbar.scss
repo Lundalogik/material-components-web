@@ -20,12 +20,12 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/functions";
-@import "@material/button/mixins";
-@import "@material/icon-button/mixins";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
-@import "@material/typography/mixins";
+@import "@lime-material/animation/functions";
+@import "@lime-material/button/mixins";
+@import "@lime-material/icon-button/mixins";
+@import "@lime-material/ripple/mixins";
+@import "@lime-material/rtl/mixins";
+@import "@lime-material/typography/mixins";
 @import "./mixins";
 @import "./variables";
 
@@ -110,8 +110,8 @@
   box-sizing: border-box;
   margin: 0;
 
-  // 14px top/bottom padding needed to make the height 48px.
-  padding: 14px 16px;
+  // 1.4rem top/bottom padding needed to make the height 4.8rem.
+  padding: 1.4rem 1.6rem;
 }
 
 // Used to prevent visual jank when announcing label text to screen readers.

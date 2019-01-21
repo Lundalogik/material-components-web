@@ -21,11 +21,11 @@
  * THE SOFTWARE.
  */
 
-import MDCComponent from '@material/base/component';
+import MDCComponent from '@lime-material/base/component';
 import MDCSnackbarFoundation from './foundation';
 import {strings} from './constants';
 import * as util from './util';
-import * as ponyfill from '@material/dom/ponyfill';
+import * as ponyfill from '@lime-material/dom/ponyfill';
 
 const {
   SURFACE_SELECTOR, LABEL_SELECTOR, ACTION_SELECTOR, DISMISS_SELECTOR,

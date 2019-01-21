@@ -1,5 +1,5 @@
 {
-  "name": "@material/drawer",
+  "name": "@lime-material/drawer",
   "version": "0.43.0",
   "description": "The Material Components Web drawer component",
   "license": "MIT",
@@ -12,18 +12,18 @@
   "main": "dist/mdc.drawer.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/animation": "^0.41.0",
-    "@material/base": "^0.41.0",
-    "@material/elevation": "^0.43.0",
-    "@material/list": "^0.43.0",
-    "@material/ripple": "^0.43.0",
-    "@material/rtl": "^0.42.0",
-    "@material/shape": "^0.43.0",
-    "@material/theme": "^0.43.0",
-    "@material/typography": "^0.43.0",
+    "@lime-material/animation": "^0.41.0",
+    "@lime-material/base": "^0.41.0",
+    "@lime-material/elevation": "^0.43.0",
+    "@lime-material/list": "^0.43.0",
+    "@lime-material/ripple": "^0.43.0",
+    "@lime-material/rtl": "^0.42.0",
+    "@lime-material/shape": "^0.43.0",
+    "@lime-material/theme": "^0.43.0",
+    "@lime-material/typography": "^0.43.0",
     "focus-trap": "^4.0.2"
   }
 }

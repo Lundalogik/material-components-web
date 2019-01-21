@@ -39,7 +39,7 @@ designed to work with any icon set.
 ## Installation
 
 ```
-npm install @material/icon-toggle
+npm install @lime-material/icon-toggle
 ```
 
 ## Basic Usage
@@ -58,7 +58,7 @@ npm install @material/icon-toggle
 Then in JS:
 
 ```js
-import {MDCIconToggle} from '@material/icon-toggle';
+import {MDCIconToggle} from '@lime-material/icon-toggle';
 
 MDCIconToggle.attachTo(document.querySelector('.mdc-icon-toggle'));
 ```

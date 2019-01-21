@@ -20,10 +20,10 @@
 // THE SOFTWARE.
 //
 
-@import "@material/theme/variables";
+@import "@lime-material/theme/variables";
 
-$mdc-radio-touch-area: 40px !default;
-$mdc-radio-ui-size: 20px !default;
+$mdc-radio-touch-area: 4.0rem !default;
+$mdc-radio-ui-size: 2.0rem !default;
 $mdc-radio-ui-pct: percentage($mdc-radio-ui-size / $mdc-radio-touch-area) !default;
 $mdc-radio-transition-duration: 120ms !default;
 $mdc-radio-ripple-opacity: .14 !default;

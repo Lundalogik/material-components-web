@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 //
 
-@import "@material/theme/variables";
+@import "@lime-material/theme/variables";
 
 // Colors
 $mdc-drawer-title-ink-color: mdc-theme-prop-value(on-surface) !default;
@@ -40,9 +40,9 @@ $mdc-drawer-item-active-text-ink-opacity: mdc-theme-text-emphasis(high) !default
 $mdc-drawer-divider-opacity: .12 !default;
 
 // Widths
-$mdc-drawer-width: 256px !default;
-$mdc-drawer-list-item-spacing: 4px !default;
-$mdc-drawer-surface-padding: 16px !default;
+$mdc-drawer-width: 25.6rem !default;
+$mdc-drawer-list-item-spacing: .4rem !default;
+$mdc-drawer-surface-padding: 1.6rem !default;
 
 // Animations
 $mdc-drawer-animation-enter: 250ms !default;

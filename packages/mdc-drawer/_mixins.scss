@@ -20,10 +20,10 @@
 // THE SOFTWARE.
 //
 
-@import "@material/theme/mixins";
-@import "@material/list/mixins";
-@import "@material/ripple/mixins";
-@import "@material/shape/mixins";
+@import "@lime-material/theme/mixins";
+@import "@lime-material/list/mixins";
+@import "@lime-material/ripple/mixins";
+@import "@lime-material/shape/mixins";
 @import "./variables";
 
 @mixin mdc-drawer-activated-overlay-color($color) {

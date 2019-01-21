@@ -32,7 +32,7 @@ A floating action button represents the primary action in an application.
 ## Installation
 
 ```
-npm install @material/fab
+npm install @lime-material/fab
 ```
 
 ## Basic Usage
@@ -64,7 +64,7 @@ However, you can also use SVG, [Font Awesome](https://fontawesome.com/), or any 
 ### Styles
 
 ```scss
-@import "@material/fab/mdc-fab";
+@import "@lime-material/fab/mdc-fab";
 ```
 
 ### JavaScript Instantiation
@@ -72,7 +72,7 @@ However, you can also use SVG, [Font Awesome](https://fontawesome.com/), or any 
 The FAB will work without JavaScript, but you can enhance it to have a ripple effect by instantiating `MDCRipple` on the root element. See [MDC Ripple](../mdc-ripple) for details.
 
 ```js
-import {MDCRipple} from '@material/ripple';
+import {MDCRipple} from '@lime-material/ripple';
 
 const fabRipple = new MDCRipple(document.querySelector('.mdc-fab'));
 ```
@@ -152,14 +152,14 @@ Developers must position MDC FAB as needed within their application's design.
 <style>
 .app-fab--absolute {
   position: fixed;
-  bottom: 1rem;
-  right: 1rem;
+  bottom: 1.6*1rem;
+  right: 1.6*1rem;
 }
 
-@media(min-width: 1024px) {
+@media(min-width: 102.4rem) {
    .app-fab--absolute {
-    bottom: 1.5rem;
-    right: 1.5rem;
+    bottom: 1.6*1.5rem;
+    right: 1.6*1.5rem;
   }
 }
 </style>
