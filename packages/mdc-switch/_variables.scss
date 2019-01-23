@@ -20,15 +20,15 @@
 // THE SOFTWARE.
 //
 
-@import "@material/theme/variables";
+@import "@lime-material/theme/variables";
 
-$mdc-switch-track-width: 32px !default;
-$mdc-switch-track-height: 14px !default;
-$mdc-switch-thumb-diameter: 20px !default;
-$mdc-switch-tap-target-size: 48px !default;
+$mdc-switch-track-width: 3.2rem !default;
+$mdc-switch-track-height: 1.4rem !default;
+$mdc-switch-thumb-diameter: 2.0rem !default;
+$mdc-switch-tap-target-size: 4.8rem !default;
 
 // Amount the edge of the thumb should be offset from the edge of the track.
-$mdc-switch-thumb-offset: 4px !default;
+$mdc-switch-thumb-offset: .4rem !default;
 
 // Position for the tap target that contains the thumb to align the thumb correctly offset from the track.
 $mdc-switch-tap-target-initial-position:

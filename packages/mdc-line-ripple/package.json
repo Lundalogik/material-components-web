@@ -1,5 +1,5 @@
 {
-  "name": "@material/line-ripple",
+  "name": "@lime-material/line-ripple",
   "description": "The Material Components for the web line-ripple component",
   "version": "0.43.0",
   "license": "MIT",
@@ -12,14 +12,14 @@
   "main": "dist/mdc.lineRipple.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/material-components/material-components-web.git"
+    "url": "git+https://github.com/Lundalogik/material-components-web.git"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@material/animation": "^0.41.0",
-    "@material/base": "^0.41.0",
-    "@material/theme": "^0.43.0"
+    "@lime-material/animation": "^0.41.0",
+    "@lime-material/base": "^0.41.0",
+    "@lime-material/theme": "^0.43.0"
   }
 }

@@ -21,11 +21,11 @@
  * THE SOFTWARE.
  */
 
-import MDCComponent from '@material/base/component';
+import MDCComponent from '@lime-material/base/component';
 
 import MDCNotchedOutlineAdapter from './adapter';
 import MDCNotchedOutlineFoundation from './foundation';
-import {MDCFloatingLabelFoundation} from '@material/floating-label/index';
+import {MDCFloatingLabelFoundation} from '@lime-material/floating-label/index';
 import {cssClasses, strings} from './constants';
 
 /**

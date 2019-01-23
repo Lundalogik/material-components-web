@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import MDCFoundation from '@material/base/foundation';
+import MDCFoundation from '@lime-material/base/foundation';
 import MDCListAdapter from './adapter';
 import {strings, cssClasses, Index} from './constants'; // eslint-disable-line no-unused-vars
 

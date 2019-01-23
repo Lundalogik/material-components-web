@@ -31,7 +31,7 @@ Switches toggle the state of a single setting on or off. They are the preferred 
 ## Installation
 
 ```
-npm install @material/switch
+npm install @lime-material/switch
 ```
 
 ## Basic Usage
@@ -53,7 +53,7 @@ npm install @material/switch
 ### Styles
 
 ```scss
-@import "@material/switch/mdc-switch";
+@import "@lime-material/switch/mdc-switch";
 ```
 
 ### JavaScript Instantiation
@@ -61,7 +61,7 @@ npm install @material/switch
 The Switch requires JavaScript to function, so it is necessary to instantiate MDCSwitch with the HTML.
 
 ```js
-import {MDCSwitch} from '@material/switch';
+import {MDCSwitch} from '@lime-material/switch';
 
 const switchControl = new MDCSwitch(document.querySelector('.mdc-switch'));
 ```

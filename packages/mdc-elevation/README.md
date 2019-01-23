@@ -34,7 +34,7 @@ Shadows provide important visual cues about objects’ depth and directional mov
 ## Installation
 
 ```
-npm install @material/elevation
+npm install @lime-material/elevation
 ```
 
 ## Basic Usage
@@ -54,7 +54,7 @@ However, you can also apply elevation to specific components using `mdc-elevatio
 ### Styles
 
 ```scss
-@import "@material/elevation/mdc-elevation";
+@import "@lime-material/elevation/mdc-elevation";
 ```
 
 ## Style Customization

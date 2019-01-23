@@ -20,10 +20,10 @@
 // THE SOFTWARE.
 //
 
-@import "@material/theme/mixins";
-@import "@material/shape/mixins";
-@import "@material/shape/functions";
-@import "@material/rtl/mixins";
+@import "@lime-material/theme/mixins";
+@import "@lime-material/shape/mixins";
+@import "@lime-material/shape/functions";
+@import "@lime-material/rtl/mixins";
 @import "./variables";
 
 @mixin mdc-notched-outline-color($color) {
@@ -68,7 +68,7 @@
   @include mdc-floating-label-float-position($positionY + $mdc-notched-outline-label-adjust, $positionX, 1);
 
   .mdc-floating-label--float-above {
-    font-size: ($scale * 1rem);
+    font-size: ($scale * 1.6*1rem);
   }
 
   // Two selectors to ensure we select the appropriate class when applied from this component or a parent component.
@@ -78,7 +78,7 @@
 
     // stylelint-disable-next-line no-descending-specificity
     .mdc-floating-label--float-above {
-      font-size: 1rem;
+      font-size: 1.6*1rem;
     }
   }
 }
