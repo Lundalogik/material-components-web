@@ -26,7 +26,7 @@ import {assert} from 'chai';
 import td from 'testdouble';
 import bel from 'bel';
 import {MDCList, MDCListFoundation} from '../../../packages/mdc-list/index';
-import {cssClasses} from '../../../packages/mdc-list/constants';
+import {cssClasses, strings} from '../../../packages/mdc-list/constants';
 
 function getFixture() {
   return bel`
@@ -168,26 +168,6 @@ test('adapter#setAttributeForElementIndex sets the attribute for the list elemen
   document.body.removeChild(root);
 });
 
-test('adapter#removeAttributeForElementIndex does nothing if the element at index does not exist', () => {
-  const {root, component} = setupTest();
-  document.body.appendChild(root);
-  const func = () => {
-    component.getDefaultFoundation().adapter_.removeAttributeForElementIndex(5, 'foo');
-  };
-  assert.doesNotThrow(func);
-  document.body.removeChild(root);
-});
-
-test('adapter#removeAttributeForElementIndex sets the attribute for the list element at index specified', () => {
-  const {root, component} = setupTest();
-  document.body.appendChild(root);
-  const selectedNode = root.querySelectorAll('.mdc-list-item')[1];
-  component.getDefaultFoundation().adapter_.setAttributeForElementIndex(1, 'foo', 'bar');
-  component.getDefaultFoundation().adapter_.removeAttributeForElementIndex(1, 'foo');
-  assert.isFalse(selectedNode.hasAttribute('foo'));
-  document.body.removeChild(root);
-});
-
 test('adapter#addClassForElementIndex does nothing if the element at index does not exist', () => {
   const {root, component} = setupTest();
   document.body.appendChild(root);
@@ -259,29 +239,6 @@ test('adapter#setTabIndexForListItemChildren sets the child button/a elements of
   assert.equal(1, listItems[1].querySelectorAll('[tabindex="0"]').length);
 
   document.body.removeChild(root);
-});
-
-test('adapter#followHref invokes click on element with href', () => {
-  const {root, component} = setupTest();
-  const anchorTag = document.createElement('a');
-  anchorTag.href = '#';
-  anchorTag.click = td.func('click');
-  anchorTag.classList.add('mdc-list-item');
-  root.appendChild(anchorTag);
-  component.getDefaultFoundation().adapter_.followHref(root.querySelectorAll('.mdc-list-item').length - 1);
-
-  td.verify(anchorTag.click(), {times: 1});
-});
-
-test('adapter#followHref does not invoke click on element without href', () => {
-  const {root, component} = setupTest();
-  const anchorTag = document.createElement('a');
-  anchorTag.click = td.func('click');
-  anchorTag.classList.add('mdc-list-item');
-  root.appendChild(anchorTag);
-  component.getDefaultFoundation().adapter_.followHref(root.querySelectorAll('.mdc-list-item').length - 1);
-
-  td.verify(anchorTag.click(), {times: 0});
 });
 
 test('layout adds tabindex=-1 to all list items without a tabindex', () => {
@@ -466,5 +423,27 @@ test('adapter#setCheckedCheckboxOrRadioAtIndex toggles the radio on list item', 
 
   component.getDefaultFoundation().adapter_.setCheckedCheckboxOrRadioAtIndex(3, false);
   assert.isFalse(radio.checked);
+  document.body.removeChild(root);
+});
+
+test('adapter#notifyAction emits action event', () => {
+  const {component} = setupTest();
+
+  let detail = null;
+  const handler = (evt) => detail = evt.detail;
+
+  component.listen(strings.ACTION_EVENT, handler);
+  component.getDefaultFoundation().adapter_.notifyAction(3);
+  component.unlisten(strings.ACTION_EVENT, handler);
+
+  assert.deepEqual(detail, {index: 3});
+});
+
+test('adapter#isFocusInsideList returns true if focus is inside list root', () => {
+  const {root, component} = setupTest();
+  document.body.appendChild(root);
+  assert.isFalse(component.getDefaultFoundation().adapter_.isFocusInsideList());
+  root.querySelector('.mdc-list-item').focus();
+  assert.isTrue(component.getDefaultFoundation().adapter_.isFocusInsideList());
   document.body.removeChild(root);
 });
