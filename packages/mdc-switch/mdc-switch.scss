@@ -20,10 +20,10 @@
 // THE SOFTWARE.
 //
 
-@import "@material/elevation/mixins";
-@import "@material/rtl/mixins";
-@import "@material/ripple/common";
-@import "@material/ripple/mixins";
+@import "@lime-material-16px/elevation/mixins";
+@import "@lime-material-16px/rtl/mixins";
+@import "@lime-material-16px/ripple/common";
+@import "@lime-material-16px/ripple/mixins";
 @import "./functions";
 @import "./mixins";
 @import "./variables";
@@ -62,7 +62,7 @@
     mdc-switch-transition(opacity),
     mdc-switch-transition(background-color),
     mdc-switch-transition(border-color);
-  border: 1px solid;
+  border: 0.0625rem solid;
   border-radius: $mdc-switch-track-height / 2;
   opacity: .38;
 }
@@ -129,7 +129,7 @@
   pointer-events: none;
 
   .mdc-switch__thumb {
-    border-width: 1px;  // In high contrast mode, only show outline of knob.
+    border-width: 0.0625rem;  // In high contrast mode, only show outline of knob.
   }
 
   .mdc-switch__native-control {

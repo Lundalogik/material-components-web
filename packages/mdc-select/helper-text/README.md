@@ -36,13 +36,13 @@ Helper text gives context about a select, such as how the selection will be used
 ### Styles
 
 ```scss
-@import "@material/select/helper-text/mdc-select-helper-text";
+@import "@lime-material-16px/select/helper-text/mdc-select-helper-text";
 ```
 
 ### JavaScript Instantiation
 
 ```js
-import {MDCSelectHelperText} from '@material/select/helper-text';
+import {MDCSelectHelperText} from '@lime-material-16px/select/helper-text';
 
 const helperText = new MDCSelectHelperText(document.querySelector('.mdc-select-helper-text'));
 ```

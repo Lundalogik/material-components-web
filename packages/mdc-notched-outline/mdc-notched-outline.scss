@@ -20,9 +20,9 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/variables";
-@import "@material/base/mixins";
-@import "@material/rtl/mixins";
+@import "@lime-material-16px/animation/variables";
+@import "@lime-material-16px/base/mixins";
+@import "@lime-material-16px/rtl/mixins";
 @import "./mixins";
 @import "./variables";
 
@@ -62,12 +62,12 @@
     transition:
       opacity $mdc-notched-outline-transition-duration $mdc-animation-standard-curve-timing-function,
       border-color $mdc-notched-outline-transition-duration $mdc-animation-standard-curve-timing-function;
-    border: 1px solid;
+    border: 0.0625rem solid;
     opacity: 1;
   }
 
   .mdc-notched-outline__path {
-    stroke-width: 1px;
+    stroke-width: 0.0625rem;
     transition:
       stroke $mdc-notched-outline-transition-duration $mdc-animation-standard-curve-timing-function,
       stroke-width $mdc-notched-outline-transition-duration $mdc-animation-standard-curve-timing-function;

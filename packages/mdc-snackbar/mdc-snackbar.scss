@@ -20,10 +20,10 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/functions";
-@import "@material/rtl/mixins";
-@import "@material/theme/mixins";
-@import "@material/typography/mixins";
+@import "@lime-material-16px/animation/functions";
+@import "@lime-material-16px/rtl/mixins";
+@import "@lime-material-16px/theme/mixins";
+@import "@lime-material-16px/typography/mixins";
 @import "./variables";
 
 // postcss-bem-linter: define snackbar
@@ -35,8 +35,8 @@
   align-items: center;
   justify-content: flex-start;
   box-sizing: border-box;
-  padding-right: 24px;
-  padding-left: 24px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
   transform: translate(-50%, 100%);
   transition: mdc-animation-exit-permanent(transform, .25s);
   background-color: $mdc-snackbar-background-color;
@@ -50,17 +50,17 @@
   }
 
   @media (min-width: $mdc-snackbar-tablet-breakpoint) {
-    min-width: 288px;
-    max-width: 568px;
-    border-radius: 2px;
+    min-width: 18rem;
+    max-width: 35.5rem;
+    border-radius: 0.125rem;
   }
 }
 
 .mdc-snackbar--align-start {
   @media (min-width: $mdc-snackbar-tablet-breakpoint) {
-    @include mdc-rtl-reflexive-position(left, 24px);
+    @include mdc-rtl-reflexive-position(left, 1.5rem);
 
-    bottom: 24px;
+    bottom: 1.5rem;
     transform: translate(0, 200%);
   }
 
@@ -90,7 +90,7 @@
 }
 
 .mdc-snackbar__action-wrapper {
-  @include mdc-rtl-reflexive-property(padding, 24px, 0);
+  @include mdc-rtl-reflexive-property(padding, 1.5rem, 0);
 }
 
 .mdc-snackbar--action-on-bottom {
@@ -103,13 +103,13 @@
 
   display: flex;
   align-items: center;
-  height: 48px;
+  height: 3rem;
   transition: mdc-animation-exit-permanent(opacity, .3s);
   opacity: 0;
   color: $mdc-snackbar-foreground-color;
 
   @media (min-width: $mdc-snackbar-tablet-breakpoint) {
-    @include mdc-rtl-reflexive-property(padding, 0, 24px);
+    @include mdc-rtl-reflexive-property(padding, 0, 1.5rem);
   }
 }
 
@@ -122,12 +122,12 @@
 
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: -12px;
-  margin-bottom: 8px;
+  margin-top: -0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .mdc-snackbar--multiline .mdc-snackbar__text {
-  height: 80px;
+  height: 5rem;
 }
 
 .mdc-snackbar__action-button {
