@@ -20,8 +20,8 @@
 // THE SOFTWARE.
 //
 
-@import "@material/ripple/common";
-@import "@material/ripple/mixins";
+@import "@lime-material-16px/ripple/common";
+@import "@lime-material-16px/ripple/mixins";
 @import "./mixins";
 @import "./variables";
 
@@ -43,7 +43,7 @@
 
 @media screen and (-ms-high-contrast: active) {
   .mdc-checkbox__mixedmark {
-    margin: 0 1px;  // Extra horizontal space around mixedmark symbol.
+    margin: 0 0.0625rem;  // Extra horizontal space around mixedmark symbol.
   }
 }
 

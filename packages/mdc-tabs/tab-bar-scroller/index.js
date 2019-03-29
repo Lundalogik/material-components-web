@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import {getCorrectPropertyName} from '@material/animation/index';
-import MDCComponent from '@material/base/component';
+import {getCorrectPropertyName} from '@lime-material-16px/animation/index';
+import MDCComponent from '@lime-material-16px/base/component';
 
 import {MDCTabBar} from '../tab-bar/index';
 import MDCTabBarScrollerFoundation from './foundation';

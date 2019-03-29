@@ -21,7 +21,7 @@ UIs for languages that are read from right-to-left (RTL), such as Arabic and Heb
 ## Installation
 
 ```
-npm install @material/rtl
+npm install @lime-material-16px/rtl
 ```
 
 ## Usage

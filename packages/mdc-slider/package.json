@@ -1,12 +1,12 @@
 {
-  "name": "@material/slider",
+  "name": "@lime-material-16px/slider",
   "version": "0.42.1",
   "description": "The Material Components for the web slider component",
   "main": "dist/mdc.slider.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "keywords": [
     "material components",
@@ -17,10 +17,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@material/animation": "^0.41.0",
-    "@material/base": "^0.41.0",
-    "@material/rtl": "^0.42.0",
-    "@material/theme": "^0.41.0",
-    "@material/typography": "^0.42.0"
+    "@lime-material-16px/animation": "^0.41.0",
+    "@lime-material-16px/base": "^0.41.0",
+    "@lime-material-16px/rtl": "^0.42.0",
+    "@lime-material-16px/theme": "^0.41.0",
+    "@lime-material-16px/typography": "^0.42.0"
   }
 }

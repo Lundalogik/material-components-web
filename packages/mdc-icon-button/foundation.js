@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import MDCFoundation from '@material/base/foundation';
+import MDCFoundation from '@lime-material-16px/base/foundation';
 /* eslint-disable no-unused-vars */
 import {MDCIconButtonToggleAdapter, IconButtonToggleEvent} from './adapter';
 import {cssClasses, strings} from './constants';

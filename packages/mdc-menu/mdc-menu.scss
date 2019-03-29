@@ -20,10 +20,10 @@
 // THE SOFTWARE.
 //
 
-@import "@material/rtl/mixins";
-@import "@material/list/mixins";
-@import "@material/ripple/common";
-@import "@material/ripple/mixins";
+@import "@lime-material-16px/rtl/mixins";
+@import "@lime-material-16px/list/mixins";
+@import "@lime-material-16px/ripple/common";
+@import "@lime-material-16px/ripple/mixins";
 @import "./variables";
 @import "./mixins";
 
@@ -35,7 +35,7 @@
   min-width: $mdc-menu-min-width;
 
   .mdc-list-divider {
-    margin: 8px 0;
+    margin: 0.5rem 0;
   }
 
   .mdc-list-item {
@@ -61,12 +61,12 @@
   fill: currentColor;
 
   .mdc-list-item {
-    @include mdc-rtl-reflexive-box(padding, left, 56px);
+    @include mdc-rtl-reflexive-box(padding, left, 3.5rem);
   }
 
   // Extra specificity required to override `display` property on `mdc-list-item__graphic`.
   .mdc-menu__selection-group-icon {
-    @include mdc-rtl-reflexive-position(left, 16px);
+    @include mdc-rtl-reflexive-position(left, 1rem);
 
     display: none;
     position: absolute;

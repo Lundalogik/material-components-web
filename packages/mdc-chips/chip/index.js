@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import MDCComponent from '@material/base/component';
-import {MDCRipple, MDCRippleFoundation} from '@material/ripple/index';
+import MDCComponent from '@lime-material-16px/base/component';
+import {MDCRipple, MDCRippleFoundation} from '@lime-material-16px/ripple/index';
 
 import MDCChipAdapter from './adapter';
 import {MDCChipFoundation} from './foundation';
