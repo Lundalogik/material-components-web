@@ -21,14 +21,14 @@
  * THE SOFTWARE.
  */
 
-import {getCorrectEventName} from '@material/animation/index';
-import MDCComponent from '@material/base/component';
+import {getCorrectEventName} from '@lime-material-16px/animation/index';
+import MDCComponent from '@lime-material-16px/base/component';
 /* eslint-disable no-unused-vars */
-import {MDCSelectionControlState, MDCSelectionControl} from '@material/selection-control/index';
+import {MDCSelectionControlState, MDCSelectionControl} from '@lime-material-16px/selection-control/index';
 /* eslint-enable no-unused-vars */
 import MDCCheckboxFoundation from './foundation';
-import {MDCRipple, MDCRippleFoundation} from '@material/ripple/index';
-import {getMatchesProperty} from '@material/ripple/util';
+import {MDCRipple, MDCRippleFoundation} from '@lime-material-16px/ripple/index';
+import {getMatchesProperty} from '@lime-material-16px/ripple/util';
 
 /** @const {!Array<string>} */
 const CB_PROTO_PROPS = ['checked', 'indeterminate'];

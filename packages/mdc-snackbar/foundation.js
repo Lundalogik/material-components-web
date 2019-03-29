@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/index';
+import {MDCFoundation} from '@lime-material-16px/base/index';
 import {cssClasses, strings, numbers} from './constants';
 
 export default class MDCSnackbarFoundation extends MDCFoundation {

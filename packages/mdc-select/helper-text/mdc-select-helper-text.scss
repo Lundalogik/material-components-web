@@ -20,13 +20,13 @@
 //
 
 @import "../functions";
-@import "@material/theme/mixins";
-@import "@material/typography/mixins";
+@import "@lime-material-16px/theme/mixins";
+@import "@lime-material-16px/typography/mixins";
 
 // postcss-bem-linter: define select-helper-text
 .mdc-select-helper-text {
   @include mdc-typography(caption);
-  @include mdc-typography-baseline-top(16px);
+  @include mdc-typography-baseline-top(1rem);
 
   margin: 0;
   transition: mdc-select-transition(opacity);

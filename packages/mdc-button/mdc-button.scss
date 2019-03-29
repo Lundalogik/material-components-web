@@ -20,8 +20,8 @@
 // THE SOFTWARE.
 //
 
-@import "@material/ripple/common";
-@import "@material/ripple/mixins";
+@import "@lime-material-16px/ripple/common";
+@import "@lime-material-16px/ripple/mixins";
 @import "./mixins";
 @import "./variables";
 
@@ -70,7 +70,7 @@
 
 .mdc-button--outlined {
   @include mdc-button--outlined_;
-  @include mdc-button-outline-width(2px);
+  @include mdc-button-outline-width(0.125rem);
   @include mdc-button-outline-color(primary);
 }
 

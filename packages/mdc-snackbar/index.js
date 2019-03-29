@@ -21,9 +21,9 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/index';
+import {MDCComponent} from '@lime-material-16px/base/index';
 import MDCSnackbarFoundation from './foundation';
-import {getCorrectEventName} from '@material/animation/index';
+import {getCorrectEventName} from '@lime-material-16px/animation/index';
 
 export {MDCSnackbarFoundation};
 

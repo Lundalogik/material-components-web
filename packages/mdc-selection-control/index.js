@@ -22,7 +22,7 @@
  */
 
 /* eslint-disable no-unused-vars */
-import {MDCRipple} from '@material/ripple/index';
+import {MDCRipple} from '@lime-material-16px/ripple/index';
 /* eslint-enable no-unused-vars */
 
 /**

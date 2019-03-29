@@ -20,8 +20,8 @@
 
 @import "./mixins";
 @import "./variables";
-@import "@material/theme/mixins";
-@import "@material/typography/mixins";
+@import "@lime-material-16px/theme/mixins";
+@import "@lime-material-16px/typography/mixins";
 
 .mdc-image-list {
   display: flex;
@@ -72,7 +72,7 @@
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  padding: 8px 0;
+  padding: 0.5rem 0;
   line-height: $mdc-image-list-icon-size;
 }
 

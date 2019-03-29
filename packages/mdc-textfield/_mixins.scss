@@ -20,13 +20,13 @@
 // THE SOFTWARE.
 //
 
-@import "@material/floating-label/mixins";
-@import "@material/line-ripple/mixins";
-@import "@material/notched-outline/mixins";
-@import "@material/notched-outline/variables";
-@import "@material/theme/mixins";
-@import "@material/shape/mixins";
-@import "@material/shape/functions";
+@import "@lime-material-16px/floating-label/mixins";
+@import "@lime-material-16px/line-ripple/mixins";
+@import "@lime-material-16px/notched-outline/mixins";
+@import "@lime-material-16px/notched-outline/variables";
+@import "@lime-material-16px/theme/mixins";
+@import "@lime-material-16px/shape/mixins";
+@import "@lime-material-16px/shape/functions";
 @import "helper-text/mixins";
 @import "icon/mixins";
 @import "icon/variables";
@@ -186,7 +186,7 @@
   @include mdc-floating-label-shake-animation(text-field-dense);
 
   .mdc-text-field__input {
-    padding: 12px 12px 0;
+    padding: 0.75rem 0.75rem 0;
   }
 
   .mdc-floating-label {
@@ -231,7 +231,7 @@
   .mdc-floating-label {
     @include mdc-rtl-reflexive-position(left, $mdc-text-field-label-offset);
 
-    top: 18px;
+    top: 1.125rem;
     pointer-events: none;
   }
 
@@ -245,7 +245,7 @@
     .mdc-floating-label {
       @include mdc-rtl-reflexive-position(left, $mdc-notched-outline-padding);
 
-      top: 17px;
+      top: 1.0625rem;
     }
 
     &--with-leading-icon {
@@ -278,25 +278,25 @@
 }
 
 @mixin mdc-text-field-outlined-focused_ {
-  @include mdc-notched-outline-stroke-width(2px);
+  @include mdc-notched-outline-stroke-width(0.125rem);
 }
 
 @mixin mdc-text-field-outlined-dense_ {
   @include mdc-notched-outline-floating-label-float-position($mdc-text-field-outlined-dense-label-position-y, 0%, $mdc-text-field-dense-label-scale);
   @include mdc-floating-label-shake-animation(text-field-outlined-dense);
 
-  height: 48px;
+  height: 3rem;
 
   .mdc-text-field__input {
-    padding: 12px 12px 7px;
+    padding: 0.75rem 0.75rem 0.4375rem;
   }
 
   .mdc-floating-label {
-    top: 14px;
+    top: 0.875rem;
   }
 
   .mdc-text-field__icon {
-    top: 12px;
+    top: 0.75rem;
   }
 }
 
@@ -315,7 +315,7 @@
 
   .mdc-text-field__input {
     display: flex;
-    padding: 12px 16px 14px;
+    padding: 0.75rem 1rem 0.875rem;
     border: none !important;  // FF adds unwanted border in HC mode on windows.
     background-color: transparent;
     z-index: 1;
@@ -363,7 +363,7 @@
 
 @mixin mdc-text-field-outlined-with-leading-icon_ {
   @include mdc-text-field-icon-horizontal-position_(left, $mdc-text-field-icon-position, $mdc-text-field-icon-padding);
-  @include mdc-notched-outline-floating-label-float-position($mdc-text-field-outlined-label-position-y, 32px);
+  @include mdc-notched-outline-floating-label-float-position($mdc-text-field-outlined-label-position-y, 2rem);
   @include mdc-floating-label-shake-animation(text-field-outlined-leading-icon);
 
   @include mdc-rtl {
@@ -391,7 +391,7 @@
 @mixin mdc-text-field-with-trailing-icon_ {
   @include mdc-text-field-icon-horizontal-position_(right, $mdc-text-field-trailing-icon-position, $mdc-text-field-icon-padding);
 
-  // Outlined uses 16px for text alignment when using a trailing icon.
+  // Outlined uses 1rem for text alignment when using a trailing icon.
   &.mdc-text-field--outlined {
     @include mdc-text-field-icon-horizontal-position_(right, $mdc-text-field-icon-position, $mdc-text-field-icon-padding);
   }
@@ -453,7 +453,7 @@
   @include mdc-text-field-fill-color(transparent);
   @include mdc-notched-outline-floating-label-float-position($mdc-text-field-outlined-label-position-y, 0%);
 
-  $padding-inset: 16px;
+  $padding-inset: 1rem;
 
   display: inline-flex;
   width: auto;
@@ -465,13 +465,13 @@
     align-self: auto;
     box-sizing: border-box;
     height: auto;
-    margin: $padding-inset/2 1px 1px 0;
+    margin: $padding-inset/2 0.0625rem 0.0625rem 0;
     padding: 0 $padding-inset $padding-inset;
     border: none;
   }
 
   .mdc-floating-label {
-    top: 17px;
+    top: 1.0625rem;
     bottom: auto;
     width: auto;
     pointer-events: none;
