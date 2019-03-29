@@ -21,12 +21,12 @@
  * THE SOFTWARE.
  */
 
-import MDCComponent from '@material/base/component';
-import {MDCFloatingLabel} from '@material/floating-label/index';
-import {MDCLineRipple} from '@material/line-ripple/index';
-import {MDCMenu} from '@material/menu/index';
-import {MDCRipple, MDCRippleFoundation} from '@material/ripple/index';
-import {MDCNotchedOutline} from '@material/notched-outline/index';
+import MDCComponent from '@lime-material-16px/base/component';
+import {MDCFloatingLabel} from '@lime-material-16px/floating-label/index';
+import {MDCLineRipple} from '@lime-material-16px/line-ripple/index';
+import {MDCMenu} from '@lime-material-16px/menu/index';
+import {MDCRipple, MDCRippleFoundation} from '@lime-material-16px/ripple/index';
+import {MDCNotchedOutline} from '@lime-material-16px/notched-outline/index';
 import MDCSelectFoundation from './foundation';
 import {cssClasses, strings} from './constants';
 
@@ -37,8 +37,8 @@ import {MDCSelectHelperText, MDCSelectHelperTextFoundation} from './helper-text/
 /* eslint-enable no-unused-vars */
 
 // Closure has issues with {this as that} syntax.
-import * as menuSurfaceConstants from '@material/menu-surface/constants';
-import * as menuConstants from '@material/menu/constants';
+import * as menuSurfaceConstants from '@lime-material-16px/menu-surface/constants';
+import * as menuConstants from '@lime-material-16px/menu/constants';
 
 const VALIDATION_ATTR_WHITELIST = ['required', 'aria-required'];
 

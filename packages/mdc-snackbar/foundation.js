@@ -23,7 +23,7 @@
 
 /* eslint no-unused-vars: ["error", {"argsIgnorePattern": "evt", "varsIgnorePattern": "Adapter$"}] */
 
-import MDCFoundation from '@material/base/foundation';
+import MDCFoundation from '@lime-material-16px/base/foundation';
 import MDCSnackbarAdapter from './adapter';
 import {cssClasses, numbers, strings} from './constants';
 

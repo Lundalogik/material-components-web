@@ -27,7 +27,7 @@ MDC Ripple also works without JavaScript, where it gracefully degrades to a simp
 ## Installation
 
 ```
-npm install @material/ripple
+npm install @lime-material-16px/ripple
 ```
 
 ## Usage
@@ -276,7 +276,7 @@ class MyComponent {
 
 If you asynchronously load style resources, such as loading stylesheets dynamically or loading fonts, then `adapter.getClientRect()` may return _incorrect_ dimensions if the ripple is initialized before the stylesheet/font has loaded. In this case, you can override the default behavior of `getClientRect()` to return the correct results.
 
-For example, if you know an icon font sizes its elements to `24px` width and height:
+For example, if you know an icon font sizes its elements to `1.5rem` width and height:
 ```js
 const foundation = new MDCRippleFoundation({
   // ...
