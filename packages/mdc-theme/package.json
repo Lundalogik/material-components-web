@@ -1,5 +1,5 @@
 {
-  "name": "@material/theme",
+  "name": "@lime-material-16px/theme",
   "description": "The Material Components for the web theming system",
   "version": "0.43.0",
   "license": "MIT",
@@ -10,6 +10,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   }
 }

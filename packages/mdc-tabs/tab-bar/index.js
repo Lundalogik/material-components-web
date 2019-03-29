@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import MDCComponent from '@material/base/component';
+import MDCComponent from '@lime-material-16px/base/component';
 
 import {MDCTab, MDCTabFoundation} from '../tab/index';
 import MDCTabBarFoundation from './foundation';

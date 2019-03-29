@@ -24,8 +24,8 @@
 import {cssClasses, strings, numbers} from './constants';
 import MDCSliderAdapter from './adapter';
 
-import {getCorrectEventName, getCorrectPropertyName} from '@material/animation/index';
-import MDCFoundation from '@material/base/foundation';
+import {getCorrectEventName, getCorrectPropertyName} from '@lime-material-16px/animation/index';
+import MDCFoundation from '@lime-material-16px/base/foundation';
 
 /** @enum {string} */
 const KEY_IDS = {

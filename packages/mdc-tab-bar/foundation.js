@@ -21,13 +21,13 @@
  * THE SOFTWARE.
  */
 
-import MDCFoundation from '@material/base/foundation';
+import MDCFoundation from '@lime-material-16px/base/foundation';
 
 import {strings, numbers} from './constants';
 import MDCTabBarAdapter from './adapter';
 
 /* eslint-disable no-unused-vars */
-import {MDCTabDimensions} from '@material/tab/adapter';
+import {MDCTabDimensions} from '@lime-material-16px/tab/adapter';
 /* eslint-enable no-unused-vars */
 
 /**

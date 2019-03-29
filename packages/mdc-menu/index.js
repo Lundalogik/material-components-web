@@ -21,12 +21,12 @@
  * THE SOFTWARE.
  */
 
-import MDCComponent from '@material/base/component';
+import MDCComponent from '@lime-material-16px/base/component';
 import {MDCMenuFoundation} from './foundation';
 import {strings, cssClasses} from './constants';
-import {MDCMenuSurface, Corner} from '@material/menu-surface/index';
-import {MDCMenuSurfaceFoundation, AnchorMargin} from '@material/menu-surface/foundation';
-import {MDCList} from '@material/list/index';
+import {MDCMenuSurface, Corner} from '@lime-material-16px/menu-surface/index';
+import {MDCMenuSurfaceFoundation, AnchorMargin} from '@lime-material-16px/menu-surface/foundation';
+import {MDCList} from '@lime-material-16px/list/index';
 
 /**
  * @extends MDCComponent<!MDCMenuFoundation>

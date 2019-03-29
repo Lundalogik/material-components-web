@@ -33,7 +33,7 @@ The MDC Linear Progress component is a spec-aligned linear progress indicator co
 ## Installation
 
 ```
-npm install @material/linear-progress
+npm install @lime-material-16px/linear-progress
 ```
 
 ## Usage

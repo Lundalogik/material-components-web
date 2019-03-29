@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import MDCFoundation from '@material/base/foundation';
-import {transformStyleProperties} from '@material/animation/index';
+import MDCFoundation from '@lime-material-16px/base/foundation';
+import {transformStyleProperties} from '@lime-material-16px/animation/index';
 
 import {cssClasses, strings} from './constants';
 
