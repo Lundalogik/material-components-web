@@ -21,10 +21,10 @@
  * THE SOFTWARE.
  */
 
-import MDCComponent from '@material/base/component';
+import MDCComponent from '@lime-material-16px/base/component';
 import MDCListFoundation from './foundation';
 import MDCListAdapter from './adapter';
-import {matches} from '@material/dom/ponyfill';
+import {matches} from '@lime-material-16px/dom/ponyfill';
 import {cssClasses, strings, Index} from './constants'; // eslint-disable-line no-unused-vars
 
 /**

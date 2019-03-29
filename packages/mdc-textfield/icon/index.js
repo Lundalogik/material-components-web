@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import MDCComponent from '@material/base/component';
+import MDCComponent from '@lime-material-16px/base/component';
 
 import MDCTextFieldIconAdapter from './adapter';
 import MDCTextFieldIconFoundation from './foundation';

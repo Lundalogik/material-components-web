@@ -1,5 +1,5 @@
 {
-  "name": "@material/notched-outline",
+  "name": "@lime-material-16px/notched-outline",
   "description": "The Material Components for the web notched-outline component",
   "version": "0.44.0",
   "license": "MIT",
@@ -12,17 +12,17 @@
   "main": "dist/mdc.notchedOutline.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/material-components/material-components-web.git"
+    "url": "git+https://github.com/Lundalogik/material-components-web.git"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@material/animation": "^0.41.0",
-    "@material/base": "^0.41.0",
-    "@material/floating-label": "^0.44.0",
-    "@material/rtl": "^0.42.0",
-    "@material/shape": "^0.43.0",
-    "@material/theme": "^0.43.0"
+    "@lime-material-16px/animation": "^0.41.0",
+    "@lime-material-16px/base": "^0.41.0",
+    "@lime-material-16px/floating-label": "^0.44.0",
+    "@lime-material-16px/rtl": "^0.42.0",
+    "@lime-material-16px/shape": "^0.43.0",
+    "@lime-material-16px/theme": "^0.43.0"
   }
 }

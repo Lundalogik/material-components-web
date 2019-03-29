@@ -1,5 +1,5 @@
 {
-  "name": "@material/icon-toggle",
+  "name": "@lime-material-16px/icon-toggle",
   "description": "The Material Components for the web icon toggle component",
   "version": "0.44.0",
   "license": "MIT",
@@ -11,12 +11,12 @@
   "main": "dist/mdc.iconToggle.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/animation": "^0.41.0",
-    "@material/base": "^0.41.0",
-    "@material/ripple": "^0.44.0",
-    "@material/theme": "^0.43.0"
+    "@lime-material-16px/animation": "^0.41.0",
+    "@lime-material-16px/base": "^0.41.0",
+    "@lime-material-16px/ripple": "^0.44.0",
+    "@lime-material-16px/theme": "^0.43.0"
   }
 }

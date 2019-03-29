@@ -32,7 +32,7 @@ Snackbars provide brief messages about app processes at the bottom of the screen
 ## Installation
 
 ```
-npm install @material/snackbar
+npm install @lime-material-16px/snackbar
 ```
 
 ## Basic Usage
@@ -57,13 +57,13 @@ npm install @material/snackbar
 ### Styles
 
 ```scss
-@import "@material/snackbar/mdc-snackbar";
+@import "@lime-material-16px/snackbar/mdc-snackbar";
 ```
 
 ### JavaScript Instantiation
 
 ```js
-import {MDCSnackbar} from '@material/snackbar';
+import {MDCSnackbar} from '@lime-material-16px/snackbar';
 const snackbar = new MDCSnackbar(document.querySelector('.mdc-snackbar'));
 ```
 

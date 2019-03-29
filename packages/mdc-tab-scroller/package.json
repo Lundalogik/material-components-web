@@ -1,5 +1,5 @@
 {
-  "name": "@material/tab-scroller",
+  "name": "@lime-material-16px/tab-scroller",
   "description": "The Material Components for the web tab scroller component",
   "version": "0.44.0",
   "license": "MIT",
@@ -12,12 +12,12 @@
   "main": "dist/mdc.tabScroller.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/animation": "^0.41.0",
-    "@material/base": "^0.41.0",
-    "@material/tab": "^0.44.0"
+    "@lime-material-16px/animation": "^0.41.0",
+    "@lime-material-16px/base": "^0.41.0",
+    "@lime-material-16px/tab": "^0.44.0"
   },
   "publishConfig": {
     "access": "public"

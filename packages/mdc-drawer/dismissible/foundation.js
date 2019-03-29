@@ -22,7 +22,7 @@
  */
 
 import MDCDrawerAdapter from '../adapter';
-import MDCFoundation from '@material/base/foundation';
+import MDCFoundation from '@lime-material-16px/base/foundation';
 import {cssClasses, strings} from '../constants';
 
 /**

@@ -1,5 +1,5 @@
 {
-  "name": "@material/form-field",
+  "name": "@lime-material-16px/form-field",
   "description": "Material Components for the web wrapper for laying out form fields and labels next to one another",
   "version": "0.44.0",
   "license": "MIT",
@@ -11,13 +11,13 @@
   "main": "dist/mdc.formField.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/base": "^0.41.0",
-    "@material/rtl": "^0.42.0",
-    "@material/selection-control": "^0.44.0",
-    "@material/theme": "^0.43.0",
-    "@material/typography": "^0.44.0"
+    "@lime-material-16px/base": "^0.41.0",
+    "@lime-material-16px/rtl": "^0.42.0",
+    "@lime-material-16px/selection-control": "^0.44.0",
+    "@lime-material-16px/theme": "^0.43.0",
+    "@lime-material-16px/typography": "^0.44.0"
   }
 }

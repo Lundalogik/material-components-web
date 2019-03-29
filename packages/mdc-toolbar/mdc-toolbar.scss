@@ -20,11 +20,11 @@
 // THE SOFTWARE.
 //
 
-@import "@material/elevation/mixins";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
-@import "@material/theme/mixins";
-@import "@material/typography/mixins";
+@import "@lime-material-16px/elevation/mixins";
+@import "@lime-material-16px/ripple/mixins";
+@import "@lime-material-16px/rtl/mixins";
+@import "@lime-material-16px/theme/mixins";
+@import "@lime-material-16px/typography/mixins";
 @import "./mixins";
 @import "./variables";
 
@@ -119,7 +119,7 @@
     @include mdc-rtl-reflexive-box(margin, left, $mdc-toolbar-element-horizontal-padding-desktop);
 
     align-self: center;
-    padding: 12px 0;
+    padding: 0.75rem 0;
     line-height: 1.5rem;
     z-index: 1;
   }

@@ -21,11 +21,11 @@
  * THE SOFTWARE.
  */
 
-import MDCFoundation from '@material/base/foundation';
+import MDCFoundation from '@lime-material-16px/base/foundation';
 import {MDCMenuAdapter} from './adapter';
 import {cssClasses, strings} from './constants';
-import {MDCMenuSurfaceFoundation} from '@material/menu-surface/foundation';
-import MDCListFoundation from '@material/list/foundation';
+import {MDCMenuSurfaceFoundation} from '@lime-material-16px/menu-surface/foundation';
+import MDCListFoundation from '@lime-material-16px/list/foundation';
 
 /**
  * @extends {MDCFoundation<!MDCMenuAdapter>}

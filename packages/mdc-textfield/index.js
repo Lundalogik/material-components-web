@@ -21,23 +21,23 @@
  * THE SOFTWARE.
  */
 
-import MDCComponent from '@material/base/component';
+import MDCComponent from '@lime-material-16px/base/component';
 /* eslint-disable no-unused-vars */
-import {MDCRipple, MDCRippleFoundation, RippleCapableSurface} from '@material/ripple/index';
+import {MDCRipple, MDCRippleFoundation, RippleCapableSurface} from '@lime-material-16px/ripple/index';
 /* eslint-enable no-unused-vars */
-import {getMatchesProperty} from '@material/ripple/util';
+import {getMatchesProperty} from '@lime-material-16px/ripple/util';
 
 
 import {cssClasses, strings} from './constants';
 import {MDCTextFieldAdapter, FoundationMapType} from './adapter';
 import MDCTextFieldFoundation from './foundation';
 /* eslint-disable no-unused-vars */
-import {MDCLineRipple, MDCLineRippleFoundation} from '@material/line-ripple/index';
+import {MDCLineRipple, MDCLineRippleFoundation} from '@lime-material-16px/line-ripple/index';
 import {MDCTextFieldHelperText, MDCTextFieldHelperTextFoundation} from './helper-text/index';
 import {MDCTextFieldCharacterCounter, MDCTextFieldCharacterCounterFoundation} from './character-counter/index';
 import {MDCTextFieldIcon, MDCTextFieldIconFoundation} from './icon/index';
-import {MDCFloatingLabel, MDCFloatingLabelFoundation} from '@material/floating-label/index';
-import {MDCNotchedOutline, MDCNotchedOutlineFoundation} from '@material/notched-outline/index';
+import {MDCFloatingLabel, MDCFloatingLabelFoundation} from '@lime-material-16px/floating-label/index';
+import {MDCNotchedOutline, MDCNotchedOutlineFoundation} from '@lime-material-16px/notched-outline/index';
 /* eslint-enable no-unused-vars */
 
 /**
