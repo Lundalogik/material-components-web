@@ -24,7 +24,7 @@
 /* eslint no-unused-vars: [2, {"args": "none"}] */
 
 /* eslint-disable no-unused-vars */
-import {MDCTabDimensions} from '@material/tab/adapter';
+import {MDCTabDimensions} from '@lime-material-16px/tab/adapter';
 /* eslint-enable no-unused-vars */
 
 /**

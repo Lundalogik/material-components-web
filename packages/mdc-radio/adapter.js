@@ -22,7 +22,7 @@
  */
 
 /* eslint-disable no-unused-vars */
-import {MDCSelectionControlState} from '@material/selection-control/index';
+import {MDCSelectionControlState} from '@lime-material-16px/selection-control/index';
 
 /* eslint no-unused-vars: [2, {"args": "none"}] */
 

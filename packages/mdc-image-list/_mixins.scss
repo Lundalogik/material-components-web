@@ -18,8 +18,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-@import "@material/shape/mixins";
-@import "@material/shape/functions";
+@import "@lime-material-16px/shape/mixins";
+@import "@lime-material-16px/shape/functions";
 @import "./variables";
 
 @mixin mdc-image-list-aspect($width-height-ratio) {

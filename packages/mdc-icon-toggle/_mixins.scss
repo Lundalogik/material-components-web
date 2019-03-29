@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 //
 
-@import "@material/theme/mixins";
+@import "@lime-material-16px/theme/mixins";
 
 @mixin mdc-icon-toggle-ink-color($color) {
   @include mdc-theme-prop(color, $color);

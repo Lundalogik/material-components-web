@@ -21,11 +21,11 @@
  * THE SOFTWARE.
  */
 
-import MDCComponent from '@material/base/component';
+import MDCComponent from '@lime-material-16px/base/component';
 
 /* eslint-disable no-unused-vars */
-import {MDCRipple, MDCRippleFoundation, RippleCapableSurface} from '@material/ripple/index';
-import {MDCTabIndicator, MDCTabIndicatorFoundation} from '@material/tab-indicator/index';
+import {MDCRipple, MDCRippleFoundation, RippleCapableSurface} from '@lime-material-16px/ripple/index';
+import {MDCTabIndicator, MDCTabIndicatorFoundation} from '@lime-material-16px/tab-indicator/index';
 import {MDCTabAdapter, MDCTabDimensions, MDCTabInteractionEventType} from './adapter';
 /* eslint-enable no-unused-vars */
 

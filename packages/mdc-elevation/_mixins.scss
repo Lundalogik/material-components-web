@@ -20,9 +20,9 @@
 // THE SOFTWARE.
 //
 
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/theme/variables";
+@import "@lime-material-16px/feature-targeting/functions";
+@import "@lime-material-16px/feature-targeting/mixins";
+@import "@lime-material-16px/theme/variables";
 @import "./variables";
 
 // Applies the correct CSS rules to an element to give it the elevation specified by $z-value.

@@ -1,12 +1,12 @@
 {
-  "name": "@material/top-app-bar",
+  "name": "@lime-material-16px/top-app-bar",
   "version": "0.44.1",
   "description": "The Material Components for the web top app bar component",
   "license": "MIT",
   "main": "dist/mdc.topAppBar.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "keywords": [
     "material components",
@@ -16,14 +16,14 @@
     "topappbar"
   ],
   "dependencies": {
-    "@material/animation": "^0.41.0",
-    "@material/base": "^0.41.0",
-    "@material/elevation": "^0.44.1",
-    "@material/ripple": "^0.44.1",
-    "@material/rtl": "^0.42.0",
-    "@material/shape": "^0.44.1",
-    "@material/theme": "^0.43.0",
-    "@material/typography": "^0.44.1"
+    "@lime-material-16px/animation": "^0.41.0",
+    "@lime-material-16px/base": "^0.41.0",
+    "@lime-material-16px/elevation": "^0.44.1",
+    "@lime-material-16px/ripple": "^0.44.1",
+    "@lime-material-16px/rtl": "^0.42.0",
+    "@lime-material-16px/shape": "^0.44.1",
+    "@lime-material-16px/theme": "^0.43.0",
+    "@lime-material-16px/typography": "^0.44.1"
   },
   "publishConfig": {
     "access": "public"

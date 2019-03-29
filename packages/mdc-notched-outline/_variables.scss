@@ -22,12 +22,12 @@
 
 $mdc-notched-outline-transition-duration: 150ms !default;
 // Keep this in sync with constants.numbers.MIN_LEADING_STROKE_EDGE_POSITION
-$mdc-notched-outline-min-leading-stroke-edge-position: 12px !default;
+$mdc-notched-outline-min-leading-stroke-edge-position: 0.75rem !default;
 // The gap between the stroke end and floating label
 // Keep this in sync with constants.numbers.NOTCH_GUTTER_SIZE
-$mdc-notched-outline-notch-gutter-size: 4px !default;
-$mdc-notched-outline-leading-width: 12px !default;
-$mdc-notched-outline-padding: 4px !default;
+$mdc-notched-outline-notch-gutter-size: 0.25rem !default;
+$mdc-notched-outline-leading-width: 0.75rem !default;
+$mdc-notched-outline-padding: 0.25rem !default;
 // This variable keeps the before/after JS label centered in the notch when the font-size is changed.
 $mdc-notched-outline-label-adjust: 14% !default;
 

@@ -21,10 +21,10 @@
  * THE SOFTWARE.
  */
 
-import MDCComponent from '@material/base/component';
+import MDCComponent from '@lime-material-16px/base/component';
 
-import {MDCTab, MDCTabFoundation} from '@material/tab/index';
-import {MDCTabScroller} from '@material/tab-scroller/index';
+import {MDCTab, MDCTabFoundation} from '@lime-material-16px/tab/index';
+import {MDCTabScroller} from '@lime-material-16px/tab-scroller/index';
 
 import MDCTabBarAdapter from './adapter';
 import MDCTabBarFoundation from './foundation';

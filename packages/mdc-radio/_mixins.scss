@@ -20,13 +20,13 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/functions";
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/ripple/mixins";
-@import "@material/ripple/variables";
-@import "@material/theme/mixins";
-@import "@material/theme/variables";
+@import "@lime-material-16px/animation/functions";
+@import "@lime-material-16px/feature-targeting/functions";
+@import "@lime-material-16px/feature-targeting/mixins";
+@import "@lime-material-16px/ripple/mixins";
+@import "@lime-material-16px/ripple/variables";
+@import "@lime-material-16px/theme/mixins";
+@import "@lime-material-16px/theme/variables";
 @import "./functions";
 @import "./variables";
 
@@ -100,7 +100,7 @@
         box-sizing: border-box;
         width: 100%;
         height: 100%;
-        border-width: 2px;
+        border-width: 0.125rem;
         border-style: solid;
         border-radius: 50%;
       }
@@ -119,7 +119,7 @@
         width: 100%;
         height: 100%;
         transform: scale(0, 0);
-        border-width: 10px;
+        border-width: 0.625rem;
         border-style: solid;
         border-radius: 50%;
       }
