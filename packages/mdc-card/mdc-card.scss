@@ -20,10 +20,10 @@
 // THE SOFTWARE.
 //
 
-@import "@material/elevation/mixins";
-@import "@material/theme/mixins";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
+@import "@lime-material-16px/elevation/mixins";
+@import "@lime-material-16px/theme/mixins";
+@import "@lime-material-16px/ripple/mixins";
+@import "@lime-material-16px/rtl/mixins";
 @import "./mixins";
 @import "./variables";
 
@@ -117,8 +117,8 @@
 .mdc-card__actions {
   @include mdc-card-actions-layout_;
 
-  min-height: 52px;
-  padding: 8px;
+  min-height: 3.25rem;
+  padding: 0.5rem;
 }
 
 .mdc-card__actions--full-bleed {
@@ -138,7 +138,7 @@
 }
 
 .mdc-card__action-buttons + .mdc-card__action-icons {
-  @include mdc-rtl-reflexive-box(margin, left, 16px);
+  @include mdc-rtl-reflexive-box(margin, left, 1rem);
 }
 
 //
@@ -162,9 +162,9 @@
 //
 
 .mdc-card__action--button {
-  @include mdc-rtl-reflexive-box(margin, right, 8px);
+  @include mdc-rtl-reflexive-box(margin, right, 0.5rem);
 
-  padding: 0 8px;
+  padding: 0 0.5rem;
 
   &:last-child {
     @include mdc-rtl-reflexive-box(margin, right, 0);
@@ -177,7 +177,7 @@
   height: auto;
   max-height: none;
   margin: 0;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   text-align: left;
 
   @include mdc-rtl {
@@ -191,10 +191,10 @@
 
 .mdc-card__action--icon {
   // Icon toggles are taller than buttons, so we need to adjust their margins to prevent the action row from expanding.
-  margin: -6px 0;
+  margin: -0.375rem 0;
 
   // Same padding as mdc-icon-button.
-  padding: 12px;
+  padding: 0.75rem;
 }
 
 .mdc-card__action--icon:not(:disabled) {

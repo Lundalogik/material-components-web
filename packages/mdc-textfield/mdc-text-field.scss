@@ -20,16 +20,16 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/variables";
-@import "@material/floating-label/mdc-floating-label";
-@import "@material/line-ripple/mdc-line-ripple";
-@import "@material/notched-outline/mdc-notched-outline";
-@import "@material/ripple/common";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
-@import "@material/theme/variables";
-@import "@material/typography/mixins";
-@import "@material/typography/variables";
+@import "@lime-material-16px/animation/variables";
+@import "@lime-material-16px/floating-label/mdc-floating-label";
+@import "@lime-material-16px/line-ripple/mdc-line-ripple";
+@import "@lime-material-16px/notched-outline/mdc-notched-outline";
+@import "@lime-material-16px/ripple/common";
+@import "@lime-material-16px/ripple/mixins";
+@import "@lime-material-16px/rtl/mixins";
+@import "@lime-material-16px/theme/variables";
+@import "@lime-material-16px/typography/mixins";
+@import "@lime-material-16px/typography/variables";
 @import "./functions";
 @import "./helper-text/mdc-text-field-helper-text";
 @import "./icon/mdc-text-field-icon";
@@ -83,10 +83,10 @@
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  padding: 20px 12px 6px;
+  padding: 1.25rem 0.75rem 0.375rem;
   transition: mdc-text-field-transition(opacity);
   border: none;
-  border-bottom: 1px solid;
+  border-bottom: 0.0625rem solid;
   border-radius: 0;
   background: none;
   appearance: none;
@@ -151,7 +151,7 @@
 // stylelint-disable plugin/selector-bem-pattern
 .mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-text-field__icon,
 .mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon {
-  bottom: 16px;
+  bottom: 1rem;
   transform: scale(.8);
 }
 // stylelint-enable plugin/selector-bem-pattern
@@ -173,7 +173,7 @@
 }
 
 @include mdc-required-text-field-label-asterisk_ {
-  margin-left: 1px;
+  margin-left: 0.0625rem;
   content: "*";
 }
 
@@ -194,17 +194,17 @@
 .mdc-text-field-helper-text {
   // stylelint-disable plugin/selector-bem-pattern
   .mdc-text-field--dense + & {
-    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
   }
 
   .mdc-text-field + & {
-    margin-right: 12px;
-    margin-left: 12px;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
   }
 
   .mdc-text-field--outlined + & {
-    margin-right: 16px;
-    margin-left: 16px;
+    margin-right: 1rem;
+    margin-left: 1rem;
   }
 
   // stylelint-enable plugin/selector-bem-pattern

@@ -20,16 +20,16 @@
 // THE SOFTWARE.
 //
 
-@import "@material/rtl/mixins";
-@import "@material/theme/mixins";
-@import "@material/typography/mixins";
+@import "@lime-material-16px/rtl/mixins";
+@import "@lime-material-16px/theme/mixins";
+@import "@lime-material-16px/typography/mixins";
 
-$mdc-grid-list-tile-width: 200px !default;
-$mdc-grid-list-tile-secondary-padding: 16px;
-$mdc-grid-list-tile-secondary-padding-narrow: 8px;
-$mdc-grid-list-oneline-cap-secondary-height: 48px;
-$mdc-grid-list-twoline-cap-secondary-height: 68px;
-$mdc-grid-list-tile-secondary-icon-size: 24px;
+$mdc-grid-list-tile-width: 12.5rem !default;
+$mdc-grid-list-tile-secondary-padding: 1rem;
+$mdc-grid-list-tile-secondary-padding-narrow: 0.5rem;
+$mdc-grid-list-oneline-cap-secondary-height: 3rem;
+$mdc-grid-list-twoline-cap-secondary-height: 4.25rem;
+$mdc-grid-list-tile-secondary-icon-size: 1.5rem;
 
 @mixin mdc-grid-list-tile-aspect($width-height-ratio) {
   .mdc-grid-tile__primary {
@@ -56,7 +56,7 @@ $mdc-grid-list-tile-secondary-icon-size: 24px;
 // postcss-bem-linter: define grid-list
 @at-root {
   @include mdc-grid-list-tile-aspect(1);
-  @include mdc-grid-list-tile-gutter(4px);
+  @include mdc-grid-list-tile-gutter(0.25rem);
 }
 
 .mdc-grid-list__tiles {
@@ -66,7 +66,7 @@ $mdc-grid-list-tile-secondary-icon-size: 24px;
 }
 
 .mdc-grid-list--tile-gutter-1 {
-  @include mdc-grid-list-tile-gutter(1px);
+  @include mdc-grid-list-tile-gutter(0.0625rem);
 }
 
 .mdc-grid-list--tile-aspect-16x9 {
@@ -149,7 +149,7 @@ $mdc-grid-list-tile-secondary-icon-size: 24px;
 
   display: block;
   margin: 0;
-  margin-top: 4px;
+  margin-top: 0.25rem;
   padding: 0;
 }
 

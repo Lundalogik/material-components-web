@@ -20,12 +20,12 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/variables";
-@import "@material/base/mixins";
-@import "@material/rtl/mixins";
-@import "@material/theme/variables";
-@import "@material/theme/mixins";
-@import "@material/typography/mixins";
+@import "@lime-material-16px/animation/variables";
+@import "@lime-material-16px/base/mixins";
+@import "@lime-material-16px/rtl/mixins";
+@import "@lime-material-16px/theme/variables";
+@import "@lime-material-16px/theme/mixins";
+@import "@lime-material-16px/typography/mixins";
 @import "./mixins";
 @import "./variables";
 
@@ -36,7 +36,7 @@
     @include mdc-typography(subtitle1);
 
     position: absolute;
-    bottom: 8px;
+    bottom: 0.5rem;
     left: 0;
     transform-origin: left top;
     transition:

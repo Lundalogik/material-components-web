@@ -20,12 +20,12 @@
 // THE SOFTWARE.
 //
 
-@import "@material/elevation/mixins";
-@import "@material/ripple/mixins";
-@import "@material/theme/functions";
-@import "@material/theme/mixins";
-@import "@material/shape/mixins";
-@import "@material/shape/functions";
+@import "@lime-material-16px/elevation/mixins";
+@import "@lime-material-16px/ripple/mixins";
+@import "@lime-material-16px/theme/functions";
+@import "@lime-material-16px/theme/mixins";
+@import "@lime-material-16px/shape/mixins";
+@import "@lime-material-16px/shape/functions";
 @import "./variables";
 
 @mixin mdc-chip-shape-radius($radius, $rtl-reflexive: false) {

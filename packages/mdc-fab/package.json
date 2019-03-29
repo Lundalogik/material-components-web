@@ -1,5 +1,5 @@
 {
-  "name": "@material/fab",
+  "name": "@lime-material-16px/fab",
   "description": "The Material Components for the web floating action button component",
   "version": "0.41.0",
   "license": "MIT",
@@ -11,15 +11,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/animation": "^0.41.0",
-    "@material/elevation": "^0.41.0",
-    "@material/ripple": "^0.41.0",
-    "@material/rtl": "^0.40.1",
-    "@material/shape": "^0.41.0",
-    "@material/theme": "^0.41.0",
-    "@material/typography": "^0.41.0"
+    "@lime-material-16px/animation": "^0.41.0",
+    "@lime-material-16px/elevation": "^0.41.0",
+    "@lime-material-16px/ripple": "^0.41.0",
+    "@lime-material-16px/rtl": "^0.40.1",
+    "@lime-material-16px/shape": "^0.41.0",
+    "@lime-material-16px/theme": "^0.41.0",
+    "@lime-material-16px/typography": "^0.41.0"
   }
 }

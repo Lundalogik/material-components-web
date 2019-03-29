@@ -20,21 +20,21 @@
 // THE SOFTWARE.
 //
 
-@import "@material/ripple/variables";
-@import "@material/theme/variables";
+@import "@lime-material-16px/ripple/variables";
+@import "@lime-material-16px/theme/variables";
 
 $mdc-checkbox-mark-color: mdc-theme-prop-value(on-primary);
 $mdc-checkbox-border-color: rgba(mdc-theme-prop-value(on-surface), .54);
 $mdc-checkbox-disabled-color: rgba(mdc-theme-prop-value(on-surface), .26);
 $mdc-checkbox-baseline-theme-color: secondary;
 
-$mdc-checkbox-touch-area: 40px;
-$mdc-checkbox-size: 18px;
+$mdc-checkbox-touch-area: 2.5rem;
+$mdc-checkbox-size: 1.125rem;
 $mdc-checkbox-ui-pct: percentage($mdc-checkbox-size / $mdc-checkbox-touch-area);
 $mdc-checkbox-mark-stroke-size: 2/15 * $mdc-checkbox-size;
-$mdc-checkbox-border-width: 2px;
+$mdc-checkbox-border-width: 0.125rem;
 $mdc-checkbox-transition-duration: 90ms;
-$mdc-checkbox-item-spacing: 4px;
+$mdc-checkbox-item-spacing: 0.25rem;
 $mdc-checkbox-focus-indicator-opacity: map-get($mdc-ripple-dark-ink-opacities, focus);
 
 // Manual calculation done on SVG
