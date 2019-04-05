@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {ponyfill} from '@material/dom/index';
+import {MDCComponent} from '@lime-material-16px/base/component';
+import {ponyfill} from '@lime-material-16px/dom/index';
 import {MDCRippleAdapter} from './adapter';
 import {MDCRippleFoundation} from './foundation';
 import {MDCRippleAttachOpts, MDCRippleCapableSurface} from './types';

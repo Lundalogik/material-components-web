@@ -20,16 +20,16 @@
 // THE SOFTWARE.
 //
 
-@import "@material/elevation/mixins";
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
-@import "@material/theme/functions";
-@import "@material/theme/mixins";
-@import "@material/typography/mixins";
-@import "@material/shape/mixins";
-@import "@material/shape/functions";
+@import "@lime-material-16px/elevation/mixins";
+@import "@lime-material-16px/feature-targeting/functions";
+@import "@lime-material-16px/feature-targeting/mixins";
+@import "@lime-material-16px/ripple/mixins";
+@import "@lime-material-16px/rtl/mixins";
+@import "@lime-material-16px/theme/functions";
+@import "@lime-material-16px/theme/mixins";
+@import "@lime-material-16px/typography/mixins";
+@import "@lime-material-16px/shape/mixins";
+@import "@lime-material-16px/shape/functions";
 @import "./variables";
 
 @mixin mdc-button-core-styles($query: mdc-feature-all()) {
@@ -105,7 +105,7 @@
 
   .mdc-button--outlined {
     @include mdc-button--outlined_($query);
-    @include mdc-button-outline-width(2px, $query: $query);
+    @include mdc-button-outline-width(0.125rem, $query: $query);
     @include mdc-button-outline-color(primary, $query);
   }
 
@@ -244,7 +244,7 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    min-width: 64px;
+    min-width: 4rem;
     height: $mdc-button-height;
     border: none;
     outline: none;
@@ -291,17 +291,17 @@
 }
 
 @mixin mdc-button__icon_ {
-  @include mdc-rtl-reflexive-box(margin, right, 8px);
+  @include mdc-rtl-reflexive-box(margin, right, 0.5rem);
 
   display: inline-block;
-  width: 18px;
-  height: 18px;
-  font-size: 18px;
+  width: 1.125rem;
+  height: 1.125rem;
+  font-size: 1.125rem;
   vertical-align: top;
 }
 
 @mixin mdc-button__icon-trailing_ {
-  @include mdc-rtl-reflexive-box(margin, left, 8px);
+  @include mdc-rtl-reflexive-box(margin, left, 0.5rem);
 }
 
 @mixin mdc-button__icon-svg_ {
@@ -309,11 +309,11 @@
 }
 
 @mixin mdc-button__icon-contained_ {
-  @include mdc-rtl-reflexive-property(margin, -4px, 8px);
+  @include mdc-rtl-reflexive-property(margin, -0.25rem, 0.5rem);
 }
 
 @mixin mdc-button__icon-contained-trailing_ {
-  @include mdc-rtl-reflexive-property(margin, 8px, -4px);
+  @include mdc-rtl-reflexive-property(margin, 0.5rem, -0.25rem);
 }
 
 @mixin mdc-button--outlined_($query) {

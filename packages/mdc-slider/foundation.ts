@@ -21,9 +21,9 @@
  * THE SOFTWARE.
  */
 
-import {getCorrectEventName, getCorrectPropertyName} from '@material/animation/util';
-import {MDCFoundation} from '@material/base/foundation';
-import {EventType, SpecificEventListener} from '@material/base/types';
+import {getCorrectEventName, getCorrectPropertyName} from '@lime-material-16px/animation/util';
+import {MDCFoundation} from '@lime-material-16px/base/foundation';
+import {EventType, SpecificEventListener} from '@lime-material-16px/base/types';
 import {MDCSliderAdapter} from './adapter';
 import {cssClasses, numbers, strings} from './constants';
 

@@ -1,5 +1,5 @@
 {
-  "name": "@material/select",
+  "name": "@lime-material-16px/select",
   "description": "The Material Components web select (text field drop-down) component",
   "version": "1.1.0",
   "license": "MIT",
@@ -15,21 +15,21 @@
   "types": "dist/mdc.select.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/animation": "^1.0.0",
-    "@material/base": "^1.0.0",
-    "@material/floating-label": "^1.1.0",
-    "@material/line-ripple": "^1.1.0",
-    "@material/menu": "^1.1.0",
-    "@material/menu-surface": "^1.1.0",
-    "@material/notched-outline": "^1.1.0",
-    "@material/ripple": "^1.1.0",
-    "@material/rtl": "^0.42.0",
-    "@material/shape": "^1.0.0",
-    "@material/theme": "^1.1.0",
-    "@material/typography": "^1.0.0",
+    "@lime-material-16px/animation": "^1.0.0",
+    "@lime-material-16px/base": "^1.0.0",
+    "@lime-material-16px/floating-label": "^1.1.0",
+    "@lime-material-16px/line-ripple": "^1.1.0",
+    "@lime-material-16px/menu": "^1.1.0",
+    "@lime-material-16px/menu-surface": "^1.1.0",
+    "@lime-material-16px/notched-outline": "^1.1.0",
+    "@lime-material-16px/ripple": "^1.1.0",
+    "@lime-material-16px/rtl": "^0.42.0",
+    "@lime-material-16px/shape": "^1.0.0",
+    "@lime-material-16px/theme": "^1.1.0",
+    "@lime-material-16px/typography": "^1.0.0",
     "tslib": "^1.9.3"
   }
 }

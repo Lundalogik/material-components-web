@@ -1,5 +1,5 @@
 {
-  "name": "@material/dialog",
+  "name": "@lime-material-16px/dialog",
   "version": "1.1.0",
   "description": "The Material Components Web dialog component",
   "license": "MIT",
@@ -15,19 +15,19 @@
   "types": "dist/mdc.dialog.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/animation": "^1.0.0",
-    "@material/base": "^1.0.0",
-    "@material/dom": "^1.1.0",
-    "@material/elevation": "^1.1.0",
-    "@material/feature-targeting": "^0.44.1",
-    "@material/ripple": "^1.1.0",
-    "@material/rtl": "^0.42.0",
-    "@material/shape": "^1.0.0",
-    "@material/theme": "^1.1.0",
-    "@material/typography": "^1.0.0",
+    "@lime-material-16px/animation": "^1.0.0",
+    "@lime-material-16px/base": "^1.0.0",
+    "@lime-material-16px/dom": "^1.1.0",
+    "@lime-material-16px/elevation": "^1.1.0",
+    "@lime-material-16px/feature-targeting": "^0.44.1",
+    "@lime-material-16px/ripple": "^1.1.0",
+    "@lime-material-16px/rtl": "^0.42.0",
+    "@lime-material-16px/shape": "^1.0.0",
+    "@lime-material-16px/theme": "^1.1.0",
+    "@lime-material-16px/typography": "^1.0.0",
     "focus-trap": "^4.0.2",
     "tslib": "^1.9.3"
   },

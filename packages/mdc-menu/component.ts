@@ -21,12 +21,12 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {CustomEventListener, SpecificEventListener} from '@material/base/types';
-import {MDCList, MDCListActionEvent, MDCListFactory, MDCListFoundation} from '@material/list/index';
-import {MDCMenuSurfaceFoundation} from '@material/menu-surface/foundation';
-import {Corner, MDCMenuSurface, MDCMenuSurfaceFactory} from '@material/menu-surface/index';
-import {MDCMenuDistance} from '@material/menu-surface/types';
+import {MDCComponent} from '@lime-material-16px/base/component';
+import {CustomEventListener, SpecificEventListener} from '@lime-material-16px/base/types';
+import {MDCList, MDCListActionEvent, MDCListFactory, MDCListFoundation} from '@lime-material-16px/list/index';
+import {MDCMenuSurfaceFoundation} from '@lime-material-16px/menu-surface/foundation';
+import {Corner, MDCMenuSurface, MDCMenuSurfaceFactory} from '@lime-material-16px/menu-surface/index';
+import {MDCMenuDistance} from '@lime-material-16px/menu-surface/types';
 import {MDCMenuAdapter} from './adapter';
 import {cssClasses, strings} from './constants';
 import {MDCMenuFoundation} from './foundation';

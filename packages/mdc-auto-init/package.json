@@ -1,5 +1,5 @@
 {
-  "name": "@material/auto-init",
+  "name": "@lime-material-16px/auto-init",
   "description": "Declarative, easy-to-use auto-initialization for Material Components for the web",
   "version": "1.0.0",
   "main": "dist/mdc.autoInit.js",
@@ -9,10 +9,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/base": "^1.0.0",
+    "@lime-material-16px/base": "^1.0.0",
     "tslib": "^1.9.3"
   }
 }
