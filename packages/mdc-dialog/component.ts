@@ -21,10 +21,10 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {SpecificEventListener} from '@material/base/types';
-import {closest, matches} from '@material/dom/ponyfill';
-import {MDCRipple} from '@material/ripple/component';
+import {MDCComponent} from '@lime-material-16px/base/component';
+import {SpecificEventListener} from '@lime-material-16px/base/types';
+import {closest, matches} from '@lime-material-16px/dom/ponyfill';
+import {MDCRipple} from '@lime-material-16px/ripple/component';
 import {FocusTrap} from 'focus-trap';
 import {MDCDialogAdapter} from './adapter';
 import {MDCDialogFoundation} from './foundation';

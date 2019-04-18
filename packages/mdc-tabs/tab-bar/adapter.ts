@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {SpecificEventListener} from '@material/base/types';
+import {SpecificEventListener} from '@lime-material-16px/base/types';
 import {MDCTabBarChangeEventDetail} from './types';
 
 export interface MDCTabBarAdapter {

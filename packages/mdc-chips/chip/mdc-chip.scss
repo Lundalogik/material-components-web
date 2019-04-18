@@ -20,13 +20,13 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/functions";
-@import "@material/checkbox/functions";
-@import "@material/checkbox/variables";
-@import "@material/ripple/common";
-@import "@material/ripple/mixins";
-@import "@material/theme/mixins";
-@import "@material/typography/mixins";
+@import "@lime-material-16px/animation/functions";
+@import "@lime-material-16px/checkbox/functions";
+@import "@lime-material-16px/checkbox/variables";
+@import "@lime-material-16px/ripple/common";
+@import "@lime-material-16px/ripple/mixins";
+@import "@lime-material-16px/theme/mixins";
+@import "@lime-material-16px/typography/mixins";
 @import "../mixins";
 @import "../variables";
 
@@ -88,7 +88,7 @@
       $mdc-chip-checkmark-animation-delay,
       $mdc-chip-checkmark-animation-duration
     );
-  stroke-width: 2px;
+  stroke-width: 0.125rem;
   stroke-dashoffset: $mdc-checkbox-mark-path-length_;
   stroke-dasharray: $mdc-checkbox-mark-path-length_;
 }

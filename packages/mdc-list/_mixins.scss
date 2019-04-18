@@ -18,15 +18,15 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-@import "@material/rtl/mixins";
-@import "@material/theme/mixins";
-@import "@material/shape/mixins";
-@import "@material/ripple/mixins";
-@import "@material/theme/functions";
-@import "@material/typography/mixins";
-@import "@material/typography/variables";
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
+@import "@lime-material-16px/rtl/mixins";
+@import "@lime-material-16px/theme/mixins";
+@import "@lime-material-16px/shape/mixins";
+@import "@lime-material-16px/ripple/mixins";
+@import "@lime-material-16px/theme/functions";
+@import "@lime-material-16px/typography/mixins";
+@import "@lime-material-16px/typography/variables";
+@import "@lime-material-16px/feature-targeting/functions";
+@import "@lime-material-16px/feature-targeting/mixins";
 @import "./variables";
 
 //
@@ -45,9 +45,9 @@
   $feat-structure: mdc-feature-create-target($query, structure);
   $feat-typography: mdc-feature-create-target($query, typography);
 
-  $item-primary-text-baseline-height: 32px;
-  $item-secondary-text-baseline-height: 20px;
-  $dense-item-primary-text-baseline-height: 24px;
+  $item-primary-text-baseline-height: 2rem;
+  $item-secondary-text-baseline-height: 1.25rem;
+  $dense-item-primary-text-baseline-height: 1.5rem;
   $divider-color: if(
     mdc-theme-tone($mdc-theme-background) == "dark",
     $mdc-list-divider-color-on-dark-bg,
@@ -66,8 +66,8 @@
 
   .mdc-list--dense {
     @include mdc-feature-targets($feat-structure) {
-      padding-top: 4px;
-      padding-bottom: 4px;
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
       font-size: .812rem;
     }
   }
@@ -92,7 +92,7 @@
 
   .mdc-list-item__graphic {
     @include mdc-feature-targets($feat-structure) {
-      @include mdc-list-graphic-size_(24px);
+      @include mdc-list-graphic-size_(1.5rem);
 
       flex-shrink: 0;
       align-items: center;
@@ -169,25 +169,25 @@
   // stylelint-disable plugin/selector-bem-pattern
   .mdc-list--dense .mdc-list-item {
     @include mdc-feature-targets($feat-structure) {
-      height: 40px;
+      height: 2.5rem;
     }
   }
 
   .mdc-list--dense .mdc-list-item__graphic {
     @include mdc-feature-targets($feat-structure) {
-      @include mdc-list-graphic-size_(20px);
+      @include mdc-list-graphic-size_(1.25rem);
     }
   }
 
   .mdc-list--avatar-list .mdc-list-item {
     @include mdc-feature-targets($feat-structure) {
-      height: 56px;
+      height: 3.5rem;
     }
   }
 
   .mdc-list--avatar-list .mdc-list-item__graphic {
     @include mdc-feature-targets($feat-structure) {
-      @include mdc-list-graphic-size_(40px);
+      @include mdc-list-graphic-size_(2.5rem);
 
       border-radius: 50%;
     }
@@ -201,20 +201,20 @@
 
   .mdc-list--two-line .mdc-list-item {
     @include mdc-feature-targets($feat-structure) {
-      height: 72px;
+      height: 4.5rem;
     }
   }
 
   .mdc-list--two-line.mdc-list--dense .mdc-list-item,
   .mdc-list--avatar-list.mdc-list--dense .mdc-list-item {
     @include mdc-feature-targets($feat-structure) {
-      height: 60px;
+      height: 3.75rem;
     }
   }
 
   .mdc-list--avatar-list.mdc-list--dense .mdc-list-item__graphic {
     @include mdc-feature-targets($feat-structure) {
-      @include mdc-list-graphic-size_(36px);
+      @include mdc-list-graphic-size_(2.25rem);
     }
   }
 
@@ -240,7 +240,7 @@
       height: 0;
       margin: 0;
       border: none;
-      border-bottom-width: 1px;
+      border-bottom-width: 0.0625rem;
       border-bottom-style: solid;
     }
   }
@@ -392,14 +392,14 @@
 
   @include mdc-feature-targets($feat-typography) {
     // According to the mocks and stickersheet, the line-height is
-    // adjusted to 24px for text content, same as for body1.
+    // adjusted to 1.5rem for text content, same as for body1.
     /* @alternate */
     line-height: map-get(map-get($mdc-typography-styles, body1), line-height);
   }
 
   @include mdc-feature-targets($feat-structure) {
     margin: 0;
-    padding: 8px 0;
+    padding: 0.5rem 0;
     list-style-type: none;
   }
 
@@ -411,7 +411,7 @@
   position: relative;
   align-items: center;
   justify-content: flex-start;
-  height: 48px;
+  height: 3rem;
   padding: 0 $mdc-list-side-padding;
   overflow: hidden;
 
@@ -430,10 +430,10 @@
 }
 
 // Sets the width and height of the graphic element, as well as calculates the margins for
-// the graphic element such that the text is always offset by 72px, which is defined within
+// the graphic element such that the text is always offset by 4.5rem, which is defined within
 // the spec.
 @mixin mdc-list-graphic-size_($size) {
-  $text-offset: 72px;
+  $text-offset: 4.5rem;
   $side-padding: $mdc-list-side-padding;
   $margin-value: $text-offset - $side-padding - $size;
 

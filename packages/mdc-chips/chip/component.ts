@@ -21,15 +21,15 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {SpecificEventListener} from '@material/base/types';
+import {MDCComponent} from '@lime-material-16px/base/component';
+import {SpecificEventListener} from '@lime-material-16px/base/types';
 import {
   MDCRipple,
   MDCRippleAdapter,
   MDCRippleCapableSurface,
   MDCRippleFactory,
   MDCRippleFoundation,
-} from '@material/ripple/index';
+} from '@lime-material-16px/ripple/index';
 import {MDCChipAdapter} from './adapter';
 import {strings} from './constants';
 import {MDCChipFoundation} from './foundation';

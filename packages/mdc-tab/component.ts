@@ -21,10 +21,10 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {SpecificEventListener} from '@material/base/types';
-import {MDCRipple, MDCRippleCapableSurface, MDCRippleFactory, MDCRippleFoundation} from '@material/ripple/index';
-import {MDCTabIndicator, MDCTabIndicatorFactory} from '@material/tab-indicator/index';
+import {MDCComponent} from '@lime-material-16px/base/component';
+import {SpecificEventListener} from '@lime-material-16px/base/types';
+import {MDCRipple, MDCRippleCapableSurface, MDCRippleFactory, MDCRippleFoundation} from '@lime-material-16px/ripple/index';
+import {MDCTabIndicator, MDCTabIndicatorFactory} from '@lime-material-16px/tab-indicator/index';
 import {MDCTabAdapter} from './adapter';
 import {MDCTabFoundation} from './foundation';
 import {MDCTabDimensions, MDCTabInteractionEventDetail} from './types';

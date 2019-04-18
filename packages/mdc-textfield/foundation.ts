@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/foundation';
-import {SpecificEventListener} from '@material/base/types';
+import {MDCFoundation} from '@lime-material-16px/base/foundation';
+import {SpecificEventListener} from '@lime-material-16px/base/types';
 import {MDCTextFieldAdapter} from './adapter';
 import {MDCTextFieldCharacterCounterFoundation} from './character-counter/foundation';
 import {ALWAYS_FLOAT_TYPES, cssClasses, numbers, strings, VALIDATION_ATTR_WHITELIST} from './constants';

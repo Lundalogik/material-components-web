@@ -1,5 +1,5 @@
 {
-  "name": "@material/snackbar",
+  "name": "@lime-material-16px/snackbar",
   "description": "The Material Components for the web snackbar component",
   "version": "1.1.1",
   "license": "MIT",
@@ -14,19 +14,19 @@
   "types": "dist/mdc.snackbar.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/animation": "^1.0.0",
-    "@material/base": "^1.0.0",
-    "@material/button": "^1.1.1",
-    "@material/dom": "^1.1.0",
-    "@material/icon-button": "^1.1.0",
-    "@material/ripple": "^1.1.0",
-    "@material/rtl": "^0.42.0",
-    "@material/shape": "^1.1.1",
-    "@material/theme": "^1.1.0",
-    "@material/typography": "^1.0.0",
+    "@lime-material-16px/animation": "^1.0.0",
+    "@lime-material-16px/base": "^1.0.0",
+    "@lime-material-16px/button": "^1.1.1",
+    "@lime-material-16px/dom": "^1.1.0",
+    "@lime-material-16px/icon-button": "^1.1.0",
+    "@lime-material-16px/ripple": "^1.1.0",
+    "@lime-material-16px/rtl": "^0.42.0",
+    "@lime-material-16px/shape": "^1.1.1",
+    "@lime-material-16px/theme": "^1.1.0",
+    "@lime-material-16px/typography": "^1.0.0",
     "tslib": "^1.9.3"
   }
 }
