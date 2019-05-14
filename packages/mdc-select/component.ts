@@ -21,19 +21,19 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {CustomEventListener, SpecificEventListener} from '@material/base/types';
-import {MDCFloatingLabel, MDCFloatingLabelFactory} from '@material/floating-label/component';
-import {MDCLineRipple, MDCLineRippleFactory} from '@material/line-ripple/component';
-import * as menuSurfaceConstants from '@material/menu-surface/constants';
-import {MDCMenu, MDCMenuFactory} from '@material/menu/component';
-import * as menuConstants from '@material/menu/constants';
-import {MDCMenuItemEvent} from '@material/menu/types';
-import {MDCNotchedOutline, MDCNotchedOutlineFactory} from '@material/notched-outline/component';
-import {MDCRippleAdapter} from '@material/ripple/adapter';
-import {MDCRipple} from '@material/ripple/component';
-import {MDCRippleFoundation} from '@material/ripple/foundation';
-import {MDCRippleCapableSurface} from '@material/ripple/types';
+import {MDCComponent} from '@lime-material-16px/base/component';
+import {CustomEventListener, SpecificEventListener} from '@lime-material-16px/base/types';
+import {MDCFloatingLabel, MDCFloatingLabelFactory} from '@lime-material-16px/floating-label/component';
+import {MDCLineRipple, MDCLineRippleFactory} from '@lime-material-16px/line-ripple/component';
+import * as menuSurfaceConstants from '@lime-material-16px/menu-surface/constants';
+import {MDCMenu, MDCMenuFactory} from '@lime-material-16px/menu/component';
+import * as menuConstants from '@lime-material-16px/menu/constants';
+import {MDCMenuItemEvent} from '@lime-material-16px/menu/types';
+import {MDCNotchedOutline, MDCNotchedOutlineFactory} from '@lime-material-16px/notched-outline/component';
+import {MDCRippleAdapter} from '@lime-material-16px/ripple/adapter';
+import {MDCRipple} from '@lime-material-16px/ripple/component';
+import {MDCRippleFoundation} from '@lime-material-16px/ripple/foundation';
+import {MDCRippleCapableSurface} from '@lime-material-16px/ripple/types';
 import {MDCSelectAdapter} from './adapter';
 import {cssClasses, strings} from './constants';
 import {MDCSelectFoundation} from './foundation';

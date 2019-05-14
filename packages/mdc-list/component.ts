@@ -21,9 +21,9 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {SpecificEventListener} from '@material/base/types';
-import {closest, matches} from '@material/dom/ponyfill';
+import {MDCComponent} from '@lime-material-16px/base/component';
+import {SpecificEventListener} from '@lime-material-16px/base/types';
+import {closest, matches} from '@lime-material-16px/dom/ponyfill';
 import {MDCListAdapter} from './adapter';
 import {cssClasses, strings} from './constants';
 import {MDCListFoundation} from './foundation';

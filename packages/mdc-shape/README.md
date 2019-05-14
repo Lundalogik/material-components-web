@@ -23,7 +23,7 @@ Shapes direct attention, identify components, communicate state, and express bra
 ## Installation
 
 ```
-npm install @material/shape
+npm install @lime-material-16px/shape
 ```
 
 ## Basic Usage
@@ -31,8 +31,8 @@ npm install @material/shape
 ### Styles
 
 ```scss
-@import "@material/shape/mixins";
-@import "@material/shape/functions";
+@import "@lime-material-16px/shape/mixins";
+@import "@lime-material-16px/shape/functions";
 ```
 
 ## Style Customization
@@ -43,8 +43,8 @@ Components are categorized as small, medium and large in shape system. Overridin
 
 Variable | Description
 --- | ---
-`$mdc-shape-small-component-radius` | Rounded shape radius size for small components. Default value `4px`.
-`$mdc-shape-medium-component-radius` | Rounded shape radius size for medium components. Default value `4px`.
+`$mdc-shape-small-component-radius` | Rounded shape radius size for small components. Default value `0.25rem`.
+`$mdc-shape-medium-component-radius` | Rounded shape radius size for medium components. Default value `0.25rem`.
 `$mdc-shape-large-component-radius` | Rounded shape radius size for large components. Default value `0`.
 
 Please refer [Material Design guidelines: Shape](https://material.io/go/design-shape) to learn about how components are categorized.
@@ -103,13 +103,13 @@ Where, only top-right & bottom-right corners are customizable and it automatical
 The styles for applying custom shape to button component instance looks like this:
 
 ```scss
-@import "@material/button/mixins";
+@import "@lime-material-16px/button/mixins";
 
 .my-custom-button {
   @include mdc-button-shape-radius(50%);
 }
 ```
 
-In this example, the above styles applies 50% (pill) shape to button. It can also be absolute value (e.g., `8px`);
+In this example, the above styles applies 50% (pill) shape to button. It can also be absolute value (e.g., `0.5rem`);
 
 > You would indirectly use the Shape API through respective component's mixin which takes care of applying radius to applicable corners for all its variants.

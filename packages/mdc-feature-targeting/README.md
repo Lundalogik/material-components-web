@@ -15,7 +15,7 @@ Most of the time, you shouldn't need to depend on `mdc-feature-targeting` direct
 ## Installation
 
 ```
-npm install @material/feature-targeting
+npm install @lime-material-16px/feature-targeting
 ```
 
 ## Basic Usage
@@ -25,8 +25,8 @@ npm install @material/feature-targeting
 Authoring component styles:
 
 ```scss
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
+@import "@lime-material-16px/feature-targeting/functions";
+@import "@lime-material-16px/feature-targeting/mixins";
 
 @mixin my-component-core-styles($query: mdc-feature-all()) {
   $feat-structure: mdc-feature-create-target($query, structure);
@@ -40,7 +40,7 @@ Authoring component styles:
 Consuming component styles:
 
 ```scss
-@import "@material/feature-targeting/functions";
+@import "@lime-material-16px/feature-targeting/functions";
 @import "my-component-mixins";
 
 // To include all styles (using the default of mdc-feature-all() defined above):

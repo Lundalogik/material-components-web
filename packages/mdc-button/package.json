@@ -1,5 +1,5 @@
 {
-  "name": "@material/button",
+  "name": "@lime-material-16px/button",
   "description": "The Material Components for the web button component",
   "version": "2.0.0",
   "license": "MIT",
@@ -10,15 +10,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/elevation": "^1.1.0",
-    "@material/feature-targeting": "^0.44.1",
-    "@material/ripple": "^2.0.0",
-    "@material/rtl": "^0.42.0",
-    "@material/shape": "^1.1.1",
-    "@material/theme": "^1.1.0",
-    "@material/typography": "^1.0.0"
+    "@lime-material-16px/elevation": "^1.1.0",
+    "@lime-material-16px/feature-targeting": "^0.44.1",
+    "@lime-material-16px/ripple": "^2.0.0",
+    "@lime-material-16px/rtl": "^0.42.0",
+    "@lime-material-16px/shape": "^1.1.1",
+    "@lime-material-16px/theme": "^1.1.0",
+    "@lime-material-16px/typography": "^1.0.0"
   }
 }

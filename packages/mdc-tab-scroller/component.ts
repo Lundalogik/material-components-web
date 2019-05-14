@@ -21,9 +21,9 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {SpecificEventListener} from '@material/base/types';
-import {matches} from '@material/dom/ponyfill';
+import {MDCComponent} from '@lime-material-16px/base/component';
+import {SpecificEventListener} from '@lime-material-16px/base/types';
+import {matches} from '@lime-material-16px/dom/ponyfill';
 import {MDCTabScrollerAdapter} from './adapter';
 import {MDCTabScrollerFoundation} from './foundation';
 import * as util from './util';

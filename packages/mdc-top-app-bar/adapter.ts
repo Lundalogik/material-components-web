@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {EventType, SpecificEventListener} from '@material/base/types';
+import {EventType, SpecificEventListener} from '@lime-material-16px/base/types';
 
 /**
  * Defines the shape of the adapter expected by the foundation.

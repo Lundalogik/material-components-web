@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/foundation';
-import {MDCTabDimensions, MDCTabInteractionEvent} from '@material/tab/types';
+import {MDCFoundation} from '@lime-material-16px/base/foundation';
+import {MDCTabDimensions, MDCTabInteractionEvent} from '@lime-material-16px/tab/types';
 import {MDCTabBarAdapter} from './adapter';
 import {numbers, strings} from './constants';
 

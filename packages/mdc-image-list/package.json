@@ -1,11 +1,11 @@
 {
-  "name": "@material/image-list",
+  "name": "@lime-material-16px/image-list",
   "version": "1.1.1",
   "description": "The Material Components for the web image list component",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "keywords": [
     "material components",
@@ -13,10 +13,10 @@
     "image list"
   ],
   "dependencies": {
-    "@material/feature-targeting": "^0.44.1",
-    "@material/shape": "^1.1.1",
-    "@material/theme": "^1.1.0",
-    "@material/typography": "^1.0.0"
+    "@lime-material-16px/feature-targeting": "^0.44.1",
+    "@lime-material-16px/shape": "^1.1.1",
+    "@lime-material-16px/theme": "^1.1.0",
+    "@lime-material-16px/typography": "^1.0.0"
   },
   "publishConfig": {
     "access": "public"

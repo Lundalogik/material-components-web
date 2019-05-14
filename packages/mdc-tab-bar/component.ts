@@ -21,12 +21,12 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {CustomEventListener, SpecificEventListener} from '@material/base/types';
-import {MDCTabScroller, MDCTabScrollerFactory} from '@material/tab-scroller/component';
-import {MDCTab, MDCTabFactory} from '@material/tab/component';
-import {MDCTabFoundation} from '@material/tab/foundation';
-import {MDCTabInteractionEvent} from '@material/tab/types';
+import {MDCComponent} from '@lime-material-16px/base/component';
+import {CustomEventListener, SpecificEventListener} from '@lime-material-16px/base/types';
+import {MDCTabScroller, MDCTabScrollerFactory} from '@lime-material-16px/tab-scroller/component';
+import {MDCTab, MDCTabFactory} from '@lime-material-16px/tab/component';
+import {MDCTabFoundation} from '@lime-material-16px/tab/foundation';
+import {MDCTabInteractionEvent} from '@lime-material-16px/tab/types';
 import {MDCTabBarAdapter} from './adapter';
 import {MDCTabBarFoundation} from './foundation';
 import {MDCTabBarActivatedEventDetail} from './types';

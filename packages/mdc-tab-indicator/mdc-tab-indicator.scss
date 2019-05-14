@@ -21,16 +21,16 @@
  * THE SOFTWARE.
  */
 
-@import "@material/animation/variables";
+@import "@lime-material-16px/animation/variables";
 @import "./mixins";
 
 // postcss-bem-linter: define tab-indicator
 
 .mdc-tab-indicator {
   @include mdc-tab-indicator-underline-color(primary);
-  @include mdc-tab-indicator-underline-height(2px);
+  @include mdc-tab-indicator-underline-height(0.125rem);
   @include mdc-tab-indicator-icon-color(secondary);
-  @include mdc-tab-indicator-icon-height(34px);
+  @include mdc-tab-indicator-icon-height(2.125rem);
 
   display: flex;
   position: absolute;

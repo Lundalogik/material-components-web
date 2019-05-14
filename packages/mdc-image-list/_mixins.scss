@@ -18,12 +18,12 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/shape/mixins";
-@import "@material/shape/functions";
-@import "@material/theme/mixins";
-@import "@material/typography/mixins";
+@import "@lime-material-16px/feature-targeting/functions";
+@import "@lime-material-16px/feature-targeting/mixins";
+@import "@lime-material-16px/shape/mixins";
+@import "@lime-material-16px/shape/functions";
+@import "@lime-material-16px/theme/mixins";
+@import "@lime-material-16px/typography/mixins";
 @import "./variables";
 
 @mixin mdc-image-list-core-styles($query: mdc-feature-all()) {
@@ -91,7 +91,7 @@
       align-items: center;
       justify-content: space-between;
       box-sizing: border-box;
-      padding: 8px 0;
+      padding: 0.5rem 0;
       line-height: $mdc-image-list-icon-size;
     }
   }
