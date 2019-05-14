@@ -1,7 +1,7 @@
 {
   "name": "@lime-material-16px/ripple",
   "description": "The Material Components for the web Ink Ripple effect for web element interactions",
-  "version": "1.1.0",
+  "version": "1.1.0-chrome.ripple.fix",
   "license": "MIT",
   "keywords": [
     "material components",
