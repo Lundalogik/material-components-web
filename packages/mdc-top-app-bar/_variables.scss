@@ -21,36 +21,36 @@
 //
 
 // Default styles
-$mdc-top-app-bar-row-height: 64px !default;
-$mdc-top-app-bar-title-left-padding: 20px !default;
-$mdc-top-app-bar-section-vertical-padding: 8px !default;
-$mdc-top-app-bar-section-horizontal-padding: 12px !default;
+$mdc-top-app-bar-row-height: 4rem !default;
+$mdc-top-app-bar-title-left-padding: 1.25rem !default;
+$mdc-top-app-bar-section-vertical-padding: 0.5rem !default;
+$mdc-top-app-bar-section-horizontal-padding: 0.75rem !default;
 
-$mdc-top-app-bar-icon-padding: 12px !default;
-$mdc-top-app-bar-icon-size: 24px !default;
+$mdc-top-app-bar-icon-padding: 0.75rem !default;
+$mdc-top-app-bar-icon-size: 1.5rem !default;
 
-$mdc-top-app-bar-mobile-breakpoint: 599px !default;
+$mdc-top-app-bar-mobile-breakpoint: 37.4375rem !default;
 
 // Default mobile styles
-$mdc-top-app-bar-mobile-row-height: 56px !default;
-$mdc-top-app-bar-mobile-section-padding: 4px !default;
+$mdc-top-app-bar-mobile-row-height: 3.5rem !default;
+$mdc-top-app-bar-mobile-section-padding: 0.25rem !default;
 
 // Short top app bar
-$mdc-top-app-bar-short-collapsed-border-radius: 4px !default;
-$mdc-top-app-bar-short-collapsed-width: 56px !default;
-$mdc-top-app-bar-short-collapsed-right-icon-padding: 12px !default;
+$mdc-top-app-bar-short-collapsed-border-radius: 0.25rem !default;
+$mdc-top-app-bar-short-collapsed-width: 3.5rem !default;
+$mdc-top-app-bar-short-collapsed-right-icon-padding: 0.75rem !default;
 
 // Prominent styles
-$mdc-top-app-bar-prominent-row-height: 128px !default;
-$mdc-top-app-bar-prominent-title-bottom-padding: 2px !default;
+$mdc-top-app-bar-prominent-row-height: 8rem !default;
+$mdc-top-app-bar-prominent-title-bottom-padding: 0.125rem !default;
 
 // Prominent mobile styles
-$mdc-top-app-bar-prominent-mobile-title-bottom-padding: 6px !default;
+$mdc-top-app-bar-prominent-mobile-title-bottom-padding: 0.375rem !default;
 
 // Dense styles
-$mdc-top-app-bar-dense-row-height: 48px !default;
-$mdc-top-app-bar-dense-section-horizontal-padding: 4px !default;
-$mdc-top-app-bar-dense-title-left-padding: 12px !default;
+$mdc-top-app-bar-dense-row-height: 3rem !default;
+$mdc-top-app-bar-dense-section-horizontal-padding: 0.25rem !default;
+$mdc-top-app-bar-dense-title-left-padding: 0.75rem !default;
 
 // Dense & Prominent styles
-$mdc-top-app-bar-dense-prominent-title-bottom-padding: 9px !default;
+$mdc-top-app-bar-dense-prominent-title-bottom-padding: 0.5625rem !default;

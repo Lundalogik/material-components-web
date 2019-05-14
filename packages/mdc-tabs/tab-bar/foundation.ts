@@ -21,9 +21,9 @@
  * THE SOFTWARE.
  */
 
-import {getCorrectPropertyName} from '@material/animation/util';
-import {MDCFoundation} from '@material/base/foundation';
-import {SpecificEventListener} from '@material/base/types';
+import {getCorrectPropertyName} from '@lime-material-16px/animation/util';
+import {MDCFoundation} from '@lime-material-16px/base/foundation';
+import {SpecificEventListener} from '@lime-material-16px/base/types';
 import {MDCTabBarAdapter} from './adapter';
 import {cssClasses, strings} from './constants';
 

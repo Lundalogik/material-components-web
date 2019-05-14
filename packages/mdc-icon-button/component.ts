@@ -21,9 +21,9 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {SpecificEventListener} from '@material/base/types';
-import {MDCRipple} from '@material/ripple/component';
+import {MDCComponent} from '@lime-material-16px/base/component';
+import {SpecificEventListener} from '@lime-material-16px/base/types';
+import {MDCRipple} from '@lime-material-16px/ripple/component';
 import {MDCIconButtonToggleAdapter} from './adapter';
 import {MDCIconButtonToggleFoundation} from './foundation';
 import {MDCIconButtonToggleEventDetail} from './types';

@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
+import {MDCComponent} from '@lime-material-16px/base/component';
 import {MDCSliderAdapter} from './adapter';
 import {strings} from './constants';
 import {MDCSliderFoundation} from './foundation';
