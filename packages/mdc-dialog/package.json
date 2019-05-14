@@ -1,6 +1,6 @@
 {
   "name": "@lime-material-16px/dialog",
-  "version": "1.1.1",
+  "version": "1.1.1-chrome.ripple.fix",
   "description": "The Material Components Web dialog component",
   "license": "MIT",
   "keywords": [
@@ -23,7 +23,7 @@
     "@lime-material-16px/dom": "^1.1.0",
     "@lime-material-16px/elevation": "^1.1.0",
     "@lime-material-16px/feature-targeting": "^0.44.1",
-    "@lime-material-16px/ripple": "^1.1.0",
+    "@lime-material-16px/ripple": "1.1.0-chrome.ripple.fix",
     "@lime-material-16px/rtl": "^0.42.0",
     "@lime-material-16px/shape": "^1.1.1",
     "@lime-material-16px/theme": "^1.1.0",

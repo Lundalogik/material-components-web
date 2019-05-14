@@ -1,7 +1,7 @@
 {
   "name": "@lime-material-16px/icon-button",
   "description": "The Material Components for the web icon button component",
-  "version": "1.1.0",
+  "version": "1.1.0-chrome.ripple.fix",
   "license": "MIT",
   "main": "dist/mdc.iconButton.js",
   "module": "index.js",
@@ -21,7 +21,7 @@
   "dependencies": {
     "@lime-material-16px/base": "^1.0.0",
     "@lime-material-16px/feature-targeting": "^0.44.1",
-    "@lime-material-16px/ripple": "^1.1.0",
+    "@lime-material-16px/ripple": "1.1.0-chrome.ripple.fix",
     "@lime-material-16px/theme": "^1.1.0",
     "tslib": "^1.9.3"
   },

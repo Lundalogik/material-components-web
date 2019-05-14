@@ -1,6 +1,6 @@
 {
   "name": "@lime-material-16px/drawer",
-  "version": "1.1.1",
+  "version": "1.1.1-chrome.ripple.fix",
   "description": "The Material Components Web drawer component",
   "license": "MIT",
   "keywords": [
@@ -21,8 +21,8 @@
     "@lime-material-16px/animation": "^1.0.0",
     "@lime-material-16px/base": "^1.0.0",
     "@lime-material-16px/elevation": "^1.1.0",
-    "@lime-material-16px/list": "^1.1.1",
-    "@lime-material-16px/ripple": "^1.1.0",
+    "@lime-material-16px/list": "1.1.1-chrome.ripple.fix",
+    "@lime-material-16px/ripple": "1.1.0-chrome.ripple.fix",
     "@lime-material-16px/rtl": "^0.42.0",
     "@lime-material-16px/shape": "^1.1.1",
     "@lime-material-16px/theme": "^1.1.0",

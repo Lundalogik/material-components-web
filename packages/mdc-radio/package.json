@@ -1,7 +1,7 @@
 {
   "name": "@lime-material-16px/radio",
   "description": "The Material Components for the web radio component",
-  "version": "1.1.0",
+  "version": "1.1.0-chrome.ripple.fix",
   "license": "MIT",
   "keywords": [
     "material components",
@@ -20,7 +20,7 @@
     "@lime-material-16px/animation": "^1.0.0",
     "@lime-material-16px/base": "^1.0.0",
     "@lime-material-16px/feature-targeting": "^0.44.1",
-    "@lime-material-16px/ripple": "^1.1.0",
+    "@lime-material-16px/ripple": "1.1.0-chrome.ripple.fix",
     "@lime-material-16px/theme": "^1.1.0",
     "tslib": "^1.9.3"
   }

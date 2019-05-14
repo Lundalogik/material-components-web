@@ -1,7 +1,7 @@
 {
   "name": "@lime-material-16px/textfield",
   "description": "The Material Components for the web text field component",
-  "version": "1.1.1",
+  "version": "1.1.1-chrome.ripple.fix",
   "license": "MIT",
   "keywords": [
     "material components",
@@ -24,7 +24,7 @@
     "@lime-material-16px/floating-label": "^1.1.0",
     "@lime-material-16px/line-ripple": "^1.1.0",
     "@lime-material-16px/notched-outline": "^1.1.1",
-    "@lime-material-16px/ripple": "^1.1.0",
+    "@lime-material-16px/ripple": "1.1.0-chrome.ripple.fix",
     "@lime-material-16px/rtl": "^0.42.0",
     "@lime-material-16px/shape": "^1.1.1",
     "@lime-material-16px/theme": "^1.1.0",
