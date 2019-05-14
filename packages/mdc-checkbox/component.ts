@@ -21,13 +21,13 @@
  * THE SOFTWARE.
  */
 
-import {getCorrectEventName} from '@material/animation/util';
-import {MDCComponent} from '@material/base/component';
-import {matches} from '@material/dom/ponyfill';
-import {MDCRippleAdapter} from '@material/ripple/adapter';
-import {MDCRipple} from '@material/ripple/component';
-import {MDCRippleFoundation} from '@material/ripple/foundation';
-import {MDCRippleCapableSurface} from '@material/ripple/types';
+import {getCorrectEventName} from '@lime-material-16px/animation/util';
+import {MDCComponent} from '@lime-material-16px/base/component';
+import {matches} from '@lime-material-16px/dom/ponyfill';
+import {MDCRippleAdapter} from '@lime-material-16px/ripple/adapter';
+import {MDCRipple} from '@lime-material-16px/ripple/component';
+import {MDCRippleFoundation} from '@lime-material-16px/ripple/foundation';
+import {MDCRippleCapableSurface} from '@lime-material-16px/ripple/types';
 import {MDCCheckboxAdapter} from './adapter';
 import {MDCCheckboxFoundation} from './foundation';
 

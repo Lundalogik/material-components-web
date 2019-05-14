@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/foundation';
-import {SpecificEventListener} from '@material/base/types';
+import {MDCFoundation} from '@lime-material-16px/base/foundation';
+import {SpecificEventListener} from '@lime-material-16px/base/types';
 import {MDCTopAppBarAdapter} from './adapter';
 import {cssClasses, numbers, strings} from './constants';
 

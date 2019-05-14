@@ -21,15 +21,15 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {CustomEventListener, SpecificEventListener} from '@material/base/types';
-import {MDCList, MDCListFactory} from '@material/list/component';
-import {MDCListFoundation} from '@material/list/foundation';
-import {MDCListActionEvent} from '@material/list/types';
-import {MDCMenuSurface, MDCMenuSurfaceFactory} from '@material/menu-surface/component';
-import {Corner} from '@material/menu-surface/constants';
-import {MDCMenuSurfaceFoundation} from '@material/menu-surface/foundation';
-import {MDCMenuDistance} from '@material/menu-surface/types';
+import {MDCComponent} from '@lime-material-16px/base/component';
+import {CustomEventListener, SpecificEventListener} from '@lime-material-16px/base/types';
+import {MDCList, MDCListFactory} from '@lime-material-16px/list/component';
+import {MDCListFoundation} from '@lime-material-16px/list/foundation';
+import {MDCListActionEvent} from '@lime-material-16px/list/types';
+import {MDCMenuSurface, MDCMenuSurfaceFactory} from '@lime-material-16px/menu-surface/component';
+import {Corner} from '@lime-material-16px/menu-surface/constants';
+import {MDCMenuSurfaceFoundation} from '@lime-material-16px/menu-surface/foundation';
+import {MDCMenuDistance} from '@lime-material-16px/menu-surface/types';
 import {MDCMenuAdapter} from './adapter';
 import {cssClasses, DefaultFocusState, strings} from './constants';
 import {MDCMenuFoundation} from './foundation';

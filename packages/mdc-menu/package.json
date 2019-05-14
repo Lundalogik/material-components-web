@@ -1,5 +1,5 @@
 {
-  "name": "@material/menu",
+  "name": "@lime-material-16px/menu",
   "version": "2.0.0",
   "description": "The Material Components for the web menu component",
   "license": "MIT",
@@ -14,15 +14,15 @@
   "types": "dist/mdc.menu.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/base": "^1.0.0",
-    "@material/feature-targeting": "^0.44.1",
-    "@material/list": "^2.0.0",
-    "@material/menu-surface": "^1.1.1",
-    "@material/ripple": "^2.0.0",
-    "@material/rtl": "^0.42.0",
+    "@lime-material-16px/base": "^1.0.0",
+    "@lime-material-16px/feature-targeting": "^0.44.1",
+    "@lime-material-16px/list": "^2.0.0",
+    "@lime-material-16px/menu-surface": "^1.1.1",
+    "@lime-material-16px/ripple": "^2.0.0",
+    "@lime-material-16px/rtl": "^0.42.0",
     "tslib": "^1.9.3"
   }
 }

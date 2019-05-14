@@ -20,12 +20,12 @@
 // THE SOFTWARE.
 //
 
-@import "@material/theme/mixins";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
-@import "@material/elevation/mixins";
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
+@import "@lime-material-16px/theme/mixins";
+@import "@lime-material-16px/ripple/mixins";
+@import "@lime-material-16px/rtl/mixins";
+@import "@lime-material-16px/elevation/mixins";
+@import "@lime-material-16px/feature-targeting/functions";
+@import "@lime-material-16px/feature-targeting/mixins";
 @import "./functions";
 @import "./variables";
 
@@ -212,7 +212,7 @@
     box-sizing: border-box;
     width: $mdc-switch-track-width;
     height: $mdc-switch-track-height;
-    border: 1px solid;
+    border: 0.0625rem solid;
     border-radius: $mdc-switch-track-height / 2;
     opacity: .38;
   }
@@ -314,7 +314,7 @@
 }
 
 @mixin mdc-switch__thumb-disabled_ {
-  border-width: 1px;  // In high contrast mode, only show outline of knob.
+  border-width: 0.0625rem;  // In high contrast mode, only show outline of knob.
 }
 
 @mixin mdc-switch__native-control-disabled_ {
