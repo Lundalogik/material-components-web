@@ -21,13 +21,13 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {EventType} from '@material/base/types';
-import {matches} from '@material/dom/ponyfill';
-import {MDCRippleAdapter} from '@material/ripple/adapter';
-import {MDCRipple} from '@material/ripple/component';
-import {MDCRippleFoundation} from '@material/ripple/foundation';
-import {MDCRippleCapableSurface} from '@material/ripple/types';
+import {MDCComponent} from '@lime-material-16px/base/component';
+import {EventType} from '@lime-material-16px/base/types';
+import {matches} from '@lime-material-16px/dom/ponyfill';
+import {MDCRippleAdapter} from '@lime-material-16px/ripple/adapter';
+import {MDCRipple} from '@lime-material-16px/ripple/component';
+import {MDCRippleFoundation} from '@lime-material-16px/ripple/foundation';
+import {MDCRippleCapableSurface} from '@lime-material-16px/ripple/types';
 import {MDCSwitchAdapter} from './adapter';
 import {MDCSwitchFoundation} from './foundation';
 

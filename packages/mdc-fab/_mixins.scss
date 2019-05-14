@@ -18,19 +18,19 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-@import "@material/animation/functions";
-@import "@material/elevation/mixins";
-@import "@material/elevation/variables";
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/ripple/mixins";
-@import "@material/ripple/variables";
-@import "@material/theme/functions";
-@import "@material/theme/mixins";
-@import "@material/shape/mixins";
-@import "@material/shape/functions";
-@import "@material/rtl/mixins";
-@import "@material/typography/mixins";
+@import "@lime-material-16px/animation/functions";
+@import "@lime-material-16px/elevation/mixins";
+@import "@lime-material-16px/elevation/variables";
+@import "@lime-material-16px/feature-targeting/functions";
+@import "@lime-material-16px/feature-targeting/mixins";
+@import "@lime-material-16px/ripple/mixins";
+@import "@lime-material-16px/ripple/variables";
+@import "@lime-material-16px/theme/functions";
+@import "@lime-material-16px/theme/mixins";
+@import "@lime-material-16px/shape/mixins";
+@import "@lime-material-16px/shape/functions";
+@import "@lime-material-16px/rtl/mixins";
+@import "@lime-material-16px/typography/mixins";
 @import "./variables";
 
 @mixin mdc-fab-core-styles($query: mdc-feature-all()) {
@@ -44,7 +44,7 @@
   .mdc-fab {
     @include mdc-fab-base_($query: $query);
     @include mdc-fab-container-color(secondary, $query: $query);
-    @include mdc-fab-icon-size(24px, $query: $query);
+    @include mdc-fab-icon-size(1.5rem, $query: $query);
     @include mdc-fab-ink-color(on-secondary, $query: $query);
   }
 

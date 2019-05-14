@@ -33,7 +33,7 @@ Material design’s responsive UI is based on a column-variate grid layout. It h
 ## Installation
 
 ```
-npm install @material/layout-grid
+npm install @lime-material-16px/layout-grid
 ```
 
 ## Usage
@@ -76,7 +76,7 @@ However, the Material Design guidelines do not recommend having a deeply nested 
 ### Styles
 
 ```scss
-@import "@material/layout-grid/mdc-layout-grid";
+@import "@lime-material-16px/layout-grid/mdc-layout-grid";
 ```
 
 ### CSS Classes
@@ -119,7 +119,7 @@ behavior by using one of the `mdc-layout-grid__cell--align-<POSITION>` alignment
 
 #### `mdc-layout-grid--fixed-column-width`
 
-You can designate each column to have a certain width by using `mdc-layout-grid--fixed-column-width` modifier. The column width can be specified through sass map `$mdc-layout-grid-column-width` or css custom properties `--mdc-layout-grid-column-width-{screen_size}`. The column width is set to 72px on all devices by default.
+You can designate each column to have a certain width by using `mdc-layout-grid--fixed-column-width` modifier. The column width can be specified through sass map `$mdc-layout-grid-column-width` or css custom properties `--mdc-layout-grid-column-width-{screen_size}`. The column width is set to 4.5rem on all devices by default.
 
 
 #### `mdc-layout-grid--align-<GRID_POSITION>`

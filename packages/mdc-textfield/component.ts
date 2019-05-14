@@ -21,15 +21,15 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import * as ponyfill from '@material/dom/ponyfill';
-import {MDCFloatingLabel, MDCFloatingLabelFactory} from '@material/floating-label/component';
-import {MDCLineRipple, MDCLineRippleFactory} from '@material/line-ripple/component';
-import {MDCNotchedOutline, MDCNotchedOutlineFactory} from '@material/notched-outline/component';
-import {MDCRippleAdapter} from '@material/ripple/adapter';
-import {MDCRipple, MDCRippleFactory} from '@material/ripple/component';
-import {MDCRippleFoundation} from '@material/ripple/foundation';
-import {MDCRippleCapableSurface} from '@material/ripple/types';
+import {MDCComponent} from '@lime-material-16px/base/component';
+import * as ponyfill from '@lime-material-16px/dom/ponyfill';
+import {MDCFloatingLabel, MDCFloatingLabelFactory} from '@lime-material-16px/floating-label/component';
+import {MDCLineRipple, MDCLineRippleFactory} from '@lime-material-16px/line-ripple/component';
+import {MDCNotchedOutline, MDCNotchedOutlineFactory} from '@lime-material-16px/notched-outline/component';
+import {MDCRippleAdapter} from '@lime-material-16px/ripple/adapter';
+import {MDCRipple, MDCRippleFactory} from '@lime-material-16px/ripple/component';
+import {MDCRippleFoundation} from '@lime-material-16px/ripple/foundation';
+import {MDCRippleCapableSurface} from '@lime-material-16px/ripple/types';
 import {
   MDCTextFieldAdapter,
   MDCTextFieldInputAdapter,

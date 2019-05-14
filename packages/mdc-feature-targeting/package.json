@@ -1,5 +1,5 @@
 {
-  "name": "@material/feature-targeting",
+  "name": "@lime-material-16px/feature-targeting",
   "description": "Material Components for the web Feature Targeting Scss helpers",
   "version": "0.44.1",
   "license": "MIT",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "publishConfig": {
     "access": "public"

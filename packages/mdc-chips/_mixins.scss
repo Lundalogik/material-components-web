@@ -20,20 +20,20 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/functions";
-@import "@material/animation/variables";
-@import "@material/checkbox/functions";
-@import "@material/checkbox/variables";
-@import "@material/elevation/mixins";
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
-@import "@material/theme/functions";
-@import "@material/theme/mixins";
-@import "@material/typography/mixins";
-@import "@material/shape/mixins";
-@import "@material/shape/functions";
+@import "@lime-material-16px/animation/functions";
+@import "@lime-material-16px/animation/variables";
+@import "@lime-material-16px/checkbox/functions";
+@import "@lime-material-16px/checkbox/variables";
+@import "@lime-material-16px/elevation/mixins";
+@import "@lime-material-16px/feature-targeting/functions";
+@import "@lime-material-16px/feature-targeting/mixins";
+@import "@lime-material-16px/ripple/mixins";
+@import "@lime-material-16px/rtl/mixins";
+@import "@lime-material-16px/theme/functions";
+@import "@lime-material-16px/theme/mixins";
+@import "@lime-material-16px/typography/mixins";
+@import "@lime-material-16px/shape/mixins";
+@import "@lime-material-16px/shape/functions";
 @import "./variables";
 
 @mixin mdc-chip-core-styles($query: mdc-feature-all()) {
@@ -119,7 +119,7 @@
     }
 
     @include mdc-feature-targets($feat-structure) {
-      stroke-width: 2px;
+      stroke-width: 0.125rem;
       stroke-dashoffset: $mdc-checkbox-mark-path-length_;
       stroke-dasharray: $mdc-checkbox-mark-path-length_;
     }
@@ -269,7 +269,7 @@
   }
 
   .mdc-chip-set {
-    @include mdc-chip-set-spacing(8px, $query: $query);
+    @include mdc-chip-set-spacing(0.5rem, $query: $query);
 
     @include mdc-feature-targets($feat-structure) {
       display: flex;
@@ -377,7 +377,7 @@
 }
 
 @mixin mdc-chip-outline(
-  $width: 1px,
+  $width: 0.0625rem,
   $style: solid,
   $color: mdc-theme-prop-value(on-surface),
   $query: mdc-feature-all()) {

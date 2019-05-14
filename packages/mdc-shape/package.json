@@ -1,5 +1,5 @@
 {
-  "name": "@material/shape",
+  "name": "@lime-material-16px/shape",
   "description": "Shape utilities for Material Components for the web",
   "version": "1.1.1",
   "license": "MIT",
@@ -10,12 +10,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@material/feature-targeting": "^0.44.1"
+    "@lime-material-16px/feature-targeting": "^0.44.1"
   }
 }

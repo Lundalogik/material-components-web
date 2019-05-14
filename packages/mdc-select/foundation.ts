@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/foundation';
+import {MDCFoundation} from '@lime-material-16px/base/foundation';
 import {MDCSelectAdapter} from './adapter';
 import {cssClasses, numbers, strings} from './constants';
 import {MDCSelectHelperTextFoundation} from './helper-text/foundation';
