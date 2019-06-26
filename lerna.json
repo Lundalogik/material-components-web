@@ -1,9 +1,14 @@
 {
-  "lerna": "2.0.0-beta.36",
-  "version": "2.2.0",
-  "commands": {
+  "version": "3.0.0",
+  "command": {
+    "version": {
+      "allowBranch": [
+        "master"
+      ],
+      "conventionalCommits": true
+    },
     "publish": {
-      "ignore": [
+      "ignoreChanges": [
         "*.md"
       ]
     }
