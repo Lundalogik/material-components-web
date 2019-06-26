@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
+import {MDCComponent} from '@limetech/mdc-base/component';
 import {MDCLinearProgressAdapter} from './adapter';
 import {MDCLinearProgressFoundation} from './foundation';
 

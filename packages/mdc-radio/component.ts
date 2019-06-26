@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {MDCRipple, MDCRippleAdapter, MDCRippleCapableSurface, MDCRippleFoundation} from '@material/ripple/index';
+import {MDCComponent} from '@limetech/mdc-base/component';
+import {MDCRipple, MDCRippleAdapter, MDCRippleCapableSurface, MDCRippleFoundation} from '@limetech/mdc-ripple/index';
 import {MDCRadioAdapter} from './adapter';
 import {MDCRadioFoundation} from './foundation';
 

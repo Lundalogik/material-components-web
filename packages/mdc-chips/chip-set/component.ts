@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
+import {MDCComponent} from '@limetech/mdc-base/component';
 import {MDCChip, MDCChipFactory, MDCChipFoundation} from '../chip/index';
 import {MDCChipInteractionEvent, MDCChipRemovalEvent, MDCChipSelectionEvent} from '../chip/index';
 import {MDCChipSetAdapter} from './adapter';

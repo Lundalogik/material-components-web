@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/foundation';
-import {SpecificEventListener} from '@material/base/types';
+import {MDCFoundation} from '@limetech/mdc-base/foundation';
+import {SpecificEventListener} from '@limetech/mdc-base/types';
 import {MDCTopAppBarAdapter} from './adapter';
 import {cssClasses, numbers, strings} from './constants';
 

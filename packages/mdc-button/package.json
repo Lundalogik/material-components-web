@@ -1,5 +1,5 @@
 {
-  "name": "@material/button",
+  "name": "@limetech/mdc-button",
   "description": "The Material Components for the web button component",
   "version": "1.1.1",
   "license": "MIT",
@@ -10,15 +10,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/elevation": "^1.1.0",
-    "@material/feature-targeting": "^0.44.1",
-    "@material/ripple": "^1.1.0",
-    "@material/rtl": "^0.42.0",
-    "@material/shape": "^1.1.1",
-    "@material/theme": "^1.1.0",
-    "@material/typography": "^1.0.0"
+    "@limetech/mdc-elevation": "^1.1.0",
+    "@limetech/mdc-feature-targeting": "^0.44.1",
+    "@limetech/mdc-ripple": "^1.1.0",
+    "@limetech/mdc-rtl": "^0.42.0",
+    "@limetech/mdc-shape": "^1.1.1",
+    "@limetech/mdc-theme": "^1.1.0",
+    "@limetech/mdc-typography": "^1.0.0"
   }
 }

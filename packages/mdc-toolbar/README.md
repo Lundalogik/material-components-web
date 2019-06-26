@@ -35,7 +35,7 @@ height added to their first rows.
 ## Installation
 
 ```
-npm install @material/toolbar
+npm install @limetech/mdc-toolbar
 ```
 
 ## Usage
@@ -311,7 +311,7 @@ test the performance to make sure that it is adequate.
   background-size: cover;
   background-position: center;
 }
-@media (max-width: 599px) {
+@media (max-width: 37.4375rem) {
   background-image: url("../images/4-3-compressed.jpg");
   background-position: 0 0;
 }
@@ -365,13 +365,13 @@ Mixin | Description
 #### ES Module syntax
 
 ```javascript
-import {MDCToolbar, MDCToolbarFoundation} from '@material/toolbar';
+import {MDCToolbar, MDCToolbarFoundation} from '@limetech/mdc-toolbar';
 ```
 
 #### CommonJS
 
 ```javascript
-const mdcToolbar = require('@material/toolbar');
+const mdcToolbar = require('@limetech/mdc-toolbar');
 const MDCToolbar = mdcToolbar.MDCToolbar;
 const MDCToolbarFoundation = mdcToolbar.MDCToolbarFoundation;
 ```
@@ -379,7 +379,7 @@ const MDCToolbarFoundation = mdcToolbar.MDCToolbarFoundation;
 #### AMD
 
 ```javascript
-require(['/path/to/@material/toolbar'], mdcToolbar => {
+require(['/path/to/@limetech/mdc-toolbar'], mdcToolbar => {
   const MDCToolbar = mdcToolbar.MDCToolbar;
   const MDCToolbarFoundation = mdcToolbar.MDCToolbarFoundation;
 });
@@ -404,7 +404,7 @@ mdc.toolbar.MDCToolbar.attachTo(document.querySelector('.mdc-toolbar'));
 ### Manual Instantiation
 
 ```javascript
-import {MDCToolbar} from '@material/toolbar';
+import {MDCToolbar} from '@limetech/mdc-toolbar';
 
 const toolbar = new MDCToolbar(document.querySelector('.mdc-toolbar'));
 ```

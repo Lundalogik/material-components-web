@@ -20,11 +20,11 @@
 // THE SOFTWARE.
 //
 
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/rtl/mixins";
-@import "@material/theme/mixins";
-@import "@material/typography/mixins";
+@import "@limetech/mdc-feature-targeting/functions";
+@import "@limetech/mdc-feature-targeting/mixins";
+@import "@limetech/mdc-rtl/mixins";
+@import "@limetech/mdc-theme/mixins";
+@import "@limetech/mdc-typography/mixins";
 @import "./variables";
 
 @mixin mdc-grid-list-core-styles($query: mdc-feature-all()) {
@@ -34,7 +34,7 @@
 
   // postcss-bem-linter: define grid-list
   @include mdc-grid-list-tile-aspect(1, $query: $query);
-  @include mdc-grid-list-tile-gutter(4px, $query: $query);
+  @include mdc-grid-list-tile-gutter(0.25rem, $query: $query);
 
   .mdc-grid-list__tiles {
     @include mdc-feature-targets($feat-structure) {
@@ -45,7 +45,7 @@
   }
 
   .mdc-grid-list--tile-gutter-1 {
-    @include mdc-grid-list-tile-gutter(1px, $query: $query);
+    @include mdc-grid-list-tile-gutter(0.0625rem, $query: $query);
   }
 
   .mdc-grid-list--tile-aspect-16x9 {
@@ -145,7 +145,7 @@
     @include mdc-feature-targets($feat-structure) {
       display: block;
       margin: 0;
-      margin-top: 4px;
+      margin-top: 0.25rem;
       padding: 0;
     }
   }

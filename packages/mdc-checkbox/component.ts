@@ -21,10 +21,10 @@
  * THE SOFTWARE.
  */
 
-import {getCorrectEventName} from '@material/animation/util';
-import {MDCComponent} from '@material/base/component';
-import {ponyfill} from '@material/dom/index';
-import {MDCRipple, MDCRippleAdapter, MDCRippleCapableSurface, MDCRippleFoundation} from '@material/ripple/index';
+import {getCorrectEventName} from '@limetech/mdc-animation/util';
+import {MDCComponent} from '@limetech/mdc-base/component';
+import {ponyfill} from '@limetech/mdc-dom/index';
+import {MDCRipple, MDCRippleAdapter, MDCRippleCapableSurface, MDCRippleFoundation} from '@limetech/mdc-ripple/index';
 import {MDCCheckboxAdapter} from './adapter';
 import {MDCCheckboxFoundation} from './foundation';
 

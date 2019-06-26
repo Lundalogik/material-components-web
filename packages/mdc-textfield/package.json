@@ -1,5 +1,5 @@
 {
-  "name": "@material/textfield",
+  "name": "@limetech/mdc-textfield",
   "description": "The Material Components for the web text field component",
   "version": "1.1.1",
   "license": "MIT",
@@ -15,20 +15,20 @@
   "types": "dist/mdc.textfield.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/animation": "^1.0.0",
-    "@material/base": "^1.0.0",
-    "@material/dom": "^1.1.0",
-    "@material/floating-label": "^1.1.0",
-    "@material/line-ripple": "^1.1.0",
-    "@material/notched-outline": "^1.1.1",
-    "@material/ripple": "^1.1.0",
-    "@material/rtl": "^0.42.0",
-    "@material/shape": "^1.1.1",
-    "@material/theme": "^1.1.0",
-    "@material/typography": "^1.0.0",
+    "@limetech/mdc-animation": "^1.0.0",
+    "@limetech/mdc-base": "^1.0.0",
+    "@limetech/mdc-dom": "^1.1.0",
+    "@limetech/mdc-floating-label": "^1.1.0",
+    "@limetech/mdc-line-ripple": "^1.1.0",
+    "@limetech/mdc-notched-outline": "^1.1.1",
+    "@limetech/mdc-ripple": "^1.1.0",
+    "@limetech/mdc-rtl": "^0.42.0",
+    "@limetech/mdc-shape": "^1.1.1",
+    "@limetech/mdc-theme": "^1.1.0",
+    "@limetech/mdc-typography": "^1.0.0",
     "tslib": "^1.9.3"
   }
 }
