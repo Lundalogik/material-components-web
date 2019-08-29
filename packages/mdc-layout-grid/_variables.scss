@@ -19,9 +19,9 @@
 // THE SOFTWARE.
 
 $mdc-layout-grid-breakpoints: (
-  desktop: 840px,
-  tablet: 480px,
-  phone: 0px
+  desktop: 52.5rem,
+  tablet: 30rem,
+  phone: 0rem
 ) !default;
 
 $mdc-layout-grid-columns: (
@@ -31,21 +31,21 @@ $mdc-layout-grid-columns: (
 ) !default;
 
 $mdc-layout-grid-default-margin: (
-  desktop: 24px,
-  tablet: 16px,
-  phone: 16px
+  desktop: 1.5rem,
+  tablet: 1rem,
+  phone: 1rem
 ) !default;
 
 $mdc-layout-grid-default-gutter: (
-  desktop: 24px,
-  tablet: 16px,
-  phone: 16px
+  desktop: 1.5rem,
+  tablet: 1rem,
+  phone: 1rem
 ) !default;
 
 $mdc-layout-grid-column-width: (
-  desktop: 72px,
-  tablet: 72px,
-  phone: 72px
+  desktop: 4.5rem,
+  tablet: 4.5rem,
+  phone: 4.5rem
 ) !default;
 
 $mdc-layout-grid-default-column-span: 4 !default;

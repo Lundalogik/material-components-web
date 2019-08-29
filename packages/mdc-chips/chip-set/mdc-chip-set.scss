@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/variables";
+@import "@limetech/mdc-animation/variables";
 @import "../mixins";
 
 @keyframes mdc-chip-entry {
@@ -36,7 +36,7 @@
 }
 
 .mdc-chip-set {
-  @include mdc-chip-set-spacing(8px);
+  @include mdc-chip-set-spacing(0.5rem);
 
   display: flex;
   flex-wrap: wrap;

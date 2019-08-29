@@ -21,9 +21,9 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {SpecificEventListener} from '@material/base/types';
-import {closest} from '@material/dom/ponyfill';
+import {MDCComponent} from '@limetech/mdc-base/component';
+import {SpecificEventListener} from '@limetech/mdc-base/types';
+import {closest} from '@limetech/mdc-dom/ponyfill';
 import {MDCSnackbarAdapter} from './adapter';
 import {strings} from './constants';
 import {MDCSnackbarFoundation} from './foundation';

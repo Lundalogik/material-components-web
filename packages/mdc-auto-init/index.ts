@@ -23,8 +23,8 @@
 
 // tslint:disable:only-arrow-functions
 
-import {MDCComponent} from '@material/base/component';
-import {MDCFoundation} from '@material/base/foundation';
+import {MDCComponent} from '@limetech/mdc-base/component';
+import {MDCFoundation} from '@limetech/mdc-base/foundation';
 
 export interface MDCAttachable {
   new<F extends MDCFoundation>(root: Element, foundation?: F, ...args: Array<unknown>): MDCComponent<F>;

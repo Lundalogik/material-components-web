@@ -21,10 +21,10 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {SpecificEventListener} from '@material/base/types';
-import {closest, matches} from '@material/dom/ponyfill';
-import {MDCRipple} from '@material/ripple/component';
+import {MDCComponent} from '@limetech/mdc-base/component';
+import {SpecificEventListener} from '@limetech/mdc-base/types';
+import {closest, matches} from '@limetech/mdc-dom/ponyfill';
+import {MDCRipple} from '@limetech/mdc-ripple/component';
 import {FocusTrap} from 'focus-trap';
 import {MDCDialogAdapter} from './adapter';
 import {MDCDialogFoundation} from './foundation';
