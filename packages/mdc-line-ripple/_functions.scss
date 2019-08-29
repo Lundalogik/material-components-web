@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/variables";
+@import "@limetech/mdc-animation/variables";
 
 @function mdc-line-ripple-transition-value($property) {
   @return #{$property} 180ms $mdc-animation-standard-curve-timing-function;

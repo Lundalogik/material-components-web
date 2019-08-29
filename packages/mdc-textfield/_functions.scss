@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/variables";
+@import "@limetech/mdc-animation/variables";
 
 @function mdc-text-field-transition($property, $duration: 150ms) {
   @return #{$property} #{$duration} $mdc-animation-standard-curve-timing-function;

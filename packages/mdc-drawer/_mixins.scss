@@ -20,19 +20,19 @@
 // THE SOFTWARE.
 //
 
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/animation/functions";
-@import "@material/animation/variables";
-@import "@material/rtl/mixins";
-@import "@material/typography/mixins";
-@import "@material/typography/variables";
-@import "@material/theme/mixins";
-@import "@material/theme/variables";
-@import "@material/list/mixins";
-@import "@material/ripple/mixins";
-@import "@material/shape/mixins";
-@import "@material/elevation/mixins";
+@import "@limetech/mdc-feature-targeting/functions";
+@import "@limetech/mdc-feature-targeting/mixins";
+@import "@limetech/mdc-animation/functions";
+@import "@limetech/mdc-animation/variables";
+@import "@limetech/mdc-rtl/mixins";
+@import "@limetech/mdc-typography/mixins";
+@import "@limetech/mdc-typography/variables";
+@import "@limetech/mdc-theme/mixins";
+@import "@limetech/mdc-theme/variables";
+@import "@limetech/mdc-list/mixins";
+@import "@limetech/mdc-ripple/mixins";
+@import "@limetech/mdc-shape/mixins";
+@import "@limetech/mdc-elevation/mixins";
 @import "./variables";
 
 //
@@ -54,7 +54,7 @@
     @include mdc-drawer-item-activated-icon-ink-color($mdc-drawer-item-activated-ink-color, $query: $query);
     @include mdc-drawer-item-activated-text-ink-color($mdc-drawer-item-activated-ink-color, $query: $query);
     @include mdc-drawer-shape-radius(large, $query: $query);
-    @include mdc-drawer-item-shape-radius(4px, $query: $query);
+    @include mdc-drawer-item-shape-radius(0.25rem, $query: $query);
     @include mdc-drawer-z-index($mdc-drawer-z-index, $query: $query);
     @include mdc-drawer-width($mdc-drawer-width, $query: $query);
 
@@ -65,7 +65,7 @@
       box-sizing: border-box;
       height: 100%;
       /* @noflip */
-      border-right-width: 1px;
+      border-right-width: 0.0625rem;
       /* @noflip */
       border-right-style: solid;
       overflow: hidden;
@@ -74,7 +74,7 @@
         /* @noflip */
         border-right-width: 0;
         /* @noflip */
-        border-left-width: 1px;
+        border-left-width: 0.0625rem;
         /* @noflip */
         border-right-style: none;
         /* @noflip */
@@ -133,20 +133,20 @@
     @include mdc-feature-targets($feat-structure) {
       flex-shrink: 0;
       box-sizing: border-box;
-      min-height: 64px; // same as $mdc-top-app-bar-row-height
-      padding: 0 $mdc-drawer-surface-padding 4px;
+      min-height: 4rem; // same as $mdc-top-app-bar-row-height
+      padding: 0 $mdc-drawer-surface-padding 0.25rem;
     }
   }
 
   .mdc-drawer__title {
     @include mdc-typography(headline6, $query: $query);
-    @include mdc-typography-baseline-top(36px, $query: $query);
-    @include mdc-typography-baseline-bottom(20px, $query: $query);
+    @include mdc-typography-baseline-top(2.25rem, $query: $query);
+    @include mdc-typography-baseline-bottom(1.25rem, $query: $query);
   }
 
   .mdc-drawer__subtitle {
     @include mdc-typography(body2, $query: $query);
-    @include mdc-typography-baseline-top(20px, $query: $query);
+    @include mdc-typography-baseline-top(1.25rem, $query: $query);
 
     @include mdc-feature-targets($feat-structure) {
       margin-bottom: 0;
@@ -415,9 +415,9 @@
     @include mdc-typography(subtitle2, $query: $query);
 
     @include mdc-feature-targets($feat-structure) {
-      height: calc(48px - 2 * #{$mdc-drawer-list-item-spacing});
+      height: calc(3rem - 2 * #{$mdc-drawer-list-item-spacing});
       // To accomodate margin conflict.
-      margin: ($mdc-drawer-list-item-spacing * 2) 8px;
+      margin: ($mdc-drawer-list-item-spacing * 2) 0.5rem;
       padding: 0 $mdc-drawer-surface-padding / 2;
     }
   }
@@ -425,7 +425,7 @@
   // postcss-bem-linter: ignore
   .mdc-list-item:nth-child(1) {
     @include mdc-feature-targets($feat-structure) {
-      margin-top: 2px;
+      margin-top: 0.125rem;
     }
   }
 
@@ -439,7 +439,7 @@
   // postcss-bem-linter: ignore
   .mdc-list-group__subheader {
     @include mdc-typography(body2, $query: $query);
-    @include mdc-typography-baseline-top(24px, $query: $query);
+    @include mdc-typography-baseline-top(1.5rem, $query: $query);
 
     @include mdc-feature-targets($feat-structure) {
       margin: 0;
@@ -450,7 +450,7 @@
   // postcss-bem-linter: ignore
   .mdc-list-divider {
     @include mdc-feature-targets($feat-structure) {
-      margin: 3px 0 4px 0;
+      margin: 0.1875rem 0 0.25rem 0;
     }
   }
 
