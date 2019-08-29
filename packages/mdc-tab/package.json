@@ -1,5 +1,5 @@
 {
-  "name": "@material/tab",
+  "name": "@limetech/mdc-tab",
   "description": "The Material Components for the web tab component",
   "version": "3.0.0",
   "license": "MIT",
@@ -10,20 +10,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "main": "dist/mdc.tab.js",
   "module": "index.js",
   "sideEffects": false,
   "types": "dist/mdc.tab.d.ts",
   "dependencies": {
-    "@material/base": "^3.0.0",
-    "@material/feature-targeting": "^3.0.0",
-    "@material/ripple": "^3.0.0",
-    "@material/rtl": "^3.0.0",
-    "@material/tab-indicator": "^3.0.0",
-    "@material/theme": "^3.0.0",
-    "@material/typography": "^3.0.0",
+    "@limetech/mdc-base": "^3.0.0",
+    "@limetech/mdc-feature-targeting": "^3.0.0",
+    "@limetech/mdc-ripple": "^3.0.0",
+    "@limetech/mdc-rtl": "^3.0.0",
+    "@limetech/mdc-tab-indicator": "^3.0.0",
+    "@limetech/mdc-theme": "^3.0.0",
+    "@limetech/mdc-typography": "^3.0.0",
     "tslib": "^1.9.3"
   },
   "publishConfig": {

@@ -1,5 +1,5 @@
 {
-  "name": "@material/grid-list",
+  "name": "@limetech/mdc-grid-list",
   "version": "3.0.0",
   "description": "The Material Components for the web grid list component",
   "license": "MIT",
@@ -9,7 +9,7 @@
   "types": "dist/mdc.gridList.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "keywords": [
     "material components",
@@ -17,11 +17,11 @@
     "grid list"
   ],
   "dependencies": {
-    "@material/base": "^3.0.0",
-    "@material/feature-targeting": "^3.0.0",
-    "@material/rtl": "^3.0.0",
-    "@material/theme": "^3.0.0",
-    "@material/typography": "^3.0.0",
+    "@limetech/mdc-base": "^3.0.0",
+    "@limetech/mdc-feature-targeting": "^3.0.0",
+    "@limetech/mdc-rtl": "^3.0.0",
+    "@limetech/mdc-theme": "^3.0.0",
+    "@limetech/mdc-typography": "^3.0.0",
     "tslib": "^1.9.3"
   },
   "publishConfig": {

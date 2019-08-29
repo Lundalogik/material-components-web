@@ -1,5 +1,5 @@
 {
-  "name": "@material/icon-button",
+  "name": "@limetech/mdc-icon-button",
   "description": "The Material Components for the web icon button component",
   "version": "3.0.0",
   "license": "MIT",
@@ -16,13 +16,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/base": "^3.0.0",
-    "@material/feature-targeting": "^3.0.0",
-    "@material/ripple": "^3.0.0",
-    "@material/theme": "^3.0.0",
+    "@limetech/mdc-base": "^3.0.0",
+    "@limetech/mdc-feature-targeting": "^3.0.0",
+    "@limetech/mdc-ripple": "^3.0.0",
+    "@limetech/mdc-theme": "^3.0.0",
     "tslib": "^1.9.3"
   },
   "publishConfig": {

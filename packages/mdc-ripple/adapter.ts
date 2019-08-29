@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {EventType, SpecificEventListener} from '@material/base/types';
+import {EventType, SpecificEventListener} from '@limetech/mdc-base/types';
 import {MDCRipplePoint} from './types';
 
 /**

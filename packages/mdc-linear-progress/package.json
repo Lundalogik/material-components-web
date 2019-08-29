@@ -1,5 +1,5 @@
 {
-  "name": "@material/linear-progress",
+  "name": "@limetech/mdc-linear-progress",
   "description": "The Material Components for the web linear progress indicator component",
   "version": "3.0.0",
   "license": "MIT",
@@ -14,12 +14,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/animation": "^3.0.0",
-    "@material/base": "^3.0.0",
-    "@material/theme": "^3.0.0",
+    "@limetech/mdc-animation": "^3.0.0",
+    "@limetech/mdc-base": "^3.0.0",
+    "@limetech/mdc-theme": "^3.0.0",
     "tslib": "^1.9.3"
   },
   "publishConfig": {
