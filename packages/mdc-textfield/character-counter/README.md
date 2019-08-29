@@ -33,13 +33,13 @@ Character counter is used if there is a character limit. It displays the ratio o
 ### Styles
 
 ```scss
-@import "@material/textfield/character-counter/mdc-text-field-character-counter";
+@import "@limetech/mdc-textfield/character-counter/mdc-text-field-character-counter";
 ```
 
 ### JavaScript Instantiation
 
 ```js
-import {MDCTextFieldCharacterCounter} from '@material/textfield/character-counter';
+import {MDCTextFieldCharacterCounter} from '@limetech/mdc-textfield/character-counter';
 
 const characterCounter = new MDCTextFieldCharacterCounter(document.querySelector('.mdc-text-field-character-counter'));
 ```

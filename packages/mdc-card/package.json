@@ -1,5 +1,5 @@
 {
-  "name": "@material/card",
+  "name": "@limetech/mdc-card",
   "version": "2.3.0",
   "description": "The Material Components for the web card component",
   "license": "MIT",
@@ -10,14 +10,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/elevation": "^1.1.0",
-    "@material/feature-targeting": "^0.44.1",
-    "@material/ripple": "^2.3.0",
-    "@material/rtl": "^0.42.0",
-    "@material/shape": "^1.1.1",
-    "@material/theme": "^1.1.0"
+    "@limetech/mdc-elevation": "^1.1.0",
+    "@limetech/mdc-feature-targeting": "^0.44.1",
+    "@limetech/mdc-ripple": "^2.3.0",
+    "@limetech/mdc-rtl": "^0.42.0",
+    "@limetech/mdc-shape": "^1.1.1",
+    "@limetech/mdc-theme": "^1.1.0"
   }
 }

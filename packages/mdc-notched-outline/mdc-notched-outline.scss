@@ -20,9 +20,9 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/variables";
-@import "@material/base/mixins";
-@import "@material/rtl/mixins";
+@import "@limetech/mdc-animation/variables";
+@import "@limetech/mdc-base/mixins";
+@import "@limetech/mdc-rtl/mixins";
 @import "./mixins";
 @import "./variables";
 
@@ -52,19 +52,19 @@
       box-sizing: border-box;
       height: 100%;
       transition: border $mdc-notched-outline-transition-duration $mdc-animation-standard-curve-timing-function;
-      border-top: 1px solid;
-      border-bottom: 1px solid;
+      border-top: 0.0625rem solid;
+      border-bottom: 0.0625rem solid;
       pointer-events: none;
     }
 
     &__leading {
-      @include mdc-rtl-reflexive-property(border, 1px solid, none);
+      @include mdc-rtl-reflexive-property(border, 0.0625rem solid, none);
 
       width: $mdc-notched-outline-leading-width;
     }
 
     &__trailing {
-      @include mdc-rtl-reflexive-property(border, none, 1px solid);
+      @include mdc-rtl-reflexive-property(border, none, 0.0625rem solid);
 
       flex-grow: 1;
     }
@@ -78,7 +78,7 @@
     .mdc-floating-label {
       display: inline-block;
       position: relative;
-      top: 17px;
+      top: 1.0625rem;
       bottom: auto;
       max-width: 100%;
     }
@@ -94,7 +94,7 @@
 
   .mdc-notched-outline--notched {
     .mdc-notched-outline__notch {
-      @include mdc-rtl-reflexive-box(padding, right, 8px);
+      @include mdc-rtl-reflexive-box(padding, right, 0.5rem);
 
       border-top: none;
     }

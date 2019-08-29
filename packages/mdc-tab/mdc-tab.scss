@@ -20,11 +20,11 @@
 // THE SOFTWARE.
 //
 
-@import "@material/ripple/common";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
-@import "@material/typography/mixins";
-@import "@material/tab-indicator/mixins";
+@import "@limetech/mdc-ripple/common";
+@import "@limetech/mdc-ripple/mixins";
+@import "@limetech/mdc-rtl/mixins";
+@import "@limetech/mdc-typography/mixins";
+@import "@limetech/mdc-tab-indicator/mixins";
 @import "./mixins";
 @import "./variables";
 
@@ -121,11 +121,11 @@
 }
 
 .mdc-tab--stacked .mdc-tab__icon {
-  padding-top: 12px;
+  padding-top: 0.75rem;
 }
 
 .mdc-tab--stacked .mdc-tab__text-label {
-  padding-bottom: 16px;
+  padding-bottom: 1rem;
 }
 
 .mdc-tab--active {
@@ -139,7 +139,7 @@
 }
 
 .mdc-tab:not(.mdc-tab--stacked) .mdc-tab__icon + .mdc-tab__text-label {
-  @include mdc-rtl-reflexive-box(padding, left, 8px);
+  @include mdc-rtl-reflexive-box(padding, left, 0.5rem);
 }
 
 // postcss-bem-linter: end
