@@ -1,5 +1,5 @@
 {
-  "name": "@material/chips",
+  "name": "@limetech/mdc-chips",
   "description": "The Material Components for the Web chips component",
   "version": "2.0.0",
   "license": "MIT",
@@ -14,20 +14,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@material/animation": "^1.0.0",
-    "@material/base": "^1.0.0",
-    "@material/checkbox": "^2.0.0",
-    "@material/elevation": "^1.1.0",
-    "@material/ripple": "^2.0.0",
-    "@material/shape": "^1.1.1",
-    "@material/theme": "^1.1.0",
-    "@material/typography": "^1.0.0",
+    "@limetech/mdc-animation": "^1.0.0",
+    "@limetech/mdc-base": "^1.0.0",
+    "@limetech/mdc-checkbox": "^2.0.0",
+    "@limetech/mdc-elevation": "^1.1.0",
+    "@limetech/mdc-ripple": "^2.0.0",
+    "@limetech/mdc-shape": "^1.1.1",
+    "@limetech/mdc-theme": "^1.1.0",
+    "@limetech/mdc-typography": "^1.0.0",
     "tslib": "^1.9.3"
   }
 }

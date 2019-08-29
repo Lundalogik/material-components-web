@@ -1,5 +1,5 @@
 {
-  "name": "@material/form-field",
+  "name": "@limetech/mdc-form-field",
   "description": "Material Components for the web wrapper for laying out form fields and labels next to one another",
   "version": "2.0.0",
   "license": "MIT",
@@ -14,15 +14,15 @@
   "types": "dist/mdc.formField.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/base": "^1.0.0",
-    "@material/feature-targeting": "^0.44.1",
-    "@material/ripple": "^2.0.0",
-    "@material/rtl": "^0.42.0",
-    "@material/theme": "^1.1.0",
-    "@material/typography": "^1.0.0",
+    "@limetech/mdc-base": "^1.0.0",
+    "@limetech/mdc-feature-targeting": "^0.44.1",
+    "@limetech/mdc-ripple": "^2.0.0",
+    "@limetech/mdc-rtl": "^0.42.0",
+    "@limetech/mdc-theme": "^1.1.0",
+    "@limetech/mdc-typography": "^1.0.0",
     "tslib": "^1.9.3"
   }
 }
