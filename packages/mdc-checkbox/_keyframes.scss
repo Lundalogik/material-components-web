@@ -20,8 +20,8 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/variables";
-@import "@material/theme/mixins";
+@import "@limetech/mdc-animation/variables";
+@import "@limetech/mdc-theme/mixins";
 @import "./variables";
 
 @mixin mdc-checkbox-container-keyframes_(

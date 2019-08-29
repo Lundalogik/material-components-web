@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-@import "@material/animation/variables";
-@import "@material/tab/mixins";
+@import "@limetech/mdc-animation/variables";
+@import "@limetech/mdc-tab/mixins";
 
 // postcss-bem-linter: define tab-scroller
 .mdc-tab-scroller {
@@ -32,9 +32,9 @@
 // Selector for test element used to feature-detect horizontal scrollbar height
 .mdc-tab-scroller__test {
   position: absolute;
-  top: -9999px;
-  width: 100px;
-  height: 100px;
+  top: -624.9375rem;
+  width: 6.25rem;
+  height: 6.25rem;
   overflow-x: scroll;
 }
 
