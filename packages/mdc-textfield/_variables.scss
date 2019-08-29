@@ -52,16 +52,16 @@ $mdc-textarea-disabled-border-color: rgba(mdc-theme-prop-value(on-surface), .26)
 // will make text unreadable
 $mdc-textarea-disabled-background: rgba(249, 249, 249, 1) !default;
 
-$mdc-text-field-height: 56px !default;
+$mdc-text-field-height: 3.5rem !default;
 $mdc-text-field-label-position-y: 50% !default;
-$mdc-text-field-label-offset: 16px !default;
+$mdc-text-field-label-offset: 1rem !default;
 $mdc-text-field-dense-label-position-y: 70% !default;
 $mdc-text-field-dense-label-scale: .8 !default;
 $mdc-text-field-outlined-label-position-y: 130% !default;
 $mdc-text-field-outlined-dense-label-position-y: 120% !default;
 $mdc-text-field-outlined-with-leading-icon-label-position-x: 0 !default;
-$mdc-text-field-outlined-dense-with-leading-icon-label-position-x: 21px !default;
+$mdc-text-field-outlined-dense-with-leading-icon-label-position-x: 1.3125rem !default;
 $mdc-text-field-textarea-label-position-y: 130% !default;
-$mdc-text-field-helper-line-padding: 16px !default;
-$mdc-text-field-input-padding: 16px !default;
+$mdc-text-field-helper-line-padding: 1rem !default;
+$mdc-text-field-input-padding: 1rem !default;
 // Note that the scale factor is an eyeballed approximation of what's shown in the mocks.

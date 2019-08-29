@@ -1,5 +1,5 @@
 {
-  "name": "@material/dom",
+  "name": "@limetech/mdc-dom",
   "description": "DOM manipulation utilities for Material Components for the web",
   "version": "1.1.0",
   "license": "MIT",
@@ -9,7 +9,7 @@
   "types": "dist/mdc.dom.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "publishConfig": {
     "access": "public"

@@ -20,11 +20,11 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/functions";
-@import "@material/theme/mixins";
-@import "@material/rtl/mixins";
+@import "@limetech/mdc-animation/functions";
+@import "@limetech/mdc-theme/mixins";
+@import "@limetech/mdc-rtl/mixins";
 
-$mdc-tab-bar-scroller-indicator-width: 48px;
+$mdc-tab-bar-scroller-indicator-width: 3rem;
 
 // postcss-bem-linter: define tab-bar-scroller
 

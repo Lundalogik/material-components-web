@@ -20,9 +20,9 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/functions";
-@import "@material/theme/mixins";
-@import "@material/rtl/mixins";
+@import "@limetech/mdc-animation/functions";
+@import "@limetech/mdc-theme/mixins";
+@import "@limetech/mdc-rtl/mixins";
 @import "./mixins";
 @import "../mixins";
 
@@ -35,7 +35,7 @@
 .mdc-tab-bar {
   display: table;
   position: relative;
-  height: 48px;
+  height: 3rem;
   margin: 0 auto;
   text-transform: uppercase;
 }
@@ -51,5 +51,5 @@
 }
 
 .mdc-tab-bar--icons-with-text {
-  height: 72px;
+  height: 4.5rem;
 }

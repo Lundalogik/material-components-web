@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {MDCRipple} from '@material/ripple/component';
+import {MDCComponent} from '@limetech/mdc-base/component';
+import {MDCRipple} from '@limetech/mdc-ripple/component';
 import {MDCTabAdapter} from './adapter';
 import {cssClasses} from './constants';
 import {MDCTabFoundation} from './foundation';

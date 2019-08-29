@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {SpecificEventListener} from '@material/base/types';
+import {SpecificEventListener} from '@limetech/mdc-base/types';
 import {MDCToolbarEventDetail} from './types';
 
 /**

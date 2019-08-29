@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
+import {MDCComponent} from '@limetech/mdc-base/component';
 import {MDCTab, MDCTabFactory, MDCTabSelectedEvent} from '../tab/component';
 import {MDCTabFoundation} from '../tab/foundation';
 import {MDCTabBarAdapter} from './adapter';

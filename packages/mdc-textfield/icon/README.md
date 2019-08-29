@@ -42,13 +42,13 @@ However, you can also use SVG, [Font Awesome](https://fontawesome.com/), or any 
 ### Styles
 
 ```scss
-@import "@material/textfield/icon/mdc-text-field-icon";
+@import "@limetech/mdc-textfield/icon/mdc-text-field-icon";
 ```
 
 ### JavaScript Instantiation
 
 ```js
-import {MDCTextFieldIcon} from '@material/textfield/icon';
+import {MDCTextFieldIcon} from '@limetech/mdc-textfield/icon';
 
 const icon = new MDCTextFieldIcon(document.querySelector('.mdc-text-field-icon'));
 ```

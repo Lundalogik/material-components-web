@@ -20,12 +20,12 @@
 // THE SOFTWARE.
 //
 
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/rtl/mixins";
-@import "@material/list/mixins";
-@import "@material/list/variables";
-@import "@material/ripple/mixins";
+@import "@limetech/mdc-feature-targeting/functions";
+@import "@limetech/mdc-feature-targeting/mixins";
+@import "@limetech/mdc-rtl/mixins";
+@import "@limetech/mdc-list/mixins";
+@import "@limetech/mdc-list/variables";
+@import "@limetech/mdc-ripple/mixins";
 @import "./variables";
 
 @mixin mdc-menu-core-styles($query: mdc-feature-all()) {
@@ -50,7 +50,7 @@
 
     .mdc-list-divider {
       @include mdc-feature-targets($feat-structure) {
-        margin: 8px 0;
+        margin: 0.5rem 0;
       }
     }
 
@@ -85,14 +85,14 @@
 
     .mdc-list-item {
       @include mdc-feature-targets($feat-structure) {
-        @include mdc-rtl-reflexive-property(padding, 56px, $mdc-list-side-padding);
+        @include mdc-rtl-reflexive-property(padding, 3.5rem, $mdc-list-side-padding);
       }
     }
 
     // Extra specificity required to override `display` property on `mdc-list-item__graphic`.
     .mdc-menu__selection-group-icon {
       @include mdc-feature-targets($feat-structure) {
-        @include mdc-rtl-reflexive-position(left, 16px);
+        @include mdc-rtl-reflexive-position(left, 1rem);
 
         display: none;
         position: absolute;
