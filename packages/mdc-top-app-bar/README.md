@@ -33,7 +33,7 @@ MDC Top App Bar acts as a container for items such as application title, navigat
 ## Installation
 
 ```
-npm install @material/top-app-bar
+npm install @limetech/mdc-top-app-bar
 ```
 
 ## Basic Usage
@@ -68,14 +68,14 @@ However, you can also use SVG, [Font Awesome](https://fontawesome.com/), or any 
 ### Styles
 
 ```scss
-@import "@material/top-app-bar/mdc-top-app-bar";
-@import "@material/icon-button/mdc-icon-button";
+@import "@limetech/mdc-top-app-bar/mdc-top-app-bar";
+@import "@limetech/mdc-icon-button/mdc-icon-button";
 ```
 
 ### JavaScript Instantiation
 
 ```js
-import {MDCTopAppBar} from '@material/top-app-bar';
+import {MDCTopAppBar} from '@limetech/mdc-top-app-bar';
 
 // Instantiation
 const topAppBarElement = document.querySelector('.mdc-top-app-bar');

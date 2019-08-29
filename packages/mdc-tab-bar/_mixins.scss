@@ -20,8 +20,8 @@
 // THE SOFTWARE.
 //
 
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
+@import "@limetech/mdc-feature-targeting/functions";
+@import "@limetech/mdc-feature-targeting/mixins";
 
 @mixin mdc-tab-bar-core-styles($query: mdc-feature-all()) {
   // postcss-bem-linter: define tab-bar

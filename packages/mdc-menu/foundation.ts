@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/foundation';
-import {MDCMenuSurfaceFoundation} from '@material/menu-surface/foundation';
+import {MDCFoundation} from '@limetech/mdc-base/foundation';
+import {MDCMenuSurfaceFoundation} from '@limetech/mdc-menu-surface/foundation';
 import {MDCMenuAdapter} from './adapter';
 import {cssClasses, DefaultFocusState, numbers, strings} from './constants';
 

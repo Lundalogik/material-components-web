@@ -20,11 +20,11 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/functions";
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
+@import "@limetech/mdc-animation/functions";
+@import "@limetech/mdc-feature-targeting/functions";
+@import "@limetech/mdc-feature-targeting/mixins";
+@import "@limetech/mdc-ripple/mixins";
+@import "@limetech/mdc-rtl/mixins";
 @import "./functions";
 @import "./keyframes";
 @import "./variables";
@@ -69,7 +69,7 @@
   @media screen and (-ms-high-contrast: active) {
     .mdc-checkbox__mixedmark {
       @include mdc-feature-targets($feat-structure) {
-        margin: 0 1px; // Extra horizontal space around mixedmark symbol.
+        margin: 0 0.0625rem; // Extra horizontal space around mixedmark symbol.
       }
     }
   }
@@ -492,7 +492,7 @@
     height: $mdc-checkbox-size;
     // border-color is overridden by the mdc-checkbox-unmarked-stroke-color() mixin
     border: $mdc-checkbox-border-width solid currentColor;
-    border-radius: 2px;
+    border-radius: 0.125rem;
     background-color: transparent;
     pointer-events: none;
     will-change: background-color, border-color;
