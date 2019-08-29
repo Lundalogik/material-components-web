@@ -1,5 +1,5 @@
 {
-  "name": "@material/tab-bar",
+  "name": "@limetech/mdc-tab-bar",
   "description": "The Material Components for the web tab bar component",
   "version": "2.1.1",
   "license": "MIT",
@@ -15,13 +15,13 @@
   "types": "dist/mdc.tabBar.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
-    "@material/base": "^1.0.0",
-    "@material/elevation": "^1.1.0",
-    "@material/tab": "^2.1.1",
-    "@material/tab-scroller": "^2.1.1",
+    "@limetech/mdc-base": "^1.0.0",
+    "@limetech/mdc-elevation": "^1.1.0",
+    "@limetech/mdc-tab": "^2.1.1",
+    "@limetech/mdc-tab-scroller": "^2.1.1",
     "tslib": "^1.9.3"
   },
   "publishConfig": {

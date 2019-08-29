@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {MDCFloatingLabelFoundation} from '@material/floating-label/foundation';
+import {MDCComponent} from '@limetech/mdc-base/component';
+import {MDCFloatingLabelFoundation} from '@limetech/mdc-floating-label/foundation';
 import {MDCNotchedOutlineAdapter} from './adapter';
 import {cssClasses, strings} from './constants';
 import {MDCNotchedOutlineFoundation} from './foundation';

@@ -1,5 +1,5 @@
 {
-  "name": "@material/animation",
+  "name": "@limetech/mdc-animation",
   "description": "Animation Variables and Mixins used by Material Components for the web",
   "version": "1.0.0",
   "license": "MIT",
@@ -14,7 +14,7 @@
   "types": "dist/mdc.animation.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git"
+    "url": "https://github.com/Lundalogik/material-components-web.git"
   },
   "dependencies": {
     "tslib": "^1.9.3"
