@@ -25,13 +25,16 @@
 @import "@material/feature-targeting/mixins";
 @import "@material/ripple/mixins";
 @import "@material/ripple/variables";
-@import "@material/theme/functions";
-@import "@material/theme/mixins";
+@import "@material/rtl/mixins";
 @import "@material/shape/mixins";
 @import "@material/shape/functions";
-@import "@material/rtl/mixins";
+@import "@material/theme/functions";
+@import "@material/theme/mixins";
+@import "@material/touch-target/mixins";
 @import "@material/typography/mixins";
 @import "./variables";
+
+$mdc-fab-ripple-target: ".mdc-fab__ripple";
 
 @mixin mdc-fab-core-styles($query: mdc-feature-all()) {
   @include mdc-fab-without-ripple($query);
@@ -40,6 +43,9 @@
 
 @mixin mdc-fab-without-ripple($query: mdc-feature-all()) {
   // postcss-bem-linter: define fab
+
+  @include mdc-touch-target-wrapper($query);
+  @include mdc-elevation-overlay-common($query);
 
   .mdc-fab {
     @include mdc-fab-base_($query: $query);
@@ -54,6 +60,17 @@
 
   .mdc-fab--extended {
     @include mdc-fab--extended_($query: $query);
+  }
+
+  .mdc-fab--touch {
+    @include mdc-touch-target-margin(
+      $component-height: $mdc-fab-mini-height,
+      $component-width: $mdc-fab-mini-height,
+      $query: $query);
+
+    .mdc-fab__touch {
+      @include mdc-touch-target($set-width: true, $query: $query);
+    }
   }
 
   .mdc-fab__label {
@@ -78,14 +95,26 @@
 }
 
 @mixin mdc-fab-ripple($query: mdc-feature-all()) {
+  $feat-structure: mdc-feature-create-target($query, structure);
+
   @include mdc-ripple-common($query);
 
   // postcss-bem-linter: define fab
 
   .mdc-fab {
-    @include mdc-ripple-surface($query: $query);
-    @include mdc-ripple-radius-bounded($query: $query);
-    @include mdc-states(on-secondary, $query: $query);
+    @include mdc-ripple-surface(
+      $query: $query, $ripple-target: $mdc-fab-ripple-target);
+    @include mdc-ripple-radius-bounded(
+      $query: $query, $ripple-target: $mdc-fab-ripple-target);
+    @include mdc-states(
+      on-secondary, $query: $query, $ripple-target: $mdc-fab-ripple-target);
+
+    // stylelint-disable-next-line plugin/selector-bem-pattern
+    #{$mdc-fab-ripple-target} {
+      @include mdc-ripple-target-common($query: $query);
+
+      overflow: hidden;
+    }
   }
 
   // postcss-bem-linter: end
@@ -98,10 +127,16 @@
 
   @if ($fill-tone == "dark") {
     @include mdc-fab-ink-color(text-primary-on-dark, $query: $query);
-    @include mdc-states(text-primary-on-dark, $query: $query);
+    @include mdc-states(
+      text-primary-on-dark,
+      $query: $query,
+      $ripple-target: $mdc-fab-ripple-target);
   } @else {
     @include mdc-fab-ink-color(text-primary-on-light, $query: $query);
-    @include mdc-states(text-primary-on-light, $query: $query);
+    @include mdc-states(
+      text-primary-on-light,
+      $query: $query,
+      $ripple-target: $mdc-fab-ripple-target);
   }
 }
 
@@ -109,7 +144,7 @@
   $feat-color: mdc-feature-create-target($query, color);
 
   @include mdc-feature-targets($feat-color) {
-    @include mdc-theme-prop(background-color, $color, $edgeOptOut: true);
+    @include mdc-theme-prop(background-color, $color);
   }
 }
 
@@ -172,6 +207,10 @@
 @mixin mdc-fab-shape-radius($radius, $rtl-reflexive: false, $query: mdc-feature-all()) {
   &:not(.mdc-fab--extended) {
     @include mdc-shape-radius($radius, $rtl-reflexive, $query: $query);
+
+    #{$mdc-fab-ripple-target} {
+      @include mdc-shape-radius($radius, $rtl-reflexive, $query: $query);
+    }
   }
 }
 
@@ -181,12 +220,22 @@
     $rtl-reflexive,
     $query: $query
   );
+
+  #{$mdc-fab-ripple-target} {
+    @include mdc-shape-radius(
+      mdc-shape-resolve-percentage-radius($mdc-fab-extended-height, $radius),
+      $rtl-reflexive,
+      $query: $query
+    );
+  }
 }
 
 $mdc-fab-icon-enter-delay_: 90ms;
 $mdc-fab-icon-enter-duration_: 180ms;
 
 @mixin mdc-fab-base_($query: mdc-feature-all()) {
+  @include mdc-elevation-overlay-surface-position($query: $query);
+  @include mdc-elevation-overlay-size(100%, $query: $query);
   @include mdc-elevation(6, $query: $query);
   @include mdc-fab-shape-radius(50%, $query: $query);
 
@@ -209,7 +258,9 @@ $mdc-fab-icon-enter-duration_: 180ms;
     user-select: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    overflow: hidden;
+    // Even though `visible` is the default, IE 11 computes the property as
+    // `hidden` in some cases, unless it's explicitly defined here.
+    overflow: visible;
   }
 
   @include mdc-feature-targets($feat-animation) {
@@ -285,6 +336,9 @@ $mdc-fab-icon-enter-duration_: 180ms;
     width: auto;
     max-width: 100%;
     height: $mdc-fab-extended-height;
+    // This allows the text within the extended fab to be centered for varying font sizes.
+    /* @alternate */
+    line-height: normal;
   }
 }
 

@@ -53,6 +53,7 @@ However, you can also use SVG, [Font Awesome](https://fontawesome.com/), or any 
 
 ```html
 <button class="mdc-fab" aria-label="Favorite">
+  <div class="mdc-fab__ripple"></div>
   <span class="mdc-fab__icon material-icons">favorite</span>
 </button>
 ```
@@ -85,6 +86,7 @@ const fabRipple = new MDCRipple(document.querySelector('.mdc-fab'));
 
 ```html
 <button class="mdc-fab mdc-fab--extended">
+  <div class="mdc-fab__ripple"></div>
   <span class="material-icons mdc-fab__icon">add</span>
   <span class="mdc-fab__label">Create</span>
 </button>
@@ -100,6 +102,7 @@ CSS Class | Description
 --- | ---
 `mdc-fab` | Mandatory, for the button element
 `mdc-fab__icon` | Mandatory, for the icon element
+`mdc-fab__ripple` | Mandatory, for the element which shows the ripple.
 `mdc-fab__label` | Optional, for the text label. Applicable only for Extended FAB.
 `mdc-fab--mini` | Optional, modifies the FAB to a smaller size
 `mdc-fab--extended` | Optional, modifies the FAB to wider size which includes a text label.
@@ -134,11 +137,25 @@ Mixin | Description
 
 The ripple effect for the FAB component is styled using [MDC Ripple](../mdc-ripple) mixins.
 
-#### Caveat: Edge and CSS Variables
-
-In browsers that fully support CSS custom properties, the above mixins will work if you pass in a [MDC Theme](../mdc-theme) property (e.g. `primary`) as an argument. However, Edge does not fully support CSS custom properties. If you are using the `mdc-fab-container-color` mixin, you must pass in an actual color value for support in Edge.
-
 ### Additional Information
+
+#### Accessibility
+
+Material Design spec advises that touch targets should be at least 48x48px.
+While the FAB is 48x48px by default, the mini FAB is 40x40px. Add the following to meet this requirement for mini FAB's:
+
+```html
+<div class="mdc-touch-target-wrapper">
+  <button class="mdc-fab mdc-fab--mini mdc-fab--touch">
+    <div class="mdc-fab__ripple"></div>
+    <span class="material-icons mdc-fab__icon">add</span>
+    <span class="mdc-fab__label">Create</span>
+    <div class="mdc-fab__touch"></div>
+  </button>
+</div>
+```
+
+Note that the outer `mdc-touch-target-wrapper` element is only necessary if you want to avoid potentially overlapping touch targets on adjacent elements (due to collapsing margins).
 
 #### Positioning
 

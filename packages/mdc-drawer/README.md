@@ -226,7 +226,7 @@ In the following example, the `mdc-drawer__content` and `main-content` elements 
     <header class="mdc-top-app-bar app-bar" id="app-bar">
       <div class="mdc-top-app-bar__row">
         <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-          <a href="#" class="demo-menu material-icons mdc-top-app-bar__navigation-icon">menu</a>
+          <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button">menu</button>
           <span class="mdc-top-app-bar__title">Dismissible Drawer</span>
         </section>
       </div>
@@ -250,7 +250,7 @@ In cases where the drawer appears below the top app bar you will want to follow 
   <header class="mdc-top-app-bar app-bar" id="app-bar">
     <div class="mdc-top-app-bar__row">
       <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-        <a href="#" class="demo-menu material-icons mdc-top-app-bar__navigation-icon">menu</a>
+        <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button">menu</button>
         <span class="mdc-top-app-bar__title">Dismissible Drawer</span>
       </section>
     </div>
@@ -355,6 +355,10 @@ Modal drawers are elevated above most of the app's UI and don't affect the scree
 ```
 
 > The `mdc-drawer-scrim` next sibling element is **required**, to protect the app's UI from interactions while the modal drawer is open.
+
+### Responsive Drawer
+
+ There is currently no dedicated material component for responsive drawers.  This [responsive drawer example](https://glitch.com/~material-responsive-drawer) demonstrates a suggested solution for a drawer that dynamically switches between the permanent variant and the modal variant based on screen width.
 
 ## Style Customization
 

@@ -57,6 +57,7 @@ export class MDCListFoundation extends MDCFoundation<MDCListAdapter> {
       isCheckboxCheckedAtIndex: () => false,
       isFocusInsideList: () => false,
       isRootFocused: () => false,
+      listItemAtIndexHasClass: () => false,
       notifyAction: () => undefined,
       removeClassForElementIndex: () => undefined,
       setAttributeForElementIndex: () => undefined,
@@ -305,6 +306,24 @@ export class MDCListFoundation extends MDCFoundation<MDCListAdapter> {
   }
 
   /**
+   * @param itemIndex Index of the list item
+   * @param isEnabled Sets the list item to enabled or disabled.
+   */
+  setEnabled(itemIndex: number, isEnabled: boolean): void {
+    if (!this.isIndexValid_(itemIndex)) {
+      return;
+    }
+
+    if (isEnabled) {
+      this.adapter_.removeClassForElementIndex(itemIndex, cssClasses.LIST_ITEM_DISABLED_CLASS);
+      this.adapter_.setAttributeForElementIndex(itemIndex, strings.ARIA_DISABLED, 'false');
+    } else {
+      this.adapter_.addClassForElementIndex(itemIndex, cssClasses.LIST_ITEM_DISABLED_CLASS);
+      this.adapter_.setAttributeForElementIndex(itemIndex, strings.ARIA_DISABLED, 'true');
+    }
+  }
+
+  /**
    * Ensures that preventDefault is only called if the containing element doesn't
    * consume the event, and it will cause an unintended scroll.
    */
@@ -444,7 +463,15 @@ export class MDCListFoundation extends MDCFoundation<MDCListAdapter> {
     return index >= 0 && index < listSize;
   }
 
+  /**
+   * Sets selected index on user action, toggles checkbox / radio based on toggleCheckbox value.
+   * User interaction should not toggle list item(s) when disabled.
+   */
   private setSelectedIndexOnAction_(index: number, toggleCheckbox = true) {
+    if (this.adapter_.listItemAtIndexHasClass(index, cssClasses.LIST_ITEM_DISABLED_CLASS)) {
+      return;
+    }
+
     if (this.isCheckboxList_) {
       this.toggleCheckboxAtIndex_(index, toggleCheckbox);
     } else {

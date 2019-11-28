@@ -129,6 +129,15 @@ export class MDCList extends MDCComponent<MDCListFoundation> {
     }
   }
 
+  /**
+   * Updates the list item at itemIndex to the desired isEnabled state.
+   * @param itemIndex Index of the list item
+   * @param isEnabled Sets the list item to enabled or disabled.
+   */
+  setEnabled(itemIndex: number, isEnabled: boolean) {
+    this.foundation_.setEnabled(itemIndex, isEnabled);
+  }
+
   getDefaultFoundation() {
     // DO NOT INLINE this variable. For backward compatibility, foundations take a Partial<MDCFooAdapter>.
     // To ensure we don't accidentally omit any methods, we need a separate, strongly typed adapter variable.
@@ -165,6 +174,7 @@ export class MDCList extends MDCComponent<MDCListFoundation> {
         return this.root_.contains(document.activeElement);
       },
       isRootFocused: () => document.activeElement === this.root_,
+      listItemAtIndexHasClass: (index, className) => this.listElements[index].classList.contains(className),
       notifyAction: (index) => {
         this.emit<MDCListActionEventDetail>(strings.ACTION_EVENT, {index}, /** shouldBubble */ true);
       },

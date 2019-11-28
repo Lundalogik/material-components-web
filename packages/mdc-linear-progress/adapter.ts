@@ -30,9 +30,12 @@
  */
 export interface MDCLinearProgressAdapter {
   addClass(className: string): void;
+  forceLayout(): void;
   getBuffer(): HTMLElement | null;
   getPrimaryBar(): HTMLElement | null;
   hasClass(className: string): boolean;
   removeClass(className: string): void;
+  removeAttribute(name: string): void;
+  setAttribute(name: string, value: string): void;
   setStyle(el: HTMLElement, styleProperty: string, value: string): void;
 }

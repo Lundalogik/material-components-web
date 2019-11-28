@@ -156,6 +156,12 @@ test('#initializeListType does not populate selectedIndex when no item is select
   td.verify(mockFoundation.setSelectedIndex(td.matchers.anything()), {times: 0});
 });
 
+test('#setEnabled calls foundation method setEnabled with given index and enabled state.', () => {
+  const {component, mockFoundation} = setupTest();
+  component.setEnabled(1, true);
+  td.verify(mockFoundation.setEnabled(1, true), {times: 1});
+});
+
 test('adapter#getListItemCount returns correct number of list items', () => {
   const {root, component} = setupTest();
   document.body.appendChild(root);
@@ -482,5 +488,23 @@ test('adapter#isRootFocused returns true if list root is on focus', () => {
   assert.isFalse(component.getDefaultFoundation().adapter_.isRootFocused());
   root.focus();
   assert.isTrue(component.getDefaultFoundation().adapter_.isRootFocused());
+  document.body.removeChild(root);
+});
+
+test('adapter#listItemAtIndexHasClass returns true if list item has disabled class', () => {
+  const {root, component} = setupTest();
+  root.querySelectorAll(`.${cssClasses.LIST_ITEM_CLASS}`)[0]
+    .classList.add(cssClasses.LIST_ITEM_DISABLED_CLASS);
+  document.body.appendChild(root);
+  assert.isTrue(
+    component.getDefaultFoundation().adapter_.listItemAtIndexHasClass(0, cssClasses.LIST_ITEM_DISABLED_CLASS));
+  document.body.removeChild(root);
+});
+
+test('adapter#listItemAtIndexHasClass returns false if list item does not have disabled class', () => {
+  const {root, component} = setupTest();
+  document.body.appendChild(root);
+  assert.isFalse(
+    component.getDefaultFoundation().adapter_.listItemAtIndexHasClass(0, cssClasses.LIST_ITEM_DISABLED_CLASS));
   document.body.removeChild(root);
 });
