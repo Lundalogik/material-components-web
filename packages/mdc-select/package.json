@@ -1,5 +1,5 @@
 {
-  "name": "@material/select",
+  "name": "@limetech/mdc-select",
   "description": "The Material Components web select (text field drop-down) component",
   "version": "3.2.0",
   "license": "MIT",
@@ -15,22 +15,22 @@
   "types": "dist/mdc.select.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git",
+    "url": "https://github.com/Lundalogik/material-components-web.git",
     "directory": "packages/mdc-select"
   },
   "dependencies": {
-    "@material/animation": "^3.1.0",
-    "@material/base": "^3.1.0",
-    "@material/floating-label": "^3.2.0",
-    "@material/line-ripple": "^3.1.0",
-    "@material/menu": "^3.2.0",
-    "@material/menu-surface": "^3.2.0",
-    "@material/notched-outline": "^3.2.0",
-    "@material/ripple": "^3.2.0",
-    "@material/rtl": "^3.2.0",
-    "@material/shape": "^3.1.0",
-    "@material/theme": "^3.1.0",
-    "@material/typography": "^3.1.0",
+    "@limetech/mdc-animation": "^3.1.0",
+    "@limetech/mdc-base": "^3.1.0",
+    "@limetech/mdc-floating-label": "^3.2.0",
+    "@limetech/mdc-line-ripple": "^3.1.0",
+    "@limetech/mdc-menu": "^3.2.0",
+    "@limetech/mdc-menu-surface": "^3.2.0",
+    "@limetech/mdc-notched-outline": "^3.2.0",
+    "@limetech/mdc-ripple": "^3.2.0",
+    "@limetech/mdc-rtl": "^3.2.0",
+    "@limetech/mdc-shape": "^3.1.0",
+    "@limetech/mdc-theme": "^3.1.0",
+    "@limetech/mdc-typography": "^3.1.0",
     "tslib": "^1.9.3"
   }
 }

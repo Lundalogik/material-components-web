@@ -21,12 +21,12 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {applyPassive} from '@material/dom/events';
-import {MDCRippleAdapter} from '@material/ripple/adapter';
-import {MDCRipple} from '@material/ripple/component';
-import {MDCRippleFoundation} from '@material/ripple/foundation';
-import {MDCRippleCapableSurface} from '@material/ripple/types';
+import {MDCComponent} from '@limetech/mdc-base/component';
+import {applyPassive} from '@limetech/mdc-dom/events';
+import {MDCRippleAdapter} from '@limetech/mdc-ripple/adapter';
+import {MDCRipple} from '@limetech/mdc-ripple/component';
+import {MDCRippleFoundation} from '@limetech/mdc-ripple/foundation';
+import {MDCRippleCapableSurface} from '@limetech/mdc-ripple/types';
 import {MDCRadioAdapter} from './adapter';
 import {MDCRadioFoundation} from './foundation';
 

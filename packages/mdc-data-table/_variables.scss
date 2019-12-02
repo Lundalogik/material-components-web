@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 //
 
-@import "@material/theme/functions";
+@import "@limetech/mdc-theme/functions";
 
 $mdc-data-table-fill-color: surface !default;
 $mdc-data-table-header-row-fill-color: inherit !default;
@@ -29,18 +29,18 @@ $mdc-data-table-selected-row-fill-color: rgba(mdc-theme-prop-value(primary), .04
 
 $mdc-data-table-checked-icon-color: primary !default;
 $mdc-data-table-divider-color: rgba(mdc-theme-prop-value(on-surface), .12) !default;
-$mdc-data-table-divider-size: 1px !default;
+$mdc-data-table-divider-size: 0.0625rem !default;
 $mdc-data-table-row-hover-fill-color: rgba(mdc-theme-prop-value(on-surface), .04) !default;
-$mdc-data-table-checkbox-touch-dimension: 48px !default;
+$mdc-data-table-checkbox-touch-dimension: 3rem !default;
 
 $mdc-data-table-header-row-text-color: rgba(mdc-theme-prop-value(on-surface), .87) !default;
 $mdc-data-table-row-text-color: rgba(mdc-theme-prop-value(on-surface), .87) !default;
 
 $mdc-data-table-shape-radius: medium !default;
-$mdc-data-table-stroke-size: 1px !default;
+$mdc-data-table-stroke-size: 0.0625rem !default;
 $mdc-data-table-stroke-color: rgba(mdc-theme-prop-value(on-surface), .12) !default;
 
-$mdc-data-table-row-height: 52px !default;
-$mdc-data-table-header-row-height: $mdc-data-table-row-height + 4px !default;
-$mdc-data-table-cell-leading-padding: 16px !default;
-$mdc-data-table-cell-trailing-padding: 16px !default;
+$mdc-data-table-row-height: 3.25rem !default;
+$mdc-data-table-header-row-height: $mdc-data-table-row-height + 0.25rem !default;
+$mdc-data-table-cell-leading-padding: 1rem !default;
+$mdc-data-table-cell-trailing-padding: 1rem !default;

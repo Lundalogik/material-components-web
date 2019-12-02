@@ -1,5 +1,5 @@
 {
-  "name": "@material/menu",
+  "name": "@limetech/mdc-menu",
   "version": "3.2.0",
   "description": "The Material Components for the web menu component",
   "license": "MIT",
@@ -14,17 +14,17 @@
   "types": "dist/mdc.menu.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git",
+    "url": "https://github.com/Lundalogik/material-components-web.git",
     "directory": "packages/mdc-menu"
   },
   "dependencies": {
-    "@material/base": "^3.1.0",
-    "@material/dom": "^3.1.0",
-    "@material/feature-targeting": "^3.1.0",
-    "@material/list": "^3.2.0",
-    "@material/menu-surface": "^3.2.0",
-    "@material/ripple": "^3.2.0",
-    "@material/rtl": "^3.2.0",
+    "@limetech/mdc-base": "^3.1.0",
+    "@limetech/mdc-dom": "^3.1.0",
+    "@limetech/mdc-feature-targeting": "^3.1.0",
+    "@limetech/mdc-list": "^3.2.0",
+    "@limetech/mdc-menu-surface": "^3.2.0",
+    "@limetech/mdc-ripple": "^3.2.0",
+    "@limetech/mdc-rtl": "^3.2.0",
     "tslib": "^1.9.3"
   }
 }

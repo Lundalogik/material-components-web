@@ -32,7 +32,7 @@ Dialogs inform users about a task and can contain critical information, require 
 ## Installation
 
 ```
-npm install @material/dialog
+npm install @limetech/mdc-dialog
 ```
 
 ## Basic Usage
@@ -73,7 +73,7 @@ npm install @material/dialog
 ### Styles
 
 ```scss
-@import "@material/dialog/mdc-dialog";
+@import "@limetech/mdc-dialog/mdc-dialog";
 ```
 
 > *NOTE*: Styles for any components you intend to include within dialogs (e.g. List, Checkboxes, etc.) must also be
@@ -82,7 +82,7 @@ npm install @material/dialog
 ### JavaScript Instantiation
 
 ```js
-import {MDCDialog} from '@material/dialog';
+import {MDCDialog} from '@limetech/mdc-dialog';
 const dialog = new MDCDialog(document.querySelector('.mdc-dialog'));
 ```
 
@@ -96,7 +96,7 @@ first.
 For example, to instantiate an MDC List inside of a Simple or Confirmation Dialog:
 
 ```js
-import {MDCList} from '@material/list';
+import {MDCList} from '@limetech/mdc-list';
 const list = new MDCList(document.querySelector('.mdc-dialog .mdc-list'));
 
 dialog.listen('MDCDialog:opened', () => {
@@ -329,9 +329,9 @@ Mixin | Description
 `mdc-dialog-content-ink-color($color, $opacity)` | Sets the color of the dialog's content text.
 `mdc-dialog-scroll-divider-color($color, $opacity)` | Sets the color of the dividers which display around scrollable content.
 `mdc-dialog-shape-radius($radius, $rtl-reflexive)` | Sets the rounded shape to dialog surface with given radius size. Set `$rtl-reflexive` to true to flip radius values in RTL context, defaults to false.
-`mdc-dialog-min-width($min-width)` | Sets the minimum width of the dialog (defaults to 280px).
-`mdc-dialog-max-width($max-width, $margin)` | Sets the maximum width of the dialog (defaults to 560px max width and 16px margins).
-`mdc-dialog-max-height($max-height, $margin)` | Sets the maximum height of the dialog (defaults to no max height and 16px margins).
+`mdc-dialog-min-width($min-width)` | Sets the minimum width of the dialog (defaults to 17.5rem).
+`mdc-dialog-max-width($max-width, $margin)` | Sets the maximum width of the dialog (defaults to 35rem max width and 1rem margins).
+`mdc-dialog-max-height($max-height, $margin)` | Sets the maximum height of the dialog (defaults to no max height and 1rem margins).
 
 > *NOTE*: The `max-width` and `max-height` mixins only apply their maximum when the viewport is large enough to accommodate the specified value when accounting for the specified margin on either side. When the viewport is smaller, the dialog is sized such that the given margin is retained around the edges.
 
