@@ -113,7 +113,7 @@
 @mixin mdc-linear-progress-buffering-keyframes_ {
   @keyframes mdc-linear-progress-buffering {
     to {
-      transform: translateX(-10px);
+      transform: translateX(-0.625rem);
     }
   }
 }
@@ -166,7 +166,7 @@
 @mixin mdc-linear-progress-buffering-reverse-keyframes_ {
   @keyframes mdc-linear-progress-buffering-reverse {
     to {
-      transform: translateX(10px);
+      transform: translateX(0.625rem);
     }
   }
 }

@@ -33,7 +33,7 @@ The MDC Linear Progress component is a spec-aligned linear progress indicator co
 ## Installation
 
 ```
-npm install @material/linear-progress
+npm install @limetech/mdc-linear-progress
 ```
 
 ## Basic Usage
@@ -54,13 +54,13 @@ npm install @material/linear-progress
 
 ### Styles
 ```scss
-@import "@material/linear-progress/mdc-linear-progress";
+@import "@limetech/mdc-linear-progress/mdc-linear-progress";
 ```
 
 ### JavaScript Instantiation
 
 ```js
-import { MDCLinearProgress } from '@material/linear-progress';
+import { MDCLinearProgress } from '@limetech/mdc-linear-progress';
 
 const linearProgress = new MDCLinearProgress(document.querySelector('.mdc-linear-progress'));
 ```

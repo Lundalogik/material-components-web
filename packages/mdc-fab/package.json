@@ -1,5 +1,5 @@
 {
-  "name": "@material/fab",
+  "name": "@limetech/mdc-fab",
   "description": "The Material Components for the web floating action button component",
   "version": "4.0.0",
   "license": "MIT",
@@ -11,17 +11,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git",
+    "url": "https://github.com/Lundalogik/material-components-web.git",
     "directory": "packages/mdc-fab"
   },
   "dependencies": {
-    "@material/animation": "^4.0.0",
-    "@material/elevation": "^4.0.0",
-    "@material/feature-targeting": "^4.0.0",
-    "@material/ripple": "^4.0.0",
-    "@material/rtl": "^4.0.0",
-    "@material/shape": "^4.0.0",
-    "@material/theme": "^4.0.0",
-    "@material/typography": "^4.0.0"
+    "@limetech/mdc-animation": "^4.0.0",
+    "@limetech/mdc-elevation": "^4.0.0",
+    "@limetech/mdc-feature-targeting": "^4.0.0",
+    "@limetech/mdc-ripple": "^4.0.0",
+    "@limetech/mdc-rtl": "^4.0.0",
+    "@limetech/mdc-shape": "^4.0.0",
+    "@limetech/mdc-theme": "^4.0.0",
+    "@limetech/mdc-typography": "^4.0.0"
   }
 }

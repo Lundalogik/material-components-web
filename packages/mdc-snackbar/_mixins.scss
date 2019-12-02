@@ -20,17 +20,17 @@
 // THE SOFTWARE.
 //
 
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/animation/functions";
-@import "@material/button/mixins";
-@import "@material/icon-button/mixins";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
-@import "@material/typography/mixins";
-@import "@material/elevation/mixins";
-@import "@material/shape/mixins";
-@import "@material/theme/mixins";
+@import "@limetech/mdc-feature-targeting/functions";
+@import "@limetech/mdc-feature-targeting/mixins";
+@import "@limetech/mdc-animation/functions";
+@import "@limetech/mdc-button/mixins";
+@import "@limetech/mdc-icon-button/mixins";
+@import "@limetech/mdc-ripple/mixins";
+@import "@limetech/mdc-rtl/mixins";
+@import "@limetech/mdc-typography/mixins";
+@import "@limetech/mdc-elevation/mixins";
+@import "@limetech/mdc-shape/mixins";
+@import "@limetech/mdc-theme/mixins";
 @import "./variables";
 
 @mixin mdc-snackbar-core-styles($query: mdc-feature-all()) {
@@ -135,8 +135,8 @@
       box-sizing: border-box;
       margin: 0;
 
-      // 14px top/bottom padding needed to make the height 48px.
-      padding: 14px 16px;
+      // 0.875rem top/bottom padding needed to make the height 3rem.
+      padding: 0.875rem 1rem;
     }
   }
 

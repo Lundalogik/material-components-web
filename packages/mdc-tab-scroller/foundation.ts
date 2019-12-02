@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/foundation';
+import {MDCFoundation} from '@limetech/mdc-base/foundation';
 import {MDCTabScrollerAdapter} from './adapter';
 import {cssClasses, strings} from './constants';
 import {MDCTabScrollerRTLDefault} from './rtl-default-scroller';
@@ -305,7 +305,7 @@ export class MDCTabScrollerFoundation extends MDCFoundation<MDCTabScrollerAdapte
     this.isAnimating_ = false;
     const currentScrollPosition = this.getAnimatingScrollPosition_();
     this.adapter_.removeClass(MDCTabScrollerFoundation.cssClasses.ANIMATING);
-    this.adapter_.setScrollContentStyleProperty('transform', 'translateX(0px)');
+    this.adapter_.setScrollContentStyleProperty('transform', 'translateX(0rem)');
     this.adapter_.setScrollAreaScrollLeft(currentScrollPosition);
   }
 

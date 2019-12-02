@@ -1,5 +1,5 @@
 {
-  "name": "@material/layout-grid",
+  "name": "@limetech/mdc-layout-grid",
   "version": "4.0.0",
   "description": "The Material Components for the web layout grid component",
   "license": "MIT",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git",
+    "url": "https://github.com/Lundalogik/material-components-web.git",
     "directory": "packages/mdc-layout-grid"
   },
   "publishConfig": {

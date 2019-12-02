@@ -20,9 +20,9 @@
 // THE SOFTWARE.
 //
 
-@import "@material/density/variables";
-@import "@material/floating-label/variables";
-@import "@material/notched-outline/variables";
+@import "@limetech/mdc-density/variables";
+@import "@limetech/mdc-floating-label/variables";
+@import "@limetech/mdc-notched-outline/variables";
 
 ///
 /// Returns outlined text field floating label position for given height.
@@ -67,9 +67,9 @@ $mdc-textarea-disabled-border-color: rgba(mdc-theme-prop-value(on-surface), .26)
 // will make text unreadable
 $mdc-textarea-disabled-background: rgba(249, 249, 249, 1) !default;
 
-$mdc-text-field-outlined-stroke-width: 2px !default;
-$mdc-text-field-height: 56px !default;
-$mdc-text-field-minimum-height: 40px !default;
+$mdc-text-field-outlined-stroke-width: 0.125rem !default;
+$mdc-text-field-height: 3.5rem !default;
+$mdc-text-field-minimum-height: 2.5rem !default;
 $mdc-text-field-maximum-height: $mdc-text-field-height !default;
 $mdc-text-field-density-scale: $mdc-density-default-scale !default;
 $mdc-text-field-density-config: (
@@ -80,18 +80,18 @@ $mdc-text-field-density-config: (
   ),
 ) !default;
 $mdc-text-field-label-position-y: $mdc-floating-label-position-y !default;
-$mdc-text-field-label-offset: 16px !default;
+$mdc-text-field-label-offset: 1rem !default;
 $mdc-text-field-dense-label-position-y: 70% !default;
 $mdc-text-field-dense-label-scale: .8 !default;
 $mdc-text-field-outlined-label-position-y:
     mdc-text-field-get-outlined-label-position-y($mdc-text-field-height) !default;
 $mdc-text-field-outlined-dense-label-position-y: 120% !default;
 $mdc-text-field-outlined-with-leading-icon-label-position-x: 0 !default;
-$mdc-text-field-outlined-dense-with-leading-icon-label-position-x: 21px !default;
+$mdc-text-field-outlined-dense-with-leading-icon-label-position-x: 1.3125rem !default;
 $mdc-text-field-textarea-label-position-y: 130% !default;
-$mdc-text-field-helper-line-padding: 16px !default;
-$mdc-text-field-input-padding: 16px !default;
-$mdc-text-field-input-padding-top: 20px !default;
-$mdc-text-field-input-padding-bottom: 6px !default;
-$mdc-text-field-input-border-bottom: 1px !default;
+$mdc-text-field-helper-line-padding: 1rem !default;
+$mdc-text-field-input-padding: 1rem !default;
+$mdc-text-field-input-padding-top: 1.25rem !default;
+$mdc-text-field-input-padding-bottom: 0.375rem !default;
+$mdc-text-field-input-border-bottom: 0.0625rem !default;
 // Note that the scale factor is an eyeballed approximation of what's shown in the mocks.

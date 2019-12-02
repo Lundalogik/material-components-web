@@ -24,20 +24,20 @@ Density subsystem provides adaptive layout to components. Material Design uses l
 ## Installation
 
 ```
-npm install @material/density
+npm install @limetech/mdc-density
 ```
 
-> NOTE: You do not need to directly depend on `@material/density`, use component provided density Sass mixins instead.
+> NOTE: You do not need to directly depend on `@limetech/mdc-density`, use component provided density Sass mixins instead.
 
 ## Basic Usage
 
 The styles for applying density to button component instance looks like this:
 
 ```scss
-@import "@material/button/mixins";
+@import "@limetech/mdc-button/mixins";
 
 .my-custom-button {
-  // Sets button density scale to `-3`, i.e. button height to `24px`.
+  // Sets button density scale to `-3`, i.e. button height to `1.5rem`.
   @include mdc-button-density(-3);
 }
 ```
@@ -70,10 +70,10 @@ The height or size of a component is calculated with the following formula:
 
 ```scss
 $height: $mdc-button-height + $mdc-density-interval * $density-scale
-/// @example 36px + 4px * (-3) => 24px
+/// @example 2.25rem + 0.25rem * (-3) => 1.5rem
 ```
 
-The density interval is set to 4px for visual consistency.
+The density interval is set to 0.25rem for visual consistency.
 
 It is recommended to customize density via the provided density mixins, rather than arbitrarily applying component height.
 

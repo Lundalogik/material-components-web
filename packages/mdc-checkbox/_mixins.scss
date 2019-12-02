@@ -20,12 +20,12 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/functions";
-@import "@material/density/functions";
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/ripple/mixins";
-@import "@material/touch-target/mixins";
+@import "@limetech/mdc-animation/functions";
+@import "@limetech/mdc-density/functions";
+@import "@limetech/mdc-feature-targeting/functions";
+@import "@limetech/mdc-feature-targeting/mixins";
+@import "@limetech/mdc-ripple/mixins";
+@import "@limetech/mdc-touch-target/mixins";
 @import "./functions";
 @import "./keyframes";
 @import "./variables";
@@ -73,7 +73,7 @@ $mdc-checkbox-ripple-target: ".mdc-checkbox__ripple";
   @media screen and (-ms-high-contrast: active) {
     .mdc-checkbox__mixedmark {
       @include mdc-feature-targets($feat-structure) {
-        margin: 0 1px; // Extra horizontal space around mixedmark symbol.
+        margin: 0 0.0625rem; // Extra horizontal space around mixedmark symbol.
       }
     }
   }
@@ -618,7 +618,7 @@ $mdc-checkbox-ripple-target: ".mdc-checkbox__ripple";
     height: $mdc-checkbox-icon-size;
     // border-color is overridden by the mdc-checkbox-unmarked-stroke-color() mixin
     border: $mdc-checkbox-border-width solid currentColor;
-    border-radius: 2px;
+    border-radius: 0.125rem;
     background-color: transparent;
     pointer-events: none;
     will-change: background-color, border-color;

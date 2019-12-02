@@ -20,10 +20,10 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/variables";
-@import "@material/tab/mixins";
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
+@import "@limetech/mdc-animation/variables";
+@import "@limetech/mdc-tab/mixins";
+@import "@limetech/mdc-feature-targeting/functions";
+@import "@limetech/mdc-feature-targeting/mixins";
 @import "./variables";
 
 ///
@@ -65,9 +65,9 @@
   .mdc-tab-scroller__test {
     @include mdc-feature-targets($feat-structure) {
       position: absolute;
-      top: -9999px;
-      width: 100px;
-      height: 100px;
+      top: -624.9375rem;
+      width: 6.25rem;
+      height: 6.25rem;
       overflow-x: scroll;
     }
   }

@@ -1,5 +1,5 @@
 {
-  "name": "@material/top-app-bar",
+  "name": "@limetech/mdc-top-app-bar",
   "version": "4.0.0",
   "description": "The Material Components for the web top app bar component",
   "license": "MIT",
@@ -9,7 +9,7 @@
   "types": "dist/mdc.topAppBar.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git",
+    "url": "https://github.com/Lundalogik/material-components-web.git",
     "directory": "packages/mdc-top-app-bar"
   },
   "keywords": [
@@ -20,15 +20,15 @@
     "topappbar"
   ],
   "dependencies": {
-    "@material/animation": "^4.0.0",
-    "@material/base": "^4.0.0",
-    "@material/elevation": "^4.0.0",
-    "@material/icon-button": "^4.0.0",
-    "@material/ripple": "^4.0.0",
-    "@material/rtl": "^4.0.0",
-    "@material/shape": "^4.0.0",
-    "@material/theme": "^4.0.0",
-    "@material/typography": "^4.0.0",
+    "@limetech/mdc-animation": "^4.0.0",
+    "@limetech/mdc-base": "^4.0.0",
+    "@limetech/mdc-elevation": "^4.0.0",
+    "@limetech/mdc-icon-button": "^4.0.0",
+    "@limetech/mdc-ripple": "^4.0.0",
+    "@limetech/mdc-rtl": "^4.0.0",
+    "@limetech/mdc-shape": "^4.0.0",
+    "@limetech/mdc-theme": "^4.0.0",
+    "@limetech/mdc-typography": "^4.0.0",
     "tslib": "^1.9.3"
   },
   "publishConfig": {

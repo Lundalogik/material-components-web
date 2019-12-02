@@ -1,5 +1,5 @@
 {
-  "name": "@material/tab-scroller",
+  "name": "@limetech/mdc-tab-scroller",
   "description": "The Material Components for the web tab scroller component",
   "version": "4.0.0",
   "license": "MIT",
@@ -15,15 +15,15 @@
   "types": "dist/mdc.tabScroller.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git",
+    "url": "https://github.com/Lundalogik/material-components-web.git",
     "directory": "packages/mdc-tab-scroller"
   },
   "dependencies": {
-    "@material/animation": "^4.0.0",
-    "@material/base": "^4.0.0",
-    "@material/dom": "^4.0.0",
-    "@material/feature-targeting": "^4.0.0",
-    "@material/tab": "^4.0.0",
+    "@limetech/mdc-animation": "^4.0.0",
+    "@limetech/mdc-base": "^4.0.0",
+    "@limetech/mdc-dom": "^4.0.0",
+    "@limetech/mdc-feature-targeting": "^4.0.0",
+    "@limetech/mdc-tab": "^4.0.0",
     "tslib": "^1.9.3"
   },
   "publishConfig": {

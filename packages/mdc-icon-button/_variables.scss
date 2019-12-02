@@ -20,12 +20,12 @@
 // THE SOFTWARE.
 //
 
-@import "@material/density/variables";
+@import "@limetech/mdc-density/variables";
 
-$mdc-icon-button-icon-size: 24px !default;
+$mdc-icon-button-icon-size: 1.5rem !default;
 
-$mdc-icon-button-size: 48px !default;
-$mdc-icon-button-minimum-height: 28px !default;
+$mdc-icon-button-size: 3rem !default;
+$mdc-icon-button-minimum-height: 1.75rem !default;
 $mdc-icon-button-maximum-height: $mdc-icon-button-size !default;
 $mdc-icon-button-density-scale: $mdc-density-default-scale !default;
 $mdc-icon-button-density-config: (

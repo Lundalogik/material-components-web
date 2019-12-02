@@ -21,18 +21,18 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {CustomEventListener, SpecificEventListener} from '@material/base/types';
-import {MDCFloatingLabel, MDCFloatingLabelFactory} from '@material/floating-label/component';
-import {MDCLineRipple, MDCLineRippleFactory} from '@material/line-ripple/component';
-import * as menuSurfaceConstants from '@material/menu-surface/constants';
-import {MDCMenu, MDCMenuFactory} from '@material/menu/component';
-import * as menuConstants from '@material/menu/constants';
-import {MDCMenuItemEvent} from '@material/menu/types';
-import {MDCNotchedOutline, MDCNotchedOutlineFactory} from '@material/notched-outline/component';
-import {MDCRippleAdapter} from '@material/ripple/adapter';
-import {MDCRipple} from '@material/ripple/component';
-import {MDCRippleFoundation} from '@material/ripple/foundation';
+import {MDCComponent} from '@limetech/mdc-base/component';
+import {CustomEventListener, SpecificEventListener} from '@limetech/mdc-base/types';
+import {MDCFloatingLabel, MDCFloatingLabelFactory} from '@limetech/mdc-floating-label/component';
+import {MDCLineRipple, MDCLineRippleFactory} from '@limetech/mdc-line-ripple/component';
+import * as menuSurfaceConstants from '@limetech/mdc-menu-surface/constants';
+import {MDCMenu, MDCMenuFactory} from '@limetech/mdc-menu/component';
+import * as menuConstants from '@limetech/mdc-menu/constants';
+import {MDCMenuItemEvent} from '@limetech/mdc-menu/types';
+import {MDCNotchedOutline, MDCNotchedOutlineFactory} from '@limetech/mdc-notched-outline/component';
+import {MDCRippleAdapter} from '@limetech/mdc-ripple/adapter';
+import {MDCRipple} from '@limetech/mdc-ripple/component';
+import {MDCRippleFoundation} from '@limetech/mdc-ripple/foundation';
 import {MDCSelectAdapter} from './adapter';
 import {cssClasses, strings} from './constants';
 import {MDCSelectFoundation} from './foundation';

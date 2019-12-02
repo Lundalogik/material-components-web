@@ -30,7 +30,7 @@ The MDC Web library provides mixins and guidance on adding an increased touch ta
 ## Installation
 
 ```
-npm install @material/touch-target
+npm install @limetech/mdc-touch-target
 ```
 
 ## Basic Usage
@@ -63,7 +63,7 @@ Note that the outer `mdc-touch-target-wrapper` element is only necessary if you 
 ### Styles
 
 ```css
-@import "@material/touch-target/mdc-touch-target";
+@import "@limetech/mdc-touch-target/mdc-touch-target";
 ```
 
 ## Style Customization

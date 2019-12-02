@@ -21,36 +21,36 @@
  * THE SOFTWARE.
  */
 
-import autoInit from '@material/auto-init/index';
-import * as base from '@material/base/index';
-import * as checkbox from '@material/checkbox/index';
-import * as chips from '@material/chips/index';
-import * as dataTable from '@material/data-table/index';
-import * as dialog from '@material/dialog/index';
-import * as dom from '@material/dom/index';
-import * as drawer from '@material/drawer/index';
-import * as floatingLabel from '@material/floating-label/index';
-import * as formField from '@material/form-field/index';
-import * as gridList from '@material/grid-list/index';
-import * as iconButton from '@material/icon-button/index';
-import * as lineRipple from '@material/line-ripple/index';
-import * as linearProgress from '@material/linear-progress/index';
-import * as list from '@material/list/index';
-import * as menuSurface from '@material/menu-surface/index';
-import * as menu from '@material/menu/index';
-import * as notchedOutline from '@material/notched-outline/index';
-import * as radio from '@material/radio/index';
-import * as ripple from '@material/ripple/index';
-import * as select from '@material/select/index';
-import * as slider from '@material/slider/index';
-import * as snackbar from '@material/snackbar/index';
-import * as switchControl from '@material/switch/index';
-import * as tabBar from '@material/tab-bar/index';
-import * as tabIndicator from '@material/tab-indicator/index';
-import * as tabScroller from '@material/tab-scroller/index';
-import * as tab from '@material/tab/index';
-import * as textField from '@material/textfield/index';
-import * as topAppBar from '@material/top-app-bar/index';
+import autoInit from '@limetech/mdc-auto-init/index';
+import * as base from '@limetech/mdc-base/index';
+import * as checkbox from '@limetech/mdc-checkbox/index';
+import * as chips from '@limetech/mdc-chips/index';
+import * as dataTable from '@limetech/mdc-data-table/index';
+import * as dialog from '@limetech/mdc-dialog/index';
+import * as dom from '@limetech/mdc-dom/index';
+import * as drawer from '@limetech/mdc-drawer/index';
+import * as floatingLabel from '@limetech/mdc-floating-label/index';
+import * as formField from '@limetech/mdc-form-field/index';
+import * as gridList from '@limetech/mdc-grid-list/index';
+import * as iconButton from '@limetech/mdc-icon-button/index';
+import * as lineRipple from '@limetech/mdc-line-ripple/index';
+import * as linearProgress from '@limetech/mdc-linear-progress/index';
+import * as list from '@limetech/mdc-list/index';
+import * as menuSurface from '@limetech/mdc-menu-surface/index';
+import * as menu from '@limetech/mdc-menu/index';
+import * as notchedOutline from '@limetech/mdc-notched-outline/index';
+import * as radio from '@limetech/mdc-radio/index';
+import * as ripple from '@limetech/mdc-ripple/index';
+import * as select from '@limetech/mdc-select/index';
+import * as slider from '@limetech/mdc-slider/index';
+import * as snackbar from '@limetech/mdc-snackbar/index';
+import * as switchControl from '@limetech/mdc-switch/index';
+import * as tabBar from '@limetech/mdc-tab-bar/index';
+import * as tabIndicator from '@limetech/mdc-tab-indicator/index';
+import * as tabScroller from '@limetech/mdc-tab-scroller/index';
+import * as tab from '@limetech/mdc-tab/index';
+import * as textField from '@limetech/mdc-textfield/index';
+import * as topAppBar from '@limetech/mdc-top-app-bar/index';
 
 // Register all components
 autoInit.register('MDCCheckbox', checkbox.MDCCheckbox);
