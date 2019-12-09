@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [5.0.0](https://github.com/Lundalogik/material-components-web/compare/v4.0.0...v5.0.0) (2019-11-28)
+# [5.0.0](https://github.com/Lundalogik/material-components-web/compare/v4.0.0...v5.0.0) (2019-12-09)
 
 
 * fix(linear-progress) support aria attributes (#5248) ([7084b40](https://github.com/Lundalogik/material-components-web/commit/7084b40)), closes [#5248](https://github.com/Lundalogik/material-components-web/issues/5248)
@@ -15,11 +15,12 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **button:** Fixed  parameter default value in height mixin ([#5244](https://github.com/Lundalogik/material-components-web/issues/5244)) ([b0cecf1](https://github.com/Lundalogik/material-components-web/commit/b0cecf1))
 * **checkbox:** Disabled state colors in IE11 high contrast mode ([#5263](https://github.com/Lundalogik/material-components-web/issues/5263)) ([d6a1d4b](https://github.com/Lundalogik/material-components-web/commit/d6a1d4b))
 * **checkbox:** update disabled color values ([#5209](https://github.com/Lundalogik/material-components-web/issues/5209)) ([821871e](https://github.com/Lundalogik/material-components-web/commit/821871e))
+* **chips:** Do not throw error if chip set becomes empty ([#5290](https://github.com/Lundalogik/material-components-web/issues/5290)) ([f978109](https://github.com/Lundalogik/material-components-web/commit/f978109))
 * **dialog:** Move aria roles from dialog root to dialog surface… ([#5239](https://github.com/Lundalogik/material-components-web/issues/5239)) ([c704b71](https://github.com/Lundalogik/material-components-web/commit/c704b71))
 * **fab:** Add missing dep to fab package.json. ([#5236](https://github.com/Lundalogik/material-components-web/issues/5236)) ([e0f6fd9](https://github.com/Lundalogik/material-components-web/commit/e0f6fd9))
 * **fab:** Add overflow: visible to make touch target visible in… ([#5241](https://github.com/Lundalogik/material-components-web/issues/5241)) ([5850080](https://github.com/Lundalogik/material-components-web/commit/5850080))
-* Remove edge detection for CSS custom properties ([#5264](https://github.com/Lundalogik/material-components-web/issues/5264)) ([fe444ac](https://github.com/Lundalogik/material-components-web/commit/fe444ac))
 * **fab:** Adjust fab line-height ([#5254](https://github.com/Lundalogik/material-components-web/issues/5254)) ([525989b](https://github.com/Lundalogik/material-components-web/commit/525989b))
+* Remove edge detection for CSS custom properties ([#5264](https://github.com/Lundalogik/material-components-web/issues/5264)) ([fe444ac](https://github.com/Lundalogik/material-components-web/commit/fe444ac))
 * **fab:** Adjust fab line-height to center text ([#5258](https://github.com/Lundalogik/material-components-web/issues/5258)) ([591a6ad](https://github.com/Lundalogik/material-components-web/commit/591a6ad))
 * **radio:** update disabled color values ([#5210](https://github.com/Lundalogik/material-components-web/issues/5210)) ([491fddc](https://github.com/Lundalogik/material-components-web/commit/491fddc))
 * **select:** Do not fire change event on programmatic change ([#5255](https://github.com/Lundalogik/material-components-web/issues/5255)) ([ec72968](https://github.com/Lundalogik/material-components-web/commit/ec72968))
@@ -34,15 +35,24 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 * **button:** Add disabled state color mixins ([#5232](https://github.com/Lundalogik/material-components-web/issues/5232)) ([b5eb51e](https://github.com/Lundalogik/material-components-web/commit/b5eb51e))
 * **button:** Setup elevation overlay ([#5256](https://github.com/Lundalogik/material-components-web/issues/5256)) ([3cbee6d](https://github.com/Lundalogik/material-components-web/commit/3cbee6d))
+* **card:** Add elevation overlay structure ([#5282](https://github.com/Lundalogik/material-components-web/issues/5282)) ([aa0eba4](https://github.com/Lundalogik/material-components-web/commit/aa0eba4))
 * **chips:** Add elevation overlay structure ([#5279](https://github.com/Lundalogik/material-components-web/issues/5279)) ([3e560b3](https://github.com/Lundalogik/material-components-web/commit/3e560b3))
 * **chips:** Consolidate interaction event handlers ([#5251](https://github.com/Lundalogik/material-components-web/issues/5251)) ([5729943](https://github.com/Lundalogik/material-components-web/commit/5729943))
 * **dialog:** Add elevation overlay structure ([#5283](https://github.com/Lundalogik/material-components-web/issues/5283)) ([b8bc4a2](https://github.com/Lundalogik/material-components-web/commit/b8bc4a2))
 * **elevation:** Add elevation overlay mixins ([#5249](https://github.com/Lundalogik/material-components-web/issues/5249)) ([b4cfdc4](https://github.com/Lundalogik/material-components-web/commit/b4cfdc4))
+* **elevation:** Update elevation mixins ([#5304](https://github.com/Lundalogik/material-components-web/issues/5304)) ([ba879b6](https://github.com/Lundalogik/material-components-web/commit/ba879b6))
 * **fab:** Add elevation overlay structure ([#5278](https://github.com/Lundalogik/material-components-web/issues/5278)) ([e89750d](https://github.com/Lundalogik/material-components-web/commit/e89750d))
 * **fab:** Add support for increased touch target to mini FAB. ([#5231](https://github.com/Lundalogik/material-components-web/issues/5231)) ([0c4d8f3](https://github.com/Lundalogik/material-components-web/commit/0c4d8f3))
 * **icon-button:** Add disabled state color mixins ([#5246](https://github.com/Lundalogik/material-components-web/issues/5246)) ([7161170](https://github.com/Lundalogik/material-components-web/commit/7161170))
 * **menu:** Add elevation overlay structure ([#5280](https://github.com/Lundalogik/material-components-web/issues/5280)) ([7fd17ce](https://github.com/Lundalogik/material-components-web/commit/7fd17ce))
 * **text-field:** Add disabled state color mixins ([#5208](https://github.com/Lundalogik/material-components-web/issues/5208)) ([66299b6](https://github.com/Lundalogik/material-components-web/commit/66299b6))
+
+
+### Reverts
+
+* feat(chips): Consolidate interaction event handlers ([#5251](https://github.com/Lundalogik/material-components-web/issues/5251)) ([#5301](https://github.com/Lundalogik/material-components-web/issues/5301)) ([5e45d77](https://github.com/Lundalogik/material-components-web/commit/5e45d77))
+* fix(chips): Do not throw error if chip set becomes empty ([#5300](https://github.com/Lundalogik/material-components-web/issues/5300)) ([d10e8cd](https://github.com/Lundalogik/material-components-web/commit/d10e8cd))
+* fix(select): Do not fire change event on programmatic change ([#5255](https://github.com/Lundalogik/material-components-web/issues/5255)) ([#5302](https://github.com/Lundalogik/material-components-web/issues/5302)) ([ad9dfe7](https://github.com/Lundalogik/material-components-web/commit/ad9dfe7))
 
 
 ### BREAKING CHANGES
