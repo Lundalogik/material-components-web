@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/foundation';
-import {Corner} from '@material/menu-surface/constants';
+import {MDCFoundation} from '@limetech/mdc-p2-base/foundation';
+import {Corner} from '@limetech/mdc-p2-menu-surface/constants';
 
 import {MDCSelectAdapter} from './adapter';
 import {cssClasses, numbers, strings} from './constants';

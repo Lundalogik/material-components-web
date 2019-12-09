@@ -20,8 +20,8 @@
 // THE SOFTWARE.
 //
 
-@import "@material/base/mixins";
-@import "@material/rtl/mixins";
+@import "@limetech/mdc-p2-base/mixins";
+@import "@limetech/mdc-p2-rtl/mixins";
 @import "./mixins";
 @import "./variables";
 
@@ -90,7 +90,7 @@
 
   .mdc-notched-outline--notched {
     .mdc-notched-outline__notch {
-      @include mdc-rtl-reflexive-box(padding, right, 8px);
+      @include mdc-rtl-reflexive-box(padding, right, 0.5rem);
 
       border-top: none;
     }

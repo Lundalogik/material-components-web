@@ -21,10 +21,10 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {SpecificEventListener} from '@material/base/types';
-import {applyPassive} from '@material/dom/events';
-import {matches} from '@material/dom/ponyfill';
+import {MDCComponent} from '@limetech/mdc-p2-base/component';
+import {SpecificEventListener} from '@limetech/mdc-p2-base/types';
+import {applyPassive} from '@limetech/mdc-p2-dom/events';
+import {matches} from '@limetech/mdc-p2-dom/ponyfill';
 import {MDCTabScrollerAdapter} from './adapter';
 import {MDCTabScrollerFoundation} from './foundation';
 import * as util from './util';

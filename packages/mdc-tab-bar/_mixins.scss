@@ -20,12 +20,12 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/variables";
-@import "@material/density/functions";
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/tab-scroller/mixins";
-@import "@material/tab/mixins";
+@import "@limetech/mdc-p2-animation/variables";
+@import "@limetech/mdc-p2-density/functions";
+@import "@limetech/mdc-p2-feature-targeting/functions";
+@import "@limetech/mdc-p2-feature-targeting/mixins";
+@import "@limetech/mdc-p2-tab-scroller/mixins";
+@import "@limetech/mdc-p2-tab/mixins";
 @import "./variables";
 
 @mixin mdc-tab-bar-core-styles($query: mdc-feature-all()) {

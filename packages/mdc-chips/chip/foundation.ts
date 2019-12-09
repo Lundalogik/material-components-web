@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/foundation';
+import {MDCFoundation} from '@limetech/mdc-p2-base/foundation';
 import {MDCChipAdapter} from './adapter';
 import {cssClasses, Direction, EventSource, jumpChipKeys, navigationKeys, strings} from './constants';
 

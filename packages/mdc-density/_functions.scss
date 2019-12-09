@@ -33,48 +33,48 @@
 ///   mdc-density-prop-value(
 ///     $density-config: (
 ///       height: (
-///         default: 36px,
-///         maximum: 40px,
-///         minimum: 24px,
+///         default: 2.25rem,
+///         maximum: 2.5rem,
+///         minimum: 1.5rem,
 ///       ),
 ///     ),
 ///     $density-scale: minimum,
 ///     $property-name: height,
 ///   )
-///   // 24px
+///   // 1.5rem
 ///
 /// @example
 ///   mdc-density-prop-value(
 ///     $density-config: (
 ///       height: (
-///         default: 40px,
-///         maximum: 60px,
-///         minimum: 24px,
+///         default: 2.5rem,
+///         maximum: 3.75rem,
+///         minimum: 1.5rem,
 ///       ),
 ///     ),
 ///     $density-scale: -2,
 ///     $property-name: height,
 ///   )
-///   // 32px
+///   // 2rem
 ///
 /// @example
 ///   mdc-density-prop-value(
 ///     $density-config: (
 ///       height: (
-///         default: 36px,
-///         maximum: 40px,
-///         minimum: 24px,
+///         default: 2.25rem,
+///         maximum: 2.5rem,
+///         minimum: 1.5rem,
 ///       ),
 ///       width: (
-///         default: 56px,
-///         maximum: 64px,
-///         minimum: 48px,
+///         default: 3.5rem,
+///         maximum: 4rem,
+///         minimum: 3rem,
 ///       ),
 ///     ),
 ///     $density-scale: minimum,
 ///     $property-name: width,
 ///   )
-///   // 48px
+///   // 3rem
 ///
 @function mdc-density-prop-value($density-config, $density-scale, $property-name) {
   @if (type-of($density-scale) == "string" and

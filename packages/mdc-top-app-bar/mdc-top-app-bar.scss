@@ -20,10 +20,10 @@
 // THE SOFTWARE.
 //
 
-@import "@material/elevation/mixins";
-@import "@material/animation/variables";
-@import "@material/rtl/mixins";
-@import "@material/typography/mixins";
+@import "@limetech/mdc-p2-elevation/mixins";
+@import "@limetech/mdc-p2-animation/variables";
+@import "@limetech/mdc-p2-rtl/mixins";
+@import "@limetech/mdc-p2-typography/mixins";
 @import "./mixins";
 @import "./variables";
 
@@ -79,7 +79,7 @@
 }
 
 @at-root {
-  @include mdc-top-app-bar-short-shape-radius(24px);
+  @include mdc-top-app-bar-short-shape-radius(1.5rem);
 }
 
 .mdc-top-app-bar--short {
@@ -132,7 +132,7 @@
   width: $mdc-top-app-bar-short-collapsed-width * 2;
 
   .mdc-top-app-bar__section--align-end {
-    @include mdc-rtl-reflexive-box(padding, right, 12px);
+    @include mdc-rtl-reflexive-box(padding, right, 0.75rem);
   }
 }
 

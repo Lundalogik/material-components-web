@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
+import {MDCComponent} from '@limetech/mdc-p2-base/component';
 import {MDCSelectIconAdapter} from './adapter';
 import {MDCSelectIconFoundation} from './foundation';
 

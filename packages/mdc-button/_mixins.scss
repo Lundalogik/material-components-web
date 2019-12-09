@@ -20,18 +20,18 @@
 // THE SOFTWARE.
 //
 
-@import "@material/elevation/mixins";
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
-@import "@material/theme/functions";
-@import "@material/theme/mixins";
-@import "@material/touch-target/mixins";
-@import "@material/typography/mixins";
-@import "@material/shape/mixins";
-@import "@material/shape/functions";
-@import "@material/density/functions";
+@import "@limetech/mdc-p2-elevation/mixins";
+@import "@limetech/mdc-p2-feature-targeting/functions";
+@import "@limetech/mdc-p2-feature-targeting/mixins";
+@import "@limetech/mdc-p2-ripple/mixins";
+@import "@limetech/mdc-p2-rtl/mixins";
+@import "@limetech/mdc-p2-theme/functions";
+@import "@limetech/mdc-p2-theme/mixins";
+@import "@limetech/mdc-p2-touch-target/mixins";
+@import "@limetech/mdc-p2-typography/mixins";
+@import "@limetech/mdc-p2-shape/mixins";
+@import "@limetech/mdc-p2-shape/functions";
+@import "@limetech/mdc-p2-density/functions";
 @import "./variables";
 
 $mdc-button-ripple-target: ".mdc-button__ripple";
@@ -348,7 +348,7 @@ $query: mdc-feature-all()) {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    min-width: 64px;
+    min-width: 4rem;
     border: none;
     outline: none;
     /* @alternate */
@@ -396,17 +396,17 @@ $query: mdc-feature-all()) {
 }
 
 @mixin mdc-button__icon_ {
-  @include mdc-rtl-reflexive-box(margin, right, 8px);
+  @include mdc-rtl-reflexive-box(margin, right, 0.5rem);
 
   display: inline-block;
-  width: 18px;
-  height: 18px;
-  font-size: 18px;
+  width: 1.125rem;
+  height: 1.125rem;
+  font-size: 1.125rem;
   vertical-align: top;
 }
 
 @mixin mdc-button__icon-trailing_ {
-  @include mdc-rtl-reflexive-box(margin, left, 8px);
+  @include mdc-rtl-reflexive-box(margin, left, 0.5rem);
 }
 
 @mixin mdc-button__icon-svg_ {
@@ -414,11 +414,11 @@ $query: mdc-feature-all()) {
 }
 
 @mixin mdc-button__icon-contained_ {
-  @include mdc-rtl-reflexive-property(margin, -4px, 8px);
+  @include mdc-rtl-reflexive-property(margin, -0.25rem, 0.5rem);
 }
 
 @mixin mdc-button__icon-contained-trailing_ {
-  @include mdc-rtl-reflexive-property(margin, 8px, -4px);
+  @include mdc-rtl-reflexive-property(margin, 0.5rem, -0.25rem);
 }
 
 @mixin mdc-button--outlined_($query) {

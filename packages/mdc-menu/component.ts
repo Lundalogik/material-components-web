@@ -21,16 +21,16 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {CustomEventListener, SpecificEventListener} from '@material/base/types';
-import {closest} from '@material/dom/ponyfill';
-import {MDCList, MDCListFactory} from '@material/list/component';
-import {MDCListFoundation} from '@material/list/foundation';
-import {MDCListActionEvent} from '@material/list/types';
-import {MDCMenuSurface, MDCMenuSurfaceFactory} from '@material/menu-surface/component';
-import {Corner} from '@material/menu-surface/constants';
-import {MDCMenuSurfaceFoundation} from '@material/menu-surface/foundation';
-import {MDCMenuDistance} from '@material/menu-surface/types';
+import {MDCComponent} from '@limetech/mdc-p2-base/component';
+import {CustomEventListener, SpecificEventListener} from '@limetech/mdc-p2-base/types';
+import {closest} from '@limetech/mdc-p2-dom/ponyfill';
+import {MDCList, MDCListFactory} from '@limetech/mdc-p2-list/component';
+import {MDCListFoundation} from '@limetech/mdc-p2-list/foundation';
+import {MDCListActionEvent} from '@limetech/mdc-p2-list/types';
+import {MDCMenuSurface, MDCMenuSurfaceFactory} from '@limetech/mdc-p2-menu-surface/component';
+import {Corner} from '@limetech/mdc-p2-menu-surface/constants';
+import {MDCMenuSurfaceFoundation} from '@limetech/mdc-p2-menu-surface/foundation';
+import {MDCMenuDistance} from '@limetech/mdc-p2-menu-surface/types';
 import {MDCMenuAdapter} from './adapter';
 import {cssClasses, DefaultFocusState, strings} from './constants';
 import {MDCMenuFoundation} from './foundation';

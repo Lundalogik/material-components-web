@@ -21,10 +21,10 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {SpecificEventListener} from '@material/base/types';
-import {MDCList, MDCListFactory} from '@material/list/component';
-import {MDCListFoundation} from '@material/list/foundation';
+import {MDCComponent} from '@limetech/mdc-p2-base/component';
+import {SpecificEventListener} from '@limetech/mdc-p2-base/types';
+import {MDCList, MDCListFactory} from '@limetech/mdc-p2-list/component';
+import {MDCListFoundation} from '@limetech/mdc-p2-list/foundation';
 import {default as createFocusTrap, FocusTrap} from 'focus-trap';
 import {MDCDrawerAdapter} from './adapter';
 import {MDCDismissibleDrawerFoundation} from './dismissible/foundation';

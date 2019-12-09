@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/foundation';
+import {MDCFoundation} from '@limetech/mdc-p2-base/foundation';
 import {MDCDataTableAdapter} from './adapter';
 import {cssClasses, strings} from './constants';
 

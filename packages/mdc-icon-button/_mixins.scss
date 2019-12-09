@@ -20,11 +20,11 @@
 // THE SOFTWARE.
 //
 
-@import "@material/density/functions";
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/ripple/mixins";
-@import "@material/theme/mixins";
+@import "@limetech/mdc-p2-density/functions";
+@import "@limetech/mdc-p2-feature-targeting/functions";
+@import "@limetech/mdc-p2-feature-targeting/mixins";
+@import "@limetech/mdc-p2-ripple/mixins";
+@import "@limetech/mdc-p2-theme/mixins";
 @import "./variables";
 
 @mixin mdc-icon-button-core-styles($query: mdc-feature-all()) {

@@ -32,7 +32,7 @@ Chips are compact elements that allow users to enter information, select a choic
 ## Installation
 
 ```
-npm install @material/chips
+npm install @limetech/mdc-p2-chips
 ```
 
 ## Basic Usage
@@ -62,13 +62,13 @@ npm install @material/chips
 ### Styles
 
 ```scss
-@import "@material/chips/mdc-chips";
+@import "@limetech/mdc-p2-chips/mdc-chips";
 ```
 
 ### JavaScript Instantiation
 
 ```js
-import {MDCChipSet} from '@material/chips';
+import {MDCChipSet} from '@limetech/mdc-p2-chips';
 const chipSetEl = document.querySelector('.mdc-chip-set');
 const chipSet = new MDCChipSet(chipSetEl);
 ```
@@ -331,7 +331,7 @@ The MDC Chips package is composed of two JavaScript classes:
 * `MDCChip` defines the behavior of a single chip.
 * `MDCChipSet` defines the behavior of chips within a specific set. For example, chips in an input chip set behave differently from those in a filter chip set.
 
-To use the `MDCChip` and `MDCChipSet` classes, [import](../../docs/importing-js.md) both classes from `@material/chips`.
+To use the `MDCChip` and `MDCChipSet` classes, [import](../../docs/importing-js.md) both classes from `@limetech/mdc-p2-chips`.
 
 #### `MDCChip`
 

@@ -20,11 +20,11 @@
 // THE SOFTWARE.
 //
 
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/rtl/mixins";
-@import "@material/theme/mixins";
-@import "@material/typography/mixins";
+@import "@limetech/mdc-p2-feature-targeting/functions";
+@import "@limetech/mdc-p2-feature-targeting/mixins";
+@import "@limetech/mdc-p2-rtl/mixins";
+@import "@limetech/mdc-p2-theme/mixins";
+@import "@limetech/mdc-p2-typography/mixins";
 @import "./variables";
 
 @mixin mdc-form-field-core-styles($query: mdc-feature-all()) {

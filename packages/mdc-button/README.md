@@ -32,7 +32,7 @@ Buttons allow users to take actions, and make choices, with a single tap.
 ## Installation
 
 ```
-npm install @material/button
+npm install @limetech/mdc-p2-button
 ```
 
 ## Basic Usage
@@ -51,7 +51,7 @@ npm install @material/button
 ### Styles
 
 ```scss
-@import "@material/button/mdc-button";
+@import "@limetech/mdc-p2-button/mdc-button";
 ```
 
 ### JavaScript Instantiation
@@ -59,7 +59,7 @@ npm install @material/button
 The button will work without JavaScript, but you can enhance it to have a ripple effect by instantiating `MDCRipple` on the root element. See [MDC Ripple](../mdc-ripple) for details.
 
 ```js
-import {MDCRipple} from '@material/ripple';
+import {MDCRipple} from '@limetech/mdc-p2-ripple';
 
 const buttonRipple = new MDCRipple(document.querySelector('.mdc-button'));
 ```
@@ -88,7 +88,7 @@ We recommend using [Material Icons](https://material.io/tools/icons/) from Googl
 
 However, you can also use SVG, [Font Awesome](https://fontawesome.com/), or any other icon library you wish.
 
-To add an icon, add an element with the `mdc-button__icon` class inside the button element and set the attribute `aria-hidden="true"`. The icon is set to 18px to meet legibility requirements.
+To add an icon, add an element with the `mdc-button__icon` class inside the button element and set the attribute `aria-hidden="true"`. The icon is set to 1.125rem to meet legibility requirements.
 
 ```html
 <button class="mdc-button">
@@ -202,7 +202,7 @@ Mixin | Description
 `mdc-button-shape-radius($radius, $density-scale, $rtl-reflexive)` | Sets rounded shape to button with given radius size. `$density-scale` is only required when `$radius` value is in percentage unit, defaults to `$mdc-button-density-default-scale`. Set `$rtl-reflexive` to true to flip radius values in RTL context, defaults to false.
 `mdc-button-horizontal-padding($padding)` | Sets horizontal padding to the given number.
 `mdc-button-outline-color($color)` | Sets the outline color to the given color.
-`mdc-button-outline-width($width, $padding)` | Sets the outline width to the given number (defaults to 2px) and adjusts padding accordingly. `$padding` is only required in cases where `mdc-button-horizontal-padding` is also included with a custom value.
+`mdc-button-outline-width($width, $padding)` | Sets the outline width to the given number (defaults to 0.125rem) and adjusts padding accordingly. `$padding` is only required in cases where `mdc-button-horizontal-padding` is also included with a custom value.
 
 ##### Caveat: Edge and CSS Custom Properties
 

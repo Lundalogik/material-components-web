@@ -32,7 +32,7 @@ The Select component is fully accessible, and supports RTL rendering.
 ## Installation
 
 ```
-npm install @material/select
+npm install @limetech/mdc-p2-select
 ```
 
 ## Basic Usage
@@ -77,20 +77,20 @@ The select requires that you set the `width` of the `mdc-select__anchor` element
 When using the select, you will also need to load the Menu and List components' styles.
 
 ```scss
-@import "@material/list/mdc-list";
-@import "@material/menu-surface/mdc-menu-surface";
-@import "@material/menu/mdc-menu";
-@import "@material/select/mdc-select";
+@import "@limetech/mdc-p2-list/mdc-list";
+@import "@limetech/mdc-p2-menu-surface/mdc-menu-surface";
+@import "@limetech/mdc-p2-menu/mdc-menu";
+@import "@limetech/mdc-p2-select/mdc-select";
 
 .demo-width-class {
-  width: 400px;
+  width: 25rem;
 }
 ```
 
 ### JavaScript Instantiation
 
 ```js
-import {MDCSelect} from '@material/select';
+import {MDCSelect} from '@limetech/mdc-p2-select';
 
 const select = new MDCSelect(document.querySelector('.mdc-select'));
 

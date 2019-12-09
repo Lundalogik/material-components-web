@@ -21,9 +21,9 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {applyPassive} from '@material/dom/events';
-import {matches} from '@material/dom/ponyfill';
+import {MDCComponent} from '@limetech/mdc-p2-base/component';
+import {applyPassive} from '@limetech/mdc-p2-dom/events';
+import {matches} from '@limetech/mdc-p2-dom/ponyfill';
 import {MDCRippleAdapter} from './adapter';
 import {MDCRippleFoundation} from './foundation';
 import {MDCRippleAttachOpts, MDCRippleCapableSurface} from './types';

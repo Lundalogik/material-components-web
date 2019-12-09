@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {EventType, SpecificEventListener} from '@material/base/types';
+import {EventType, SpecificEventListener} from '@limetech/mdc-p2-base/types';
 import {MDCTextFieldNativeInputElement} from './types';
 
 /**

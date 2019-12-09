@@ -21,16 +21,16 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {applyPassive} from '@material/dom/events';
-import * as ponyfill from '@material/dom/ponyfill';
-import {MDCFloatingLabel, MDCFloatingLabelFactory} from '@material/floating-label/component';
-import {MDCLineRipple, MDCLineRippleFactory} from '@material/line-ripple/component';
-import {MDCNotchedOutline, MDCNotchedOutlineFactory} from '@material/notched-outline/component';
-import {MDCRippleAdapter} from '@material/ripple/adapter';
-import {MDCRipple, MDCRippleFactory} from '@material/ripple/component';
-import {MDCRippleFoundation} from '@material/ripple/foundation';
-import {MDCRippleCapableSurface} from '@material/ripple/types';
+import {MDCComponent} from '@limetech/mdc-p2-base/component';
+import {applyPassive} from '@limetech/mdc-p2-dom/events';
+import * as ponyfill from '@limetech/mdc-p2-dom/ponyfill';
+import {MDCFloatingLabel, MDCFloatingLabelFactory} from '@limetech/mdc-p2-floating-label/component';
+import {MDCLineRipple, MDCLineRippleFactory} from '@limetech/mdc-p2-line-ripple/component';
+import {MDCNotchedOutline, MDCNotchedOutlineFactory} from '@limetech/mdc-p2-notched-outline/component';
+import {MDCRippleAdapter} from '@limetech/mdc-p2-ripple/adapter';
+import {MDCRipple, MDCRippleFactory} from '@limetech/mdc-p2-ripple/component';
+import {MDCRippleFoundation} from '@limetech/mdc-p2-ripple/foundation';
+import {MDCRippleCapableSurface} from '@limetech/mdc-p2-ripple/types';
 import {
   MDCTextFieldAdapter,
   MDCTextFieldInputAdapter,

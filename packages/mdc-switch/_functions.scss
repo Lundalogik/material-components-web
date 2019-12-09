@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/variables";
+@import "@limetech/mdc-p2-animation/variables";
 
 @function mdc-switch-transition($property) {
   @return $property 90ms $mdc-animation-standard-curve-timing-function;

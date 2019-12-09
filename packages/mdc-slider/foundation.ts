@@ -21,9 +21,9 @@
  * THE SOFTWARE.
  */
 
-import {getCorrectEventName, getCorrectPropertyName} from '@material/animation/util';
-import {MDCFoundation} from '@material/base/foundation';
-import {EventType, SpecificEventListener} from '@material/base/types';
+import {getCorrectEventName, getCorrectPropertyName} from '@limetech/mdc-p2-animation/util';
+import {MDCFoundation} from '@limetech/mdc-p2-base/foundation';
+import {EventType, SpecificEventListener} from '@limetech/mdc-p2-base/types';
 import {MDCSliderAdapter} from './adapter';
 import {cssClasses, numbers, strings} from './constants';
 

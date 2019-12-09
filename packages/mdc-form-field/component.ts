@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {MDCRipple} from '@material/ripple/component';
+import {MDCComponent} from '@limetech/mdc-p2-base/component';
+import {MDCRipple} from '@limetech/mdc-p2-ripple/component';
 import {MDCFormFieldAdapter} from './adapter';
 import {MDCFormFieldFoundation} from './foundation';
 

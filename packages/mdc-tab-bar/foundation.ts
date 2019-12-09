@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/foundation';
-import {MDCTabDimensions, MDCTabInteractionEvent} from '@material/tab/types';
+import {MDCFoundation} from '@limetech/mdc-p2-base/foundation';
+import {MDCTabDimensions, MDCTabInteractionEvent} from '@limetech/mdc-p2-tab/types';
 import {MDCTabBarAdapter} from './adapter';
 import {numbers, strings} from './constants';
 

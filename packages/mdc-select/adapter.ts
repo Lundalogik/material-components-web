@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {Corner} from '@material/menu-surface/constants';
+import {Corner} from '@limetech/mdc-p2-menu-surface/constants';
 
 /**
  * Defines the shape of the adapter expected by the foundation.

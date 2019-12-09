@@ -25,7 +25,7 @@ A Tab Indicator is a visual guide that shows which Tab is active.
 ## Installation
 
 ```
-npm install @material/tab-indicator
+npm install @limetech/mdc-p2-tab-indicator
 ```
 
 ## Basic Usage
@@ -41,13 +41,13 @@ npm install @material/tab-indicator
 ### Styles
 
 ```scss
-@import "@material/tab-indicator/mdc-tab-indicator";
+@import "@limetech/mdc-p2-tab-indicator/mdc-tab-indicator";
 ```
 
 ### JavaScript Instantiation
 
 ```js
-import {MDCTabIndicator} from '@material/tab-indicator';
+import {MDCTabIndicator} from '@limetech/mdc-p2-tab-indicator';
 
 const tabIndicator = new MDCTabIndicator(document.querySelector('.mdc-tab-indicator'));
 ```

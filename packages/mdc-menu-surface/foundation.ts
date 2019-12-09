@@ -21,7 +21,7 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/foundation';
+import {MDCFoundation} from '@limetech/mdc-p2-base/foundation';
 import {MDCMenuSurfaceAdapter} from './adapter';
 import {Corner, CornerBit, cssClasses, numbers, strings} from './constants';
 import {MDCMenuDimensions, MDCMenuDistance, MDCMenuPoint} from './types';

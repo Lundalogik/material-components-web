@@ -21,10 +21,10 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {SpecificEventListener} from '@material/base/types';
-import {MDCCheckbox, MDCCheckboxFactory} from '@material/checkbox/component';
-import {closest} from '@material/dom/ponyfill';
+import {MDCComponent} from '@limetech/mdc-p2-base/component';
+import {SpecificEventListener} from '@limetech/mdc-p2-base/types';
+import {MDCCheckbox, MDCCheckboxFactory} from '@limetech/mdc-p2-checkbox/component';
+import {closest} from '@limetech/mdc-p2-dom/ponyfill';
 import {MDCDataTableAdapter} from './adapter';
 import {cssClasses, events, strings} from './constants';
 import {MDCDataTableFoundation} from './foundation';

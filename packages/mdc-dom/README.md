@@ -15,13 +15,13 @@ Most of the time, you shouldn't need to depend on `mdc-dom` directly. It is usef
 ## Installation
 
 ```
-npm install @material/dom
+npm install @limetech/mdc-p2-dom
 ```
 
 ## Basic Usage
 
 ```js
-import * as ponyfill from '@material/dom/ponyfill';
+import * as ponyfill from '@limetech/mdc-p2-dom/ponyfill';
 ```
 
 > See [Importing the JS component](../../docs/importing-js.md) for more information on how to import JavaScript.

@@ -18,19 +18,19 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-@import "@material/animation/functions";
-@import "@material/elevation/mixins";
-@import "@material/elevation/variables";
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/ripple/mixins";
-@import "@material/ripple/variables";
-@import "@material/theme/functions";
-@import "@material/theme/mixins";
-@import "@material/shape/mixins";
-@import "@material/shape/functions";
-@import "@material/rtl/mixins";
-@import "@material/typography/mixins";
+@import "@limetech/mdc-p2-animation/functions";
+@import "@limetech/mdc-p2-elevation/mixins";
+@import "@limetech/mdc-p2-elevation/variables";
+@import "@limetech/mdc-p2-feature-targeting/functions";
+@import "@limetech/mdc-p2-feature-targeting/mixins";
+@import "@limetech/mdc-p2-ripple/mixins";
+@import "@limetech/mdc-p2-ripple/variables";
+@import "@limetech/mdc-p2-theme/functions";
+@import "@limetech/mdc-p2-theme/mixins";
+@import "@limetech/mdc-p2-shape/mixins";
+@import "@limetech/mdc-p2-shape/functions";
+@import "@limetech/mdc-p2-rtl/mixins";
+@import "@limetech/mdc-p2-typography/mixins";
 @import "./variables";
 
 $mdc-fab-ripple-target: ".mdc-fab__ripple";
@@ -46,7 +46,7 @@ $mdc-fab-ripple-target: ".mdc-fab__ripple";
   .mdc-fab {
     @include mdc-fab-base_($query: $query);
     @include mdc-fab-container-color(secondary, $query: $query);
-    @include mdc-fab-icon-size(24px, $query: $query);
+    @include mdc-fab-icon-size(1.5rem, $query: $query);
     @include mdc-fab-ink-color(on-secondary, $query: $query);
   }
 

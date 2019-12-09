@@ -20,18 +20,18 @@
 // THE SOFTWARE.
 //
 
-@import "@material/density/variables";
-@import "@material/theme/variables";
+@import "@limetech/mdc-p2-density/variables";
+@import "@limetech/mdc-p2-theme/variables";
 
-$mdc-radio-ripple-size: 40px !default;
-$mdc-radio-icon-size: 20px !default;
+$mdc-radio-ripple-size: 2.5rem !default;
+$mdc-radio-icon-size: 1.25rem !default;
 $mdc-radio-transition-duration: 120ms !default;
 $mdc-radio-ripple-opacity: .14 !default;
 $mdc-radio-baseline-theme-color: secondary !default;
 $mdc-radio-unchecked-color: rgba(mdc-theme-prop-value(on-surface), .54) !default;
 $mdc-radio-disabled-circle-color: rgba(mdc-theme-prop-value(on-surface), .26) !default;
 
-$mdc-radio-minimum-size: 28px !default;
+$mdc-radio-minimum-size: 1.75rem !default;
 $mdc-radio-maximum-size: $mdc-radio-ripple-size !default;
 $mdc-radio-density-scale: $mdc-density-default-scale !default;
 $mdc-radio-density-config: (

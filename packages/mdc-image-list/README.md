@@ -33,7 +33,7 @@ each containing an image and optionally supporting content (i.e. a text label).
 ## Installation
 
 ```
-npm install @material/image-list
+npm install @limetech/mdc-p2-image-list
 ```
 
 ## Basic Usage
@@ -59,7 +59,7 @@ The HTML structure for a Standard Image List is as follows:
 ### Styles
 
 ```scss
-@import "@material/image-list/mdc-image-list";
+@import "@limetech/mdc-p2-image-list/mdc-image-list";
 ```
 
 The HTML structure above would be combined with an invocation of the `mdc-image-list-standard-columns` mixin,
@@ -145,7 +145,7 @@ List:
 ```scss
 .my-image-list {
   @include mdc-image-list-standard-columns(5);
-  max-width: 960px;
+  max-width: 60rem;
 }
 ```
 
@@ -162,7 +162,7 @@ needs to be changed are styles:
   @include mdc-image-list-standard-columns(5);
 }
 
-@media (max-width: 599px) {
+@media (max-width: 37.4375rem) {
   .my-image-list {
     @include mdc-image-list-standard-columns(3);
   }

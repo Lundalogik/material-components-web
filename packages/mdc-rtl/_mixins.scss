@@ -37,20 +37,20 @@
 //   }
 //
 //   &__bar {
-//     margin-left: 4px;
+//     margin-left: 0.25rem;
 //     @include mdc-rtl(".mdc-foo") {
 //       margin-left: auto;
-//       margin-right: 4px;
+//       margin-right: 0.25rem;
 //     }
 //   }
 // }
 //
 // .mdc-foo--mod {
-//   padding-left: 4px;
+//   padding-left: 0.25rem;
 //
 //   @include mdc-rtl {
 //     padding-left: auto;
-//     padding-right: 4px;
+//     padding-right: 0.25rem;
 //   }
 // }
 // ```
@@ -94,7 +94,7 @@
 //
 // ```scss
 // .mdc-foo {
-//   @include mdc-rtl-reflexive-box(margin, left, 8px);
+//   @include mdc-rtl-reflexive-box(margin, left, 0.5rem);
 // }
 // ```
 //
@@ -102,12 +102,12 @@
 //
 // ```scss
 // .mdc-foo {
-//   margin-left: 8px;
+//   margin-left: 0.5rem;
 //   margin-right: 0;
 //
 //   @include mdc-rtl {
 //     margin-left: 0;
-//     margin-right: 8px;
+//     margin-right: 0.5rem;
 //   }
 // }
 // ```
@@ -116,7 +116,7 @@
 //
 // ```scss
 // .mdc-foo {
-//   @include mdc-rtl-reflexive-box(margin, right, 8px);
+//   @include mdc-rtl-reflexive-box(margin, right, 0.5rem);
 // }
 // ```
 //
@@ -125,17 +125,17 @@
 // ```scss
 // .mdc-foo {
 //   margin-left: 0;
-//   margin-right: 8px;
+//   margin-right: 0.5rem;
 //
 //   @include mdc-rtl {
-//     margin-left: 8px;
+//     margin-left: 0.5rem;
 //     margin-right: 0;
 //   }
 // }
 // ```
 //
 // You can also pass an optional 4th `$root-selector` argument which will be forwarded to `mdc-rtl`,
-// e.g. `@include mdc-rtl-reflexive-box(margin, left, 8px, ".mdc-component")`.
+// e.g. `@include mdc-rtl-reflexive-box(margin, left, 0.5rem, ".mdc-component")`.
 //
 // Note that this function will always zero out the original value in an RTL context.
 // If you're trying to flip the values, use `mdc-rtl-reflexive-property()` instead.
@@ -161,7 +161,7 @@
 //
 // ```scss
 // .mdc-foo {
-//   @include mdc-rtl-reflexive-property(margin, auto, 12px);
+//   @include mdc-rtl-reflexive-property(margin, auto, 0.75rem);
 // }
 // ```
 //
@@ -170,10 +170,10 @@
 // ```scss
 // .mdc-foo {
 //   margin-left: auto;
-//   margin-right: 12px;
+//   margin-right: 0.75rem;
 //
 //   @include mdc-rtl {
-//     margin-left: 12px;
+//     margin-left: 0.75rem;
 //     margin-right: auto;
 //   }
 // }
@@ -234,7 +234,7 @@
 //
 // ```scss
 // .mdc-foo {
-//   @include mdc-rtl-reflexive(left, 2px, right, 5px);
+//   @include mdc-rtl-reflexive(left, 0.125rem, right, 0.3125rem);
 // }
 // ```
 //
@@ -242,12 +242,12 @@
 //
 // ```scss
 // .mdc-foo {
-//   left: 2px;
-//   right: 5px;
+//   left: 0.125rem;
+//   right: 0.3125rem;
 //
 //   @include mdc-rtl {
-//     right: 2px;
-//     left: 5px;
+//     right: 0.125rem;
+//     left: 0.3125rem;
 //   }
 // }
 // ```

@@ -20,8 +20,8 @@
 // THE SOFTWARE.
 //
 
-@import "@material/base/mixins";
-@import "@material/theme/mixins";
+@import "@limetech/mdc-p2-base/mixins";
+@import "@limetech/mdc-p2-theme/mixins";
 @import "./functions";
 @import "./mixins";
 
@@ -33,7 +33,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 2px;
+    height: 0.125rem;
     transform: scaleX(0);
     transition: mdc-line-ripple-transition-value(transform), mdc-line-ripple-transition-value(opacity);
     opacity: 0;

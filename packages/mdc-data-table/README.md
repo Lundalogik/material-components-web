@@ -26,14 +26,14 @@ easy to scan, so that users can look for patterns and insights.
 ## Installation
 
 ```
-npm install @material/data-table
+npm install @limetech/mdc-p2-data-table
 ```
 
 ### Styles
 
 ```scss
-@import "@material/checkbox/mdc-checkbox"; // Required only for data table with row selection.
-@import "@material/data-table/mdc-data-table";
+@import "@limetech/mdc-p2-checkbox/mdc-checkbox"; // Required only for data table with row selection.
+@import "@limetech/mdc-p2-data-table/mdc-data-table";
 ```
 
 > *NOTE*: Styles for any components you intend to include within data-table (e.g. Checkboxes, Buttons etc.) must be
@@ -42,7 +42,7 @@ npm install @material/data-table
 ### JavaScript Instantiation
 
 ```js
-import {MDCDataTable} from '@material/data-table';
+import {MDCDataTable} from '@limetech/mdc-p2-data-table';
 const dataTable = new MDCDataTable(document.querySelector('.mdc-data-table'));
 ```
 
@@ -253,7 +253,7 @@ Please refer [WAI-ARIA Authoring Practices for table](https://www.w3.org/TR/wai-
 Please use MDCDataTable's constants file to access these event constants.
 
 ```ts
-const {events} from '@material/data-table/constants';
+const {events} from '@limetech/mdc-p2-data-table/constants';
 // `events.ROW_SELECTION_CHANGED` to access event constant.
 ```
 

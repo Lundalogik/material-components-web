@@ -22,7 +22,7 @@ Material in motion is responsive and natural. Use these easing curves and durati
 ## Installation
 
 ```
-npm install @material/animation
+npm install @limetech/mdc-p2-animation
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ npm install @material/animation
 We provide timing functions which you can use with the `animation` or `transition` CSS properties
 
 ```scss
-@import "@material/animation/variables";
+@import "@limetech/mdc-p2-animation/variables";
 
 .my-element--animating {
   animation: foo-keyframe 175ms $mdc-animation-standard-curve-timing-function;
@@ -49,7 +49,7 @@ Variable | Description
 The following functions create transitions given `$name` and the `$duration`. You can also specify `$delay`, but the default is 0ms. `$name` can either refer to the keyframe, or to CSS property used in `transition`.
 
 ```scss
-@import "@material/animation/functions";
+@import "@limetech/mdc-p2-animation/functions";
 
 .my-element {
   transition: mdc-animation-exit-permanent(/* $name: */ opacity, /* $duration: */ 175ms, /* $delay: */ 150ms);
@@ -65,11 +65,11 @@ The following functions create transitions given `$name` and the `$duration`. Yo
 
 
 ```scss
-@import "@material/animation/functions";
+@import "@limetech/mdc-p2-animation/functions";
 
 @keyframes fade-in {
   from {
-    transform: translateY(-80px);
+    transform: translateY(-5rem);
     opacity: 0;
   }
 
@@ -95,7 +95,7 @@ Function | Description
 These functions handle prefixing across various browsers
 
 ```js
-import {getCorrectEventName} from '@material/animation';
+import {getCorrectEventName} from '@limetech/mdc-p2-animation';
 
 const eventToListenFor = getCorrectEventName(window, 'animationstart');
 ```

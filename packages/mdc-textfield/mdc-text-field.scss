@@ -20,16 +20,16 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/variables";
-@import "@material/floating-label/mdc-floating-label";
-@import "@material/line-ripple/mdc-line-ripple";
-@import "@material/notched-outline/mdc-notched-outline";
-@import "@material/ripple/common";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
-@import "@material/theme/variables";
-@import "@material/typography/mixins";
-@import "@material/typography/variables";
+@import "@limetech/mdc-p2-animation/variables";
+@import "@limetech/mdc-p2-floating-label/mdc-floating-label";
+@import "@limetech/mdc-p2-line-ripple/mdc-line-ripple";
+@import "@limetech/mdc-p2-notched-outline/mdc-notched-outline";
+@import "@limetech/mdc-p2-ripple/common";
+@import "@limetech/mdc-p2-ripple/mixins";
+@import "@limetech/mdc-p2-rtl/mixins";
+@import "@limetech/mdc-p2-theme/variables";
+@import "@limetech/mdc-p2-typography/mixins";
+@import "@limetech/mdc-p2-typography/variables";
 @import "./functions";
 @import "./helper-text/mdc-text-field-helper-text";
 @import "./character-counter/mdc-text-field-character-counter";
@@ -91,7 +91,7 @@
     $mdc-text-field-input-padding-bottom;
   transition: mdc-text-field-transition(opacity);
   border: none;
-  border-bottom: 1px solid;
+  border-bottom: 0.0625rem solid;
   border-radius: 0;
   background: none;
   appearance: none;
@@ -133,8 +133,8 @@
 
   // Vertically center aligns the text input placeholder and value for only filled variant.
   .mdc-text-field--no-label:not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) & {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 // stylelint-disable-next-line plugin/selector-bem-pattern
@@ -183,7 +183,7 @@
 // stylelint-disable plugin/selector-bem-pattern
 .mdc-text-field--with-leading-icon.mdc-text-field--dense .mdc-text-field__icon,
 .mdc-text-field--with-trailing-icon.mdc-text-field--dense .mdc-text-field__icon {
-  bottom: 16px;
+  bottom: 1rem;
   transform: scale(.8);
 }
 // stylelint-enable plugin/selector-bem-pattern
@@ -205,7 +205,7 @@
 }
 
 @include mdc-required-text-field-label-asterisk_ {
-  margin-left: 1px;
+  margin-left: 0.0625rem;
   content: "*";
 }
 
@@ -229,7 +229,7 @@
   box-sizing: border-box;
 
   .mdc-text-field--dense + & {
-    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
   }
 
   .mdc-text-field + & {

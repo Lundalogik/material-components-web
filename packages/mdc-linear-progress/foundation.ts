@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import {getCorrectPropertyName} from '@material/animation/util';
-import {MDCFoundation} from '@material/base/foundation';
+import {getCorrectPropertyName} from '@limetech/mdc-p2-animation/util';
+import {MDCFoundation} from '@limetech/mdc-p2-base/foundation';
 import {MDCLinearProgressAdapter} from './adapter';
 import {cssClasses, strings} from './constants';
 

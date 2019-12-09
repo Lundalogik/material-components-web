@@ -45,13 +45,13 @@ However, you can also use SVG, [Font Awesome](https://fontawesome.com/), or any 
 ### Styles
 
 ```scss
-@import "@material/select/icon/mdc-select-icon";
+@import "@limetech/mdc-p2-select/icon/mdc-select-icon";
 ```
 
 ### JavaScript Instantiation
 
 ```js
-import {MDCSelectIcon} from '@material/select/icon';
+import {MDCSelectIcon} from '@limetech/mdc-p2-select/icon';
 
 const icon = new MDCSelectIcon(document.querySelector('.mdc-select__icon'));
 ```

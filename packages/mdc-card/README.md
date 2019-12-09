@@ -32,7 +32,7 @@ Cards contain content and actions about a single subject.
 ## Installation
 
 ```
-npm install @material/card
+npm install @limetech/mdc-p2-card
 ```
 
 ## Basic Usage
@@ -51,16 +51,16 @@ npm install @material/card
 ### Styles
 
 ```css
-@import "@material/card/mdc-card";
+@import "@limetech/mdc-p2-card/mdc-card";
 ```
 
 In order to remain general-purpose and support e.g. images spanning the full width of the card, MDC Card does not
 include padding styles on the root element. When adding free-form text content to cards, padding should be set to
-`16px`:
+`1rem`:
 
 ```css
 .my-card-content {
-  padding: 16px;
+  padding: 1rem;
 }
 ```
 
@@ -71,8 +71,8 @@ If you'd like to maintain a consistent width and height across cards, you'll nee
 
 ```css
 .my-card {
-  height: 350px;
-  width: 350px;
+  height: 21.875rem;
+  width: 21.875rem;
 }
 ```
 
@@ -85,7 +85,7 @@ MDC Card itself does not require JavaScript. However, if you place interactive c
 you may want to instantiate ripples or other components. For example:
 
 ```js
-import {MDCRipple} from '@material/ripple';
+import {MDCRipple} from '@limetech/mdc-p2-ripple';
 
 const selector = '.mdc-button, .mdc-icon-button, .mdc-card__primary-action';
 const ripples = [].map.call(document.querySelectorAll(selector), function(el) {

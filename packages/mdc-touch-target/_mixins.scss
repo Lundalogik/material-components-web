@@ -20,9 +20,9 @@
 // THE SOFTWARE.
 //
 
-@import "@material/base/mixins";
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
+@import "@limetech/mdc-p2-base/mixins";
+@import "@limetech/mdc-p2-feature-targeting/functions";
+@import "@limetech/mdc-p2-feature-targeting/mixins";
 @import "./variables";
 
 /// Styles applied to the component's touch target wrapper element.

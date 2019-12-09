@@ -23,8 +23,8 @@
 
 // tslint:disable:only-arrow-functions
 
-import {MDCComponent} from '@material/base/component';
-import {MDCFoundation} from '@material/base/foundation';
+import {MDCComponent} from '@limetech/mdc-p2-base/component';
+import {MDCFoundation} from '@limetech/mdc-p2-base/foundation';
 
 import {strings} from './constants';
 

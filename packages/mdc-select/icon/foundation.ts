@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import {MDCFoundation} from '@material/base/foundation';
-import {SpecificEventListener} from '@material/base/types';
+import {MDCFoundation} from '@limetech/mdc-p2-base/foundation';
+import {SpecificEventListener} from '@limetech/mdc-p2-base/types';
 import {MDCSelectIconAdapter} from './adapter';
 import {strings} from './constants';
 

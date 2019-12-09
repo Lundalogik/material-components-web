@@ -21,14 +21,14 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {EventType} from '@material/base/types';
-import {applyPassive} from '@material/dom/events';
-import {matches} from '@material/dom/ponyfill';
-import {MDCRippleAdapter} from '@material/ripple/adapter';
-import {MDCRipple} from '@material/ripple/component';
-import {MDCRippleFoundation} from '@material/ripple/foundation';
-import {MDCRippleCapableSurface} from '@material/ripple/types';
+import {MDCComponent} from '@limetech/mdc-p2-base/component';
+import {EventType} from '@limetech/mdc-p2-base/types';
+import {applyPassive} from '@limetech/mdc-p2-dom/events';
+import {matches} from '@limetech/mdc-p2-dom/ponyfill';
+import {MDCRippleAdapter} from '@limetech/mdc-p2-ripple/adapter';
+import {MDCRipple} from '@limetech/mdc-p2-ripple/component';
+import {MDCRippleFoundation} from '@limetech/mdc-p2-ripple/foundation';
+import {MDCRippleCapableSurface} from '@limetech/mdc-p2-ripple/types';
 import {MDCSwitchAdapter} from './adapter';
 import {MDCSwitchFoundation} from './foundation';
 

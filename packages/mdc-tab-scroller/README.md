@@ -25,7 +25,7 @@ A Tab Scroller allows for smooth native and animated scrolling of tabs.
 ## Installation
 
 ```
-npm install @material/tab-scroller
+npm install @limetech/mdc-p2-tab-scroller
 ```
 
 ## Basic Usage
@@ -43,13 +43,13 @@ npm install @material/tab-scroller
 ### Styles
 
 ```scss
-@import "@material/tab-scroller/mdc-tab-scroller";
+@import "@limetech/mdc-p2-tab-scroller/mdc-tab-scroller";
 ```
 
 ### JavaScript Instantiation
 
 ```js
-import {MDCTabScroller} from '@material/tab-scroller';
+import {MDCTabScroller} from '@limetech/mdc-p2-tab-scroller';
 
 const tabScroller = new MDCTabScroller(document.querySelector('.mdc-tab-scroller'));
 ```
