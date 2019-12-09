@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {SpecificEventListener} from '@material/base/types';
+import {MDCComponent} from '@limetech/mdc-base/component';
+import {SpecificEventListener} from '@limetech/mdc-base/types';
 import {MDCMenuSurfaceAdapter} from './adapter';
 import {Corner, cssClasses, strings} from './constants';
 import {MDCMenuSurfaceFoundation} from './foundation';

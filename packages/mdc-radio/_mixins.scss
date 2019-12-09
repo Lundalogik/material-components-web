@@ -20,16 +20,16 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/functions";
-@import "@material/density/functions";
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/ripple/mixins";
-@import "@material/ripple/variables";
-@import "@material/theme/mixins";
-@import "@material/theme/variables";
-@import "@material/touch-target/mixins";
-@import "@material/touch-target/variables";
+@import "@limetech/mdc-animation/functions";
+@import "@limetech/mdc-density/functions";
+@import "@limetech/mdc-feature-targeting/functions";
+@import "@limetech/mdc-feature-targeting/mixins";
+@import "@limetech/mdc-ripple/mixins";
+@import "@limetech/mdc-ripple/variables";
+@import "@limetech/mdc-theme/mixins";
+@import "@limetech/mdc-theme/variables";
+@import "@limetech/mdc-touch-target/mixins";
+@import "@limetech/mdc-touch-target/variables";
 @import "./functions";
 @import "./variables";
 
@@ -107,7 +107,7 @@ $mdc-radio-ripple-target: ".mdc-radio__ripple";
         box-sizing: border-box;
         width: 100%;
         height: 100%;
-        border-width: 2px;
+        border-width: 0.125rem;
         border-style: solid;
         border-radius: 50%;
       }
@@ -126,7 +126,7 @@ $mdc-radio-ripple-target: ".mdc-radio__ripple";
         width: 100%;
         height: 100%;
         transform: scale(0, 0);
-        border-width: 10px;
+        border-width: 0.625rem;
         border-style: solid;
         border-radius: 50%;
       }

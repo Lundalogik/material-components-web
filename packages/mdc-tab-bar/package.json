@@ -1,7 +1,7 @@
 {
-  "name": "@material/tab-bar",
+  "name": "@limetech/mdc-tab-bar",
   "description": "The Material Components for the web tab bar component",
-  "version": "4.0.0",
+  "version": "4.0.1-p4.0.0.1",
   "license": "MIT",
   "keywords": [
     "material components",
@@ -15,17 +15,17 @@
   "types": "dist/mdc.tabBar.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git",
+    "url": "https://github.com/Lundalogik/material-components-web.git",
     "directory": "packages/mdc-tab-bar"
   },
   "dependencies": {
-    "@material/animation": "^4.0.0",
-    "@material/base": "^4.0.0",
-    "@material/density": "^4.0.0",
-    "@material/elevation": "^4.0.0",
-    "@material/feature-targeting": "^4.0.0",
-    "@material/tab": "^4.0.0",
-    "@material/tab-scroller": "^4.0.0",
+    "@limetech/mdc-animation": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-base": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-density": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-elevation": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-feature-targeting": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-tab": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-tab-scroller": "^4.0.1-p4.0.0.1",
     "tslib": "^1.9.3"
   },
   "publishConfig": {

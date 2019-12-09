@@ -20,17 +20,17 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/functions";
-@import "@material/elevation/mixins";
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
-@import "@material/checkbox/mixins";
-@import "@material/density/functions";
-@import "@material/rtl/mixins";
-@import "@material/shape/mixins";
-@import "@material/theme/mixins";
-@import "@material/theme/variables"; // for mdc-theme-prop-value.
-@import "@material/typography/mixins";
+@import "@limetech/mdc-animation/functions";
+@import "@limetech/mdc-elevation/mixins";
+@import "@limetech/mdc-feature-targeting/functions";
+@import "@limetech/mdc-feature-targeting/mixins";
+@import "@limetech/mdc-checkbox/mixins";
+@import "@limetech/mdc-density/functions";
+@import "@limetech/mdc-rtl/mixins";
+@import "@limetech/mdc-shape/mixins";
+@import "@limetech/mdc-theme/mixins";
+@import "@limetech/mdc-theme/variables"; // for mdc-theme-prop-value.
+@import "@limetech/mdc-typography/mixins";
 @import "./variables";
 
 @mixin mdc-data-table-core-styles($query: mdc-feature-all()) {

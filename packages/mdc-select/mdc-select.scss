@@ -23,14 +23,14 @@
 @import "./keyframes";
 @import "./mixins";
 @import "./variables";
-@import "@material/animation/variables";
-@import "@material/line-ripple/mdc-line-ripple";
-@import "@material/notched-outline/mdc-notched-outline";
-@import "@material/floating-label/mdc-floating-label";
-@import "@material/typography/mixins";
-@import "@material/ripple/common";
-@import "@material/ripple/mixins";
-@import "@material/rtl/mixins";
+@import "@limetech/mdc-animation/variables";
+@import "@limetech/mdc-line-ripple/mdc-line-ripple";
+@import "@limetech/mdc-notched-outline/mdc-notched-outline";
+@import "@limetech/mdc-floating-label/mdc-floating-label";
+@import "@limetech/mdc-typography/mixins";
+@import "@limetech/mdc-ripple/common";
+@import "@limetech/mdc-ripple/mixins";
+@import "@limetech/mdc-rtl/mixins";
 @import "./icon/mdc-select-icon";
 @import "./helper-text/mdc-select-helper-text";
 @import "./helper-text/mixins";
@@ -58,12 +58,12 @@
 
   &__dropdown-icon {
     @include mdc-select-dd-arrow-svg-bg_($mdc-select-dropdown-color, $mdc-select-dropdown-opacity);
-    @include mdc-rtl-reflexive(left, auto, right, 8px);
+    @include mdc-rtl-reflexive(left, auto, right, 0.5rem);
 
     position: absolute;
-    bottom: 16px;
-    width: 24px;
-    height: 24px;
+    bottom: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
     transition: transform $mdc-select-dropdown-transition-duration $mdc-animation-standard-curve-timing-function;
     pointer-events: none;
 
@@ -72,7 +72,7 @@
     }
 
     .mdc-select--activated & {
-      transform: rotate(180deg) translateY(-5px);
+      transform: rotate(180deg) translateY(-0.3125rem);
       transition: transform $mdc-select-dropdown-transition-duration $mdc-animation-standard-curve-timing-function;
     }
   }

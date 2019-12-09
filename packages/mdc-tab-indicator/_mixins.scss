@@ -20,10 +20,10 @@
 // THE SOFTWARE.
 //
 
-@import "@material/animation/variables";
-@import "@material/theme/mixins";
-@import "@material/feature-targeting/functions";
-@import "@material/feature-targeting/mixins";
+@import "@limetech/mdc-animation/variables";
+@import "@limetech/mdc-theme/mixins";
+@import "@limetech/mdc-feature-targeting/functions";
+@import "@limetech/mdc-feature-targeting/mixins";
 
 @mixin mdc-tab-indicator-core-styles($query: mdc-feature-all()) {
   $feat-structure: mdc-feature-create-target($query, structure);
@@ -163,8 +163,8 @@
 
   @include mdc-tab-indicator-underline-color(primary, $query);
   @include mdc-tab-indicator-icon-color(secondary, $query);
-  @include mdc-tab-indicator-underline-height(2px, $query);
-  @include mdc-tab-indicator-icon-height(34px, $query);
+  @include mdc-tab-indicator-underline-height(0.125rem, $query);
+  @include mdc-tab-indicator-icon-height(2.125rem, $query);
 
   @include mdc-feature-targets($feat-structure) {
     display: flex;

@@ -20,24 +20,24 @@
 // THE SOFTWARE.
 //
 
-@import "@material/ripple/variables";
-@import "@material/theme/variables";
-@import "@material/density/variables";
+@import "@limetech/mdc-ripple/variables";
+@import "@limetech/mdc-theme/variables";
+@import "@limetech/mdc-density/variables";
 
 $mdc-checkbox-mark-color: mdc-theme-prop-value(on-primary) !default;
 $mdc-checkbox-border-color: rgba(mdc-theme-prop-value(on-surface), .54) !default;
 $mdc-checkbox-disabled-color: rgba(mdc-theme-prop-value(on-surface), .26) !default;
 $mdc-checkbox-baseline-theme-color: secondary !default;
 
-$mdc-checkbox-ripple-size: 40px !default;
-$mdc-checkbox-icon-size: 18px !default;
+$mdc-checkbox-ripple-size: 2.5rem !default;
+$mdc-checkbox-icon-size: 1.125rem !default;
 $mdc-checkbox-mark-stroke-size: 2/15 * $mdc-checkbox-icon-size !default;
-$mdc-checkbox-border-width: 2px !default;
+$mdc-checkbox-border-width: 0.125rem !default;
 $mdc-checkbox-transition-duration: 90ms !default;
-$mdc-checkbox-item-spacing: 4px !default;
+$mdc-checkbox-item-spacing: 0.25rem !default;
 $mdc-checkbox-focus-indicator-opacity: map-get($mdc-ripple-dark-ink-opacities, focus) !default;
 
-$mdc-checkbox-minimum-size: 28px !default;
+$mdc-checkbox-minimum-size: 1.75rem !default;
 $mdc-checkbox-maximum-size: $mdc-checkbox-ripple-size !default;
 $mdc-checkbox-density-scale: $mdc-density-default-scale !default;
 $mdc-checkbox-density-config: (

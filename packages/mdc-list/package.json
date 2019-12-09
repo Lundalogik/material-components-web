@@ -1,7 +1,7 @@
 {
-  "name": "@material/list",
+  "name": "@limetech/mdc-list",
   "description": "The Material Components for the web list component",
-  "version": "4.0.0",
+  "version": "4.0.1-p4.0.0.1",
   "license": "MIT",
   "main": "dist/mdc.list.js",
   "module": "index.js",
@@ -14,19 +14,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git",
+    "url": "https://github.com/Lundalogik/material-components-web.git",
     "directory": "packages/mdc-list"
   },
   "dependencies": {
-    "@material/base": "^4.0.0",
-    "@material/density": "^4.0.0",
-    "@material/dom": "^4.0.0",
-    "@material/feature-targeting": "^4.0.0",
-    "@material/ripple": "^4.0.0",
-    "@material/rtl": "^4.0.0",
-    "@material/shape": "^4.0.0",
-    "@material/theme": "^4.0.0",
-    "@material/typography": "^4.0.0",
+    "@limetech/mdc-base": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-density": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-dom": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-feature-targeting": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-ripple": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-rtl": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-shape": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-theme": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-typography": "^4.0.1-p4.0.0.1",
     "tslib": "^1.9.3"
   }
 }

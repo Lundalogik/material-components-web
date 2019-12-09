@@ -21,8 +21,8 @@
  * THE SOFTWARE.
  */
 
-import {MDCComponent} from '@material/base/component';
-import {applyPassive} from '@material/dom/events';
+import {MDCComponent} from '@limetech/mdc-base/component';
+import {applyPassive} from '@limetech/mdc-dom/events';
 import {MDCSliderAdapter} from './adapter';
 import {strings} from './constants';
 import {MDCSliderFoundation} from './foundation';
@@ -124,7 +124,7 @@ export class MDCSlider extends MDCComponent<MDCSliderFoundation> {
         const minStr = min.toLocaleString();
         // keep calculation in css for better rounding/subpixel behavior
         const markerAmount = `((${maxStr} - ${minStr}) / ${stepStr})`;
-        const markerWidth = `2px`;
+        const markerWidth = `0.125rem`;
         const markerBkgdImage = `linear-gradient(to right, currentColor ${markerWidth}, transparent 0)`;
         const markerBkgdLayout = `0 center / calc((100% - ${markerWidth}) / ${markerAmount}) 100% repeat-x`;
         const markerBkgdShorthand = `${markerBkgdImage} ${markerBkgdLayout}`;

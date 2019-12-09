@@ -1,6 +1,6 @@
 {
-  "name": "@material/drawer",
-  "version": "4.0.0",
+  "name": "@limetech/mdc-drawer",
+  "version": "4.0.1-p4.0.0.1",
   "description": "The Material Components Web drawer component",
   "license": "MIT",
   "keywords": [
@@ -15,20 +15,20 @@
   "types": "dist/mdc.drawer.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/material-components/material-components-web.git",
+    "url": "https://github.com/Lundalogik/material-components-web.git",
     "directory": "packages/mdc-drawer"
   },
   "dependencies": {
-    "@material/animation": "^4.0.0",
-    "@material/base": "^4.0.0",
-    "@material/elevation": "^4.0.0",
-    "@material/feature-targeting": "^4.0.0",
-    "@material/list": "^4.0.0",
-    "@material/ripple": "^4.0.0",
-    "@material/rtl": "^4.0.0",
-    "@material/shape": "^4.0.0",
-    "@material/theme": "^4.0.0",
-    "@material/typography": "^4.0.0",
+    "@limetech/mdc-animation": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-base": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-elevation": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-feature-targeting": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-list": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-ripple": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-rtl": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-shape": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-theme": "^4.0.1-p4.0.0.1",
+    "@limetech/mdc-typography": "^4.0.1-p4.0.0.1",
     "focus-trap": "^5.0.0",
     "tslib": "^1.9.3"
   }
